@@ -9,13 +9,8 @@ def n_reachable_pairs(G):
 
   G_nx = G.to_networkx()
   G_close = nx.transitive_closure(G_nx)
-  V = G.vcount()
-  n_nodes_pairs = V*V
 
-  reachable_pairs = [(e[0], e[1]) for node in G_close.nodes() for e in G_close.edges(node)]
-  n_reachable_pairs = len(reachable_pairs)
-
-  return n_reachable_pairs
+  return G_close.number_of_edges()
 
 def greedy_G_v(G, v, function=n_reachable_pairs):
   """

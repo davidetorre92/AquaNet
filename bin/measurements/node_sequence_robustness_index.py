@@ -25,16 +25,16 @@ G_dataset = get_dataset(dataset_path, verbose = False)
 
 df_node_removal = []
 df_robustness = []
+G_dataset = G_dataset[:1]
 dataset_len = len(G_dataset)
-
-for index_graph, G in enumerate(G_dataset):
+for graph_index, G in enumerate(G_dataset):
     graph_name = G['name']
     list_of_removed_nodes = node_removal_strategy(G, measure_v = lambda G, v: greedy_G_v(G, v, n_reachable_pairs))
     df_node_removal_G = get_reachable_pairs_change(G, list_of_removed_nodes)
     rho_G = robustness_function_reachable_pairs(df_node_removal_G)
     df_robustness.append((graph_name, rho_G))
     df_node_removal.append(df_node_removal_G)
-    progression_bar(index_graph +1, dataset_len)
+    progression_bar(graph_index +1, dataset_len)
 
 print()
 df_node_removal = pd.concat(df_node_removal)

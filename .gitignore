@@ -3,3 +3,7 @@ env/
 
 # Ignore all __pycache__ directories
 **/__pycache__/
+
+# Ignore test data
+test_data/
+graph_test.py
