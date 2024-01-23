@@ -48,7 +48,6 @@ for G in G_dataset:
 
 columns_nodes = ['graph_name', 'node_id', 'node_name', 'ECO', 'periphery_structure_name']
 columns_size = ['graph_name', 'Core', 'IN set', 'OUT set', 'Tubes', 'Tendrils IN', 'Tendrils OUT', 'Disconnected set', 'Vertices count']
-
 # Save
 nodes_classification_df = pd.DataFrame(rows_nodes, columns = columns_nodes)
 network_periphery_size_df = pd.DataFrame(rows_size, columns = columns_size)

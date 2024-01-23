@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_name" for="graph" attr.name="name" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_ECO" for="node" attr.name="ECO" attr.type="double"/>
+  <key id="v_Biomass" for="node" attr.name="Biomass" attr.type="double"/>
+  <key id="v_trophic_level" for="node" attr.name="trophic_level" attr.type="double"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_name">Jalisco and Colima Coast (1995)</data>
+    <node id="n0">
+      <data key="v_name">Adultos Lutjanu</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.4677885</data>
+      <data key="v_trophic_level">3.168741</data>
+      <data key="v_id">n11</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">Anguilas y more</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.9472877</data>
+      <data key="v_trophic_level">3.669448</data>
+      <data key="v_id">n6</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">Aves marinas</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.0268</data>
+      <data key="v_trophic_level">3.547931</data>
+      <data key="v_id">n10</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">Braquiuros</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">22.94994</data>
+      <data key="v_trophic_level">2.017547</data>
+      <data key="v_id">n35</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Carángidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">2.154902</data>
+      <data key="v_trophic_level">3.627179</data>
+      <data key="v_id">n8</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Detritus</data>
+      <data key="v_ECO">2</data>
+      <data key="v_Biomass">-9999</data>
+      <data key="v_trophic_level">1</data>
+      <data key="v_id">n38</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Dorado</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.549</data>
+      <data key="v_trophic_level">3.615274</data>
+      <data key="v_id">n9</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Equinodermos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.583893</data>
+      <data key="v_trophic_level">2.053451</data>
+      <data key="v_id">n32</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">Escómbridos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.843816</data>
+      <data key="v_trophic_level">4.08905</data>
+      <data key="v_id">n2</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">Estomatópodos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.5249307</data>
+      <data key="v_trophic_level">2.102465</data>
+      <data key="v_id">n29</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">Fitoplancton</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">40.961</data>
+      <data key="v_trophic_level">1</data>
+      <data key="v_id">n36</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Gasterosteidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">2.484356</data>
+      <data key="v_trophic_level">3.029936</data>
+      <data key="v_id">n17</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">Gerreidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.1443568</data>
+      <data key="v_trophic_level">2.788298</data>
+      <data key="v_id">n21</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">Haemúlidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.00267</data>
+      <data key="v_trophic_level">2.996879</data>
+      <data key="v_id">n18</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">Infauna</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">13.73845</data>
+      <data key="v_trophic_level">2.030408</data>
+      <data key="v_id">n34</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">Juveniles Lutja</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.1473808</data>
+      <data key="v_trophic_level">3.155041</data>
+      <data key="v_id">n12</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">Mamíferos marin</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.338</data>
+      <data key="v_trophic_level">4.098489</data>
+      <data key="v_id">n1</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Moluscos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">3.813372</data>
+      <data key="v_trophic_level">2.097976</data>
+      <data key="v_id">n30</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">Ophidiidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">4.541147</data>
+      <data key="v_trophic_level">2.718676</data>
+      <data key="v_id">n22</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">Otros crustáceo</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.2091987</data>
+      <data key="v_trophic_level">2.10761</data>
+      <data key="v_id">n27</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">Otros lutjánido</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.4804218</data>
+      <data key="v_trophic_level">2.639027</data>
+      <data key="v_id">n26</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">Otros macroinve</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.2753527</data>
+      <data key="v_trophic_level">2.067488</data>
+      <data key="v_id">n31</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">Otros peces</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.621396</data>
+      <data key="v_trophic_level">3.077858</data>
+      <data key="v_id">n15</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">Peces muertos</data>
+      <data key="v_ECO">2</data>
+      <data key="v_Biomass">2.157</data>
+      <data key="v_trophic_level">1</data>
+      <data key="v_id">n37</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">Peneidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.4189976</data>
+      <data key="v_trophic_level">2.1034</data>
+      <data key="v_id">n28</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">Picudos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.824</data>
+      <data key="v_trophic_level">4.033631</data>
+      <data key="v_id">n3</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">Pleuronéctidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">15.43005</data>
+      <data key="v_trophic_level">2.7022</data>
+      <data key="v_id">n24</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">Pulpo</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">3.1266</data>
+      <data key="v_trophic_level">2.690775</data>
+      <data key="v_id">n25</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">Rayas</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">20.50324</data>
+      <data key="v_trophic_level">2.706608</data>
+      <data key="v_id">n23</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">Sardinas</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">36.91191</data>
+      <data key="v_trophic_level">2.817292</data>
+      <data key="v_id">n20</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">Sciánidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">2.888723</data>
+      <data key="v_trophic_level">3.052462</data>
+      <data key="v_id">n16</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">Serranidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.425677</data>
+      <data key="v_trophic_level">3.107327</data>
+      <data key="v_id">n14</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">Sierra</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">4.780345</data>
+      <data key="v_trophic_level">3.715205</data>
+      <data key="v_id">n5</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">Synodontidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">0.393816</data>
+      <data key="v_trophic_level">3.649773</data>
+      <data key="v_id">n7</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">Tetraodóntidos</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">6.379234</data>
+      <data key="v_trophic_level">2.918197</data>
+      <data key="v_id">n19</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">Tiburones</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1.500231</data>
+      <data key="v_trophic_level">3.79113</data>
+      <data key="v_id">n4</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">Tortugas marina</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">2.541</data>
+      <data key="v_trophic_level">3.144758</data>
+      <data key="v_id">n13</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Zooplancton</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">27.093</data>
+      <data key="v_trophic_level">2.033248</data>
+      <data key="v_id">n33</data>
+    </node>
+    <edge source="n1" target="n0">
+    </edge>
+    <edge source="n3" target="n0">
+    </edge>
+    <edge source="n4" target="n0">
+    </edge>
+    <edge source="n5" target="n0">
+    </edge>
+    <edge source="n0" target="n5">
+    </edge>
+    <edge source="n9" target="n0">
+    </edge>
+    <edge source="n11" target="n0">
+    </edge>
+    <edge source="n13" target="n0">
+    </edge>
+    <edge source="n14" target="n0">
+    </edge>
+    <edge source="n17" target="n0">
+    </edge>
+    <edge source="n18" target="n0">
+    </edge>
+    <edge source="n19" target="n0">
+    </edge>
+    <edge source="n21" target="n0">
+    </edge>
+    <edge source="n22" target="n0">
+    </edge>
+    <edge source="n24" target="n0">
+    </edge>
+    <edge source="n27" target="n0">
+    </edge>
+    <edge source="n29" target="n0">
+    </edge>
+    <edge source="n31" target="n0">
+    </edge>
+    <edge source="n37" target="n0">
+    </edge>
+    <edge source="n0" target="n1">
+    </edge>
+    <edge source="n3" target="n1">
+    </edge>
+    <edge source="n1" target="n5">
+    </edge>
+    <edge source="n9" target="n1">
+    </edge>
+    <edge source="n11" target="n1">
+    </edge>
+    <edge source="n13" target="n1">
+    </edge>
+    <edge source="n14" target="n1">
+    </edge>
+    <edge source="n15" target="n1">
+    </edge>
+    <edge source="n19" target="n1">
+    </edge>
+    <edge source="n20" target="n1">
+    </edge>
+    <edge source="n22" target="n1">
+    </edge>
+    <edge source="n23" target="n1">
+    </edge>
+    <edge source="n24" target="n1">
+    </edge>
+    <edge source="n27" target="n1">
+    </edge>
+    <edge source="n31" target="n1">
+    </edge>
+    <edge source="n33" target="n1">
+    </edge>
+    <edge source="n34" target="n1">
+    </edge>
+    <edge source="n3" target="n2">
+    </edge>
+    <edge source="n4" target="n2">
+    </edge>
+    <edge source="n2" target="n5">
+    </edge>
+    <edge source="n6" target="n2">
+    </edge>
+    <edge source="n12" target="n2">
+    </edge>
+    <edge source="n13" target="n2">
+    </edge>
+    <edge source="n14" target="n2">
+    </edge>
+    <edge source="n19" target="n2">
+    </edge>
+    <edge source="n22" target="n2">
+    </edge>
+    <edge source="n23" target="n2">
+    </edge>
+    <edge source="n25" target="n2">
+    </edge>
+    <edge source="n29" target="n2">
+    </edge>
+    <edge source="n36" target="n2">
+    </edge>
+    <edge source="n37" target="n2">
+    </edge>
+    <edge source="n3" target="n3">
+    </edge>
+    <edge source="n5" target="n3">
+    </edge>
+    <edge source="n3" target="n5">
+    </edge>
+    <edge source="n14" target="n3">
+    </edge>
+    <edge source="n23" target="n3">
+    </edge>
+    <edge source="n3" target="n4">
+    </edge>
+    <edge source="n4" target="n4">
+    </edge>
+    <edge source="n5" target="n4">
+    </edge>
+    <edge source="n4" target="n5">
+    </edge>
+    <edge source="n12" target="n4">
+    </edge>
+    <edge source="n17" target="n4">
+    </edge>
+    <edge source="n20" target="n4">
+    </edge>
+    <edge source="n22" target="n4">
+    </edge>
+    <edge source="n23" target="n4">
+    </edge>
+    <edge source="n24" target="n4">
+    </edge>
+    <edge source="n25" target="n4">
+    </edge>
+    <edge source="n27" target="n4">
+    </edge>
+    <edge source="n29" target="n4">
+    </edge>
+    <edge source="n32" target="n4">
+    </edge>
+    <edge source="n36" target="n4">
+    </edge>
+    <edge source="n37" target="n4">
+    </edge>
+    <edge source="n3" target="n6">
+    </edge>
+    <edge source="n4" target="n6">
+    </edge>
+    <edge source="n6" target="n6">
+    </edge>
+    <edge source="n8" target="n6">
+    </edge>
+    <edge source="n9" target="n6">
+    </edge>
+    <edge source="n17" target="n6">
+    </edge>
+    <edge source="n22" target="n6">
+    </edge>
+    <edge source="n25" target="n6">
+    </edge>
+    <edge source="n27" target="n6">
+    </edge>
+    <edge source="n29" target="n6">
+    </edge>
+    <edge source="n33" target="n6">
+    </edge>
+    <edge source="n34" target="n6">
+    </edge>
+    <edge source="n37" target="n6">
+    </edge>
+    <edge source="n5" target="n7">
+    </edge>
+    <edge source="n7" target="n5">
+    </edge>
+    <edge source="n7" target="n7">
+    </edge>
+    <edge source="n10" target="n7">
+    </edge>
+    <edge source="n21" target="n7">
+    </edge>
+    <edge source="n37" target="n7">
+    </edge>
+    <edge source="n4" target="n8">
+    </edge>
+    <edge source="n5" target="n8">
+    </edge>
+    <edge source="n8" target="n5">
+    </edge>
+    <edge source="n6" target="n8">
+    </edge>
+    <edge source="n8" target="n8">
+    </edge>
+    <edge source="n11" target="n8">
+    </edge>
+    <edge source="n15" target="n8">
+    </edge>
+    <edge source="n17" target="n8">
+    </edge>
+    <edge source="n22" target="n8">
+    </edge>
+    <edge source="n23" target="n8">
+    </edge>
+    <edge source="n25" target="n8">
+    </edge>
+    <edge source="n27" target="n8">
+    </edge>
+    <edge source="n29" target="n8">
+    </edge>
+    <edge source="n32" target="n8">
+    </edge>
+    <edge source="n34" target="n8">
+    </edge>
+    <edge source="n5" target="n9">
+    </edge>
+    <edge source="n9" target="n5">
+    </edge>
+    <edge source="n14" target="n9">
+    </edge>
+    <edge source="n37" target="n9">
+    </edge>
+    <edge source="n10" target="n5">
+    </edge>
+    <edge source="n3" target="n11">
+    </edge>
+    <edge source="n11" target="n5">
+    </edge>
+    <edge source="n9" target="n11">
+    </edge>
+    <edge source="n14" target="n11">
+    </edge>
+    <edge source="n19" target="n11">
+    </edge>
+    <edge source="n22" target="n11">
+    </edge>
+    <edge source="n23" target="n11">
+    </edge>
+    <edge source="n24" target="n11">
+    </edge>
+    <edge source="n37" target="n11">
+    </edge>
+    <edge source="n3" target="n12">
+    </edge>
+    <edge source="n5" target="n12">
+    </edge>
+    <edge source="n12" target="n5">
+    </edge>
+    <edge source="n7" target="n12">
+    </edge>
+    <edge source="n9" target="n12">
+    </edge>
+    <edge source="n14" target="n12">
+    </edge>
+    <edge source="n17" target="n12">
+    </edge>
+    <edge source="n19" target="n12">
+    </edge>
+    <edge source="n21" target="n12">
+    </edge>
+    <edge source="n24" target="n12">
+    </edge>
+    <edge source="n37" target="n12">
+    </edge>
+    <edge source="n5" target="n13">
+    </edge>
+    <edge source="n13" target="n5">
+    </edge>
+    <edge source="n7" target="n13">
+    </edge>
+    <edge source="n9" target="n13">
+    </edge>
+    <edge source="n13" target="n13">
+    </edge>
+    <edge source="n14" target="n13">
+    </edge>
+    <edge source="n15" target="n13">
+    </edge>
+    <edge source="n17" target="n13">
+    </edge>
+    <edge source="n19" target="n13">
+    </edge>
+    <edge source="n20" target="n13">
+    </edge>
+    <edge source="n21" target="n13">
+    </edge>
+    <edge source="n23" target="n13">
+    </edge>
+    <edge source="n24" target="n13">
+    </edge>
+    <edge source="n27" target="n13">
+    </edge>
+    <edge source="n36" target="n13">
+    </edge>
+    <edge source="n37" target="n13">
+    </edge>
+    <edge source="n5" target="n14">
+    </edge>
+    <edge source="n14" target="n5">
+    </edge>
+    <edge source="n14" target="n14">
+    </edge>
+    <edge source="n1" target="n15">
+    </edge>
+    <edge source="n3" target="n15">
+    </edge>
+    <edge source="n5" target="n15">
+    </edge>
+    <edge source="n15" target="n5">
+    </edge>
+    <edge source="n11" target="n15">
+    </edge>
+    <edge source="n14" target="n15">
+    </edge>
+    <edge source="n18" target="n15">
+    </edge>
+    <edge source="n19" target="n15">
+    </edge>
+    <edge source="n21" target="n15">
+    </edge>
+    <edge source="n22" target="n15">
+    </edge>
+    <edge source="n24" target="n15">
+    </edge>
+    <edge source="n29" target="n15">
+    </edge>
+    <edge source="n37" target="n15">
+    </edge>
+    <edge source="n1" target="n16">
+    </edge>
+    <edge source="n4" target="n16">
+    </edge>
+    <edge source="n16" target="n5">
+    </edge>
+    <edge source="n6" target="n16">
+    </edge>
+    <edge source="n8" target="n16">
+    </edge>
+    <edge source="n11" target="n16">
+    </edge>
+    <edge source="n13" target="n16">
+    </edge>
+    <edge source="n18" target="n16">
+    </edge>
+    <edge source="n22" target="n16">
+    </edge>
+    <edge source="n23" target="n16">
+    </edge>
+    <edge source="n24" target="n16">
+    </edge>
+    <edge source="n25" target="n16">
+    </edge>
+    <edge source="n26" target="n16">
+    </edge>
+    <edge source="n29" target="n16">
+    </edge>
+    <edge source="n30" target="n16">
+    </edge>
+    <edge source="n32" target="n16">
+    </edge>
+    <edge source="n33" target="n16">
+    </edge>
+    <edge source="n37" target="n16">
+    </edge>
+    <edge source="n5" target="n17">
+    </edge>
+    <edge source="n17" target="n5">
+    </edge>
+    <edge source="n7" target="n17">
+    </edge>
+    <edge source="n10" target="n17">
+    </edge>
+    <edge source="n14" target="n17">
+    </edge>
+    <edge source="n17" target="n17">
+    </edge>
+    <edge source="n37" target="n17">
+    </edge>
+    <edge source="n5" target="n18">
+    </edge>
+    <edge source="n18" target="n5">
+    </edge>
+    <edge source="n7" target="n18">
+    </edge>
+    <edge source="n9" target="n18">
+    </edge>
+    <edge source="n14" target="n18">
+    </edge>
+    <edge source="n17" target="n18">
+    </edge>
+    <edge source="n23" target="n18">
+    </edge>
+    <edge source="n24" target="n18">
+    </edge>
+    <edge source="n27" target="n18">
+    </edge>
+    <edge source="n37" target="n18">
+    </edge>
+    <edge source="n5" target="n19">
+    </edge>
+    <edge source="n19" target="n5">
+    </edge>
+    <edge source="n10" target="n19">
+    </edge>
+    <edge source="n14" target="n19">
+    </edge>
+    <edge source="n19" target="n19">
+    </edge>
+    <edge source="n23" target="n19">
+    </edge>
+    <edge source="n36" target="n19">
+    </edge>
+    <edge source="n37" target="n19">
+    </edge>
+    <edge source="n1" target="n20">
+    </edge>
+    <edge source="n3" target="n20">
+    </edge>
+    <edge source="n5" target="n20">
+    </edge>
+    <edge source="n20" target="n5">
+    </edge>
+    <edge source="n10" target="n20">
+    </edge>
+    <edge source="n13" target="n20">
+    </edge>
+    <edge source="n15" target="n20">
+    </edge>
+    <edge source="n19" target="n20">
+    </edge>
+    <edge source="n20" target="n20">
+    </edge>
+    <edge source="n21" target="n20">
+    </edge>
+    <edge source="n22" target="n20">
+    </edge>
+    <edge source="n24" target="n20">
+    </edge>
+    <edge source="n27" target="n20">
+    </edge>
+    <edge source="n29" target="n20">
+    </edge>
+    <edge source="n37" target="n20">
+    </edge>
+    <edge source="n5" target="n21">
+    </edge>
+    <edge source="n21" target="n5">
+    </edge>
+    <edge source="n7" target="n21">
+    </edge>
+    <edge source="n10" target="n21">
+    </edge>
+    <edge source="n3" target="n22">
+    </edge>
+    <edge source="n5" target="n22">
+    </edge>
+    <edge source="n22" target="n5">
+    </edge>
+    <edge source="n7" target="n22">
+    </edge>
+    <edge source="n12" target="n22">
+    </edge>
+    <edge source="n13" target="n22">
+    </edge>
+    <edge source="n14" target="n22">
+    </edge>
+    <edge source="n17" target="n22">
+    </edge>
+    <edge source="n21" target="n22">
+    </edge>
+    <edge source="n23" target="n22">
+    </edge>
+    <edge source="n24" target="n22">
+    </edge>
+    <edge source="n27" target="n22">
+    </edge>
+    <edge source="n29" target="n22">
+    </edge>
+    <edge source="n37" target="n22">
+    </edge>
+    <edge source="n23" target="n5">
+    </edge>
+    <edge source="n5" target="n24">
+    </edge>
+    <edge source="n24" target="n5">
+    </edge>
+    <edge source="n10" target="n24">
+    </edge>
+    <edge source="n14" target="n24">
+    </edge>
+    <edge source="n37" target="n24">
+    </edge>
+    <edge source="n3" target="n25">
+    </edge>
+    <edge source="n4" target="n25">
+    </edge>
+    <edge source="n6" target="n25">
+    </edge>
+    <edge source="n8" target="n25">
+    </edge>
+    <edge source="n17" target="n25">
+    </edge>
+    <edge source="n20" target="n25">
+    </edge>
+    <edge source="n22" target="n25">
+    </edge>
+    <edge source="n25" target="n25">
+    </edge>
+    <edge source="n27" target="n25">
+    </edge>
+    <edge source="n29" target="n25">
+    </edge>
+    <edge source="n34" target="n25">
+    </edge>
+    <edge source="n3" target="n26">
+    </edge>
+    <edge source="n5" target="n26">
+    </edge>
+    <edge source="n26" target="n5">
+    </edge>
+    <edge source="n9" target="n26">
+    </edge>
+    <edge source="n14" target="n26">
+    </edge>
+    <edge source="n17" target="n26">
+    </edge>
+    <edge source="n23" target="n26">
+    </edge>
+    <edge source="n24" target="n26">
+    </edge>
+    <edge source="n26" target="n26">
+    </edge>
+    <edge source="n34" target="n26">
+    </edge>
+    <edge source="n3" target="n27">
+    </edge>
+    <edge source="n5" target="n27">
+    </edge>
+    <edge source="n27" target="n5">
+    </edge>
+    <edge source="n9" target="n27">
+    </edge>
+    <edge source="n14" target="n27">
+    </edge>
+    <edge source="n17" target="n27">
+    </edge>
+    <edge source="n19" target="n27">
+    </edge>
+    <edge source="n23" target="n27">
+    </edge>
+    <edge source="n24" target="n27">
+    </edge>
+    <edge source="n27" target="n27">
+    </edge>
+    <edge source="n1" target="n28">
+    </edge>
+    <edge source="n3" target="n28">
+    </edge>
+    <edge source="n5" target="n28">
+    </edge>
+    <edge source="n28" target="n5">
+    </edge>
+    <edge source="n9" target="n28">
+    </edge>
+    <edge source="n11" target="n28">
+    </edge>
+    <edge source="n14" target="n28">
+    </edge>
+    <edge source="n17" target="n28">
+    </edge>
+    <edge source="n18" target="n28">
+    </edge>
+    <edge source="n19" target="n28">
+    </edge>
+    <edge source="n23" target="n28">
+    </edge>
+    <edge source="n24" target="n28">
+    </edge>
+    <edge source="n26" target="n28">
+    </edge>
+    <edge source="n34" target="n28">
+    </edge>
+    <edge source="n29" target="n5">
+    </edge>
+    <edge source="n10" target="n29">
+    </edge>
+    <edge source="n37" target="n29">
+    </edge>
+    <edge source="n3" target="n30">
+    </edge>
+    <edge source="n5" target="n30">
+    </edge>
+    <edge source="n30" target="n5">
+    </edge>
+    <edge source="n9" target="n30">
+    </edge>
+    <edge source="n14" target="n30">
+    </edge>
+    <edge source="n17" target="n30">
+    </edge>
+    <edge source="n19" target="n30">
+    </edge>
+    <edge source="n24" target="n30">
+    </edge>
+    <edge source="n29" target="n30">
+    </edge>
+    <edge source="n30" target="n30">
+    </edge>
+    <edge source="n33" target="n30">
+    </edge>
+    <edge source="n37" target="n30">
+    </edge>
+    <edge source="n3" target="n31">
+    </edge>
+    <edge source="n4" target="n31">
+    </edge>
+    <edge source="n5" target="n31">
+    </edge>
+    <edge source="n31" target="n5">
+    </edge>
+    <edge source="n9" target="n31">
+    </edge>
+    <edge source="n10" target="n31">
+    </edge>
+    <edge source="n11" target="n31">
+    </edge>
+    <edge source="n12" target="n31">
+    </edge>
+    <edge source="n15" target="n31">
+    </edge>
+    <edge source="n18" target="n31">
+    </edge>
+    <edge source="n20" target="n31">
+    </edge>
+    <edge source="n21" target="n31">
+    </edge>
+    <edge source="n22" target="n31">
+    </edge>
+    <edge source="n23" target="n31">
+    </edge>
+    <edge source="n24" target="n31">
+    </edge>
+    <edge source="n29" target="n31">
+    </edge>
+    <edge source="n30" target="n31">
+    </edge>
+    <edge source="n33" target="n31">
+    </edge>
+    <edge source="n36" target="n31">
+    </edge>
+    <edge source="n32" target="n5">
+    </edge>
+    <edge source="n22" target="n32">
+    </edge>
+    <edge source="n23" target="n32">
+    </edge>
+    <edge source="n29" target="n32">
+    </edge>
+    <edge source="n32" target="n32">
+    </edge>
+    <edge source="n37" target="n32">
+    </edge>
+    <edge source="n4" target="n33">
+    </edge>
+    <edge source="n33" target="n5">
+    </edge>
+    <edge source="n9" target="n33">
+    </edge>
+    <edge source="n11" target="n33">
+    </edge>
+    <edge source="n12" target="n33">
+    </edge>
+    <edge source="n13" target="n33">
+    </edge>
+    <edge source="n14" target="n33">
+    </edge>
+    <edge source="n18" target="n33">
+    </edge>
+    <edge source="n22" target="n33">
+    </edge>
+    <edge source="n23" target="n33">
+    </edge>
+    <edge source="n24" target="n33">
+    </edge>
+    <edge source="n26" target="n33">
+    </edge>
+    <edge source="n27" target="n33">
+    </edge>
+    <edge source="n29" target="n33">
+    </edge>
+    <edge source="n30" target="n33">
+    </edge>
+    <edge source="n31" target="n33">
+    </edge>
+    <edge source="n33" target="n33">
+    </edge>
+    <edge source="n3" target="n34">
+    </edge>
+    <edge source="n5" target="n34">
+    </edge>
+    <edge source="n34" target="n5">
+    </edge>
+    <edge source="n7" target="n34">
+    </edge>
+    <edge source="n9" target="n34">
+    </edge>
+    <edge source="n11" target="n34">
+    </edge>
+    <edge source="n14" target="n34">
+    </edge>
+    <edge source="n17" target="n34">
+    </edge>
+    <edge source="n18" target="n34">
+    </edge>
+    <edge source="n23" target="n34">
+    </edge>
+    <edge source="n24" target="n34">
+    </edge>
+    <edge source="n29" target="n34">
+    </edge>
+    <edge source="n30" target="n34">
+    </edge>
+    <edge source="n34" target="n34">
+    </edge>
+    <edge source="n0" target="n35">
+    </edge>
+    <edge source="n1" target="n35">
+    </edge>
+    <edge source="n2" target="n35">
+    </edge>
+    <edge source="n3" target="n35">
+    </edge>
+    <edge source="n4" target="n35">
+    </edge>
+    <edge source="n35" target="n5">
+    </edge>
+    <edge source="n6" target="n35">
+    </edge>
+    <edge source="n8" target="n35">
+    </edge>
+    <edge source="n11" target="n35">
+    </edge>
+    <edge source="n16" target="n35">
+    </edge>
+    <edge source="n17" target="n35">
+    </edge>
+    <edge source="n18" target="n35">
+    </edge>
+    <edge source="n20" target="n35">
+    </edge>
+    <edge source="n22" target="n35">
+    </edge>
+    <edge source="n23" target="n35">
+    </edge>
+    <edge source="n25" target="n35">
+    </edge>
+    <edge source="n28" target="n35">
+    </edge>
+    <edge source="n29" target="n35">
+    </edge>
+    <edge source="n33" target="n35">
+    </edge>
+    <edge source="n34" target="n35">
+    </edge>
+    <edge source="n35" target="n35">
+    </edge>
+    <edge source="n36" target="n35">
+    </edge>
+    <edge source="n37" target="n35">
+    </edge>
+    <edge source="n3" target="n36">
+    </edge>
+    <edge source="n36" target="n5">
+    </edge>
+    <edge source="n9" target="n36">
+    </edge>
+    <edge source="n19" target="n36">
+    </edge>
+    <edge source="n21" target="n36">
+    </edge>
+    <edge source="n23" target="n36">
+    </edge>
+    <edge source="n24" target="n36">
+    </edge>
+    <edge source="n26" target="n36">
+    </edge>
+    <edge source="n28" target="n36">
+    </edge>
+    <edge source="n36" target="n36">
+    </edge>
+    <edge source="n37" target="n5">
+    </edge>
+    <edge source="n10" target="n37">
+    </edge>
+    <edge source="n37" target="n37">
+    </edge>
+  </graph>
+</graphml>
