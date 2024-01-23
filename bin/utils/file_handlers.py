@@ -4,6 +4,8 @@ import igraph as ig
 import warnings
 import sys
 
+import matplotlib.pyplot as plt
+
 def get_dataset(dataset_path, verbose = False, living_other = True):
   warnings.filterwarnings('ignore', message="Could not add vertex ids, there is already an 'id' vertex attribute", category=RuntimeWarning)
 
@@ -62,6 +64,15 @@ def save_df_to_pickle(df, path):
   try:
       df.to_pickle(path)
       print(f"Table saved in: {path}.")
+  except Exception as e:
+      # Handle any exceptions (e.g., permission errors)
+      print(f"An error occurred while saving the file {path}: {e}")
+
+def save_image(fig, path):
+  create_folder(path, verbose = True)
+  try:
+      fig.savefig(path)
+      print(f"Image saved in: {path}.")
   except Exception as e:
       # Handle any exceptions (e.g., permission errors)
       print(f"An error occurred while saving the file {path}: {e}")
