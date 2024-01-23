@@ -73,3 +73,6 @@ python -m bin.tasks.generality_vulnerability -c ${CONFIG_PATH}
 
 framed_title "Triad census - real food webs"
 python -m bin.measurements.triad_census_real -c bin/config.ini
+
+framed_title "Triad census - randomized food webs (swap)"
+python -m bin.measurements.triad_census_swap -c bin/config.ini

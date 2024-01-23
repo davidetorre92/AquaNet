@@ -21,7 +21,6 @@ dataset_path = config.get('dataset', 'dataset_path')
 df_triad_count_swap_path = config.get('motifs representation', 'df_triad_count_swap_path')
 
 G_dataset = get_dataset_living(dataset_path)
-G_dataset = G_dataset[:1]
 dataset_len = len(G_dataset)
 
 motifs_dict = load_motifs()
