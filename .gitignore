@@ -1,1 +1,3 @@
-dataset/
+# Ignore enviroment folder
+
+env/
