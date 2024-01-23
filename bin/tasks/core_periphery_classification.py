@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import argparse
 from configparser import ConfigParser
-from ..utils.file_handlers import get_dataset, create_folder
+from ..utils.file_handlers import get_dataset, save_df_to_pickle
 from ..utils.core_periphery import get_core_periphery_structure
 # ArgParser
 parser = argparse.ArgumentParser(description = "Create similarity dataset")
@@ -31,7 +31,8 @@ for G in G_dataset:
     for periphery_structure_name, node_set in core_periphery_dict.items():
         for node_id in node_set:
             node_name = G.vs[node_id]['name']
-            row_node = (graph_name, node_id, node_name, periphery_structure_name)
+            eco = G.vs[node_id]['ECO']
+            row_node = (graph_name, node_id, node_name, eco, periphery_structure_name)
             rows_nodes.append(row_node)
     row_size = (graph_name,
                 len(core_periphery_dict['Core']),
@@ -45,16 +46,15 @@ for G in G_dataset:
     )
     rows_size.append(row_size)
 
-columns_nodes = ['graph_name', 'node_id', 'node_name', 'periphery_structure_name']
+columns_nodes = ['graph_name', 'node_id', 'node_name', 'ECO', 'periphery_structure_name']
 columns_size = ['graph_name', 'Core', 'IN set', 'OUT set', 'Tubes', 'Tendrils IN', 'Tendrils OUT', 'Disconnected set', 'Vertices count']
 
 # Save
 nodes_classification_df = pd.DataFrame(rows_nodes, columns = columns_nodes)
 network_periphery_size_df = pd.DataFrame(rows_size, columns = columns_size)
-nodes_classification_df.to_pickle(nodes_classification_df_path)
-network_periphery_size_df.to_pickle(network_periphery_size_df_path)
 
-print(nodes_classification_df.head())
-print(network_periphery_size_df.head())
+save_df_to_pickle(nodes_classification_df, nodes_classification_df_path)
+save_df_to_pickle(network_periphery_size_df, network_periphery_size_df_path)
+
 
 

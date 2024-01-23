@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import argparse
 from configparser import ConfigParser
-from ..utils.file_handlers import get_dataset, create_folder
+from ..utils.file_handlers import get_dataset, save_df_to_pickle
 
 # ArgParser
 parser = argparse.ArgumentParser(description = "Create similarity dataset")
@@ -19,7 +19,6 @@ config.read(config_path)
 dataset_path = config.get('dataset', 'dataset_path')
 eda_df_path = config.get('eda', 'eda_path')
 
-
 G_dataset = get_dataset(dataset_path, verbose = False)
 
 rows = []
@@ -33,11 +32,5 @@ for G in G_dataset:
   rows.append((G['name'], S, L, S / (L*L), basal / S, det / S, G.transitivity_avglocal_undirected()))
 
 eda_df = pd.DataFrame(rows, columns = ['Graph name', 'S', 'L', 'C', 'B/N', 'det/N', 'clustering'])
-create_folder(eda_df_path, verbose = True)
 
-try:
-    eda_df.to_pickle(eda_df_path)
-    print(f"EDA table saved in: {eda_df_path}.")
-except Exception as e:
-    # Handle any exceptions (e.g., permission errors)
-    print(f"An error occurred while saving the file {eda_df_path}: {e}")
+save_df_to_pickle(eda_df, eda_df_path)
