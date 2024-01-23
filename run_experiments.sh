@@ -64,3 +64,10 @@ python -m bin.tasks.eda -c ${CONFIG_PATH}
 
 framed_title "Core and periphery structure"
 python -m bin.tasks.core_periphery_classification -c ${CONFIG_PATH}
+
+framed_title "Generality and vulnerability of each node"
+python -m bin.tasks.generality_vulnerability -c ${CONFIG_PATH}
+
+framed_title "Most critical node: sequence and robustness"
+python -m bin.tasks.node_sequence_robustness_index -c bin/config.ini
+

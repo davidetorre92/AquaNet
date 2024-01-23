@@ -1,8 +1,8 @@
 import os
 import numpy as np
 import igraph as ig
-from .connectiveness import f_G
 import warnings
+import sys
 
 def get_dataset(dataset_path, verbose = False, living_other = True):
   warnings.filterwarnings('ignore', message="Could not add vertex ids, there is already an 'id' vertex attribute", category=RuntimeWarning)
@@ -14,17 +14,14 @@ def get_dataset(dataset_path, verbose = False, living_other = True):
       if verbose: print(f"Reading {file_path}")
       G = ig.Graph.Read_GraphML(file_path)
       if verbose: print(f"{G['name']}", end=' ')
-      if f_G(G) > 0 and len([v for v in G.vs if v['ECO'] == 2]) != 0:
-        if living_other:
-          keep = list(np.argwhere(np.array(G.vs()['ECO']) == 1.0).ravel()) + list(np.argwhere(np.array(G.vs()['ECO']) == 2.0).ravel())
-          G = G.subgraph(keep)
-          degree_keep = G.degree()
-          keep = list(np.argwhere(np.array(degree_keep) > 0).ravel())
-          G = G.subgraph(keep)
-        G_dataset.append(G)
-        if verbose: print(f"{file_name} read correctly ✅")
-      else:
-          if verbose: print(f"Skipping {G['name']} (either due to 0 connectivity value or few nodes) ❌")
+      if living_other:
+        keep = list(np.argwhere(np.array(G.vs()['ECO']) == 1.0).ravel()) + list(np.argwhere(np.array(G.vs()['ECO']) == 2.0).ravel())
+        G = G.subgraph(keep)
+        degree_keep = G.degree()
+        keep = list(np.argwhere(np.array(degree_keep) > 0).ravel())
+        G = G.subgraph(keep)
+      G_dataset.append(G)
+      if verbose: print(f"{file_name} read correctly ✅")
   return G_dataset
 
 def get_dataset_living(dataset_path, verbose = False):
@@ -68,3 +65,17 @@ def save_df_to_pickle(df, path):
   except Exception as e:
       # Handle any exceptions (e.g., permission errors)
       print(f"An error occurred while saving the file {path}: {e}")
+
+def progression_bar(current_position, max_position):
+
+  # Progress bar settings
+  bar_length = 50
+  progress = current_position / max_position
+  block = int(round(bar_length * progress))
+
+  # Create the progress bar string
+  bar = '[' + '=' * block + '-' * (bar_length - block) + ']'
+
+  # Print the progress message with the progress bar
+  sys.stdout.write(f'\rFood Web Graph Processed: {current_position} / {max_position} {bar}')
+  sys.stdout.flush()
