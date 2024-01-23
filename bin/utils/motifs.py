@@ -170,3 +170,15 @@ def get_node_roles_in_triads(G):
 
   columns = ['graph_name', 'node_id', 'node_name', 'motif_name', 'role']
   return pd.DataFrame(rows, columns = columns)
+
+def process_row(i, G):
+    motifs_name = list(load_motifs().keys())
+
+    row_tc_G_swap = []
+    h_c_swap = motif_contained_in_G_fast(swap_G_v2(G))
+    row_tc_G_swap.append(f"{i:03d}")
+    row_tc_G_swap.append(G['name'])
+    for motif in motifs_name:
+        row_tc_G_swap.append(h_c_swap[motif])
+
+    return tuple(row_tc_G_swap)
