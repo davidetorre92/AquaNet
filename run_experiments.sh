@@ -68,14 +68,14 @@ python -m bin.measurements.core_periphery_classification -c ${CONFIG_PATH}
 framed_title "Generality and vulnerability of each node"
 python -m bin.measurements.generality_vulnerability -c ${CONFIG_PATH}
 
-# framed_title "Most critical node: sequence and robustness"
-# python -m bin.measurements.node_sequence_robustness_index -c ${CONFIG_PATH}
+framed_title "Most critical node: sequence and robustness"
+python -m bin.measurements.node_sequence_robustness_index -c ${CONFIG_PATH}
 
-# framed_title "Triad census - real food webs"
-# python -m bin.measurements.triad_census_real -c ${CONFIG_PATH}
+framed_title "Triad census - real food webs"
+python -m bin.measurements.triad_census_real -c ${CONFIG_PATH}
 
-# framed_title "Triad census - randomized food webs (swap)"
-# python -m bin.measurements.triad_census_swap -c ${CONFIG_PATH}
+framed_title "Triad census - randomized food webs (swap)"
+python -m bin.measurements.triad_census_swap -c ${CONFIG_PATH}
 
 framed_title "Z-score evaluation"
 python -m bin.measurements.z_score -c ${CONFIG_PATH}
