@@ -42,7 +42,7 @@ bash plot_images.sh -c bin/config.ini
 At the moment only to plots are supported.
 
 ### Print pickle function
-A bash script to print the table within the terminal
+A bash script to print the table within the terminal an well as a description of the table.
 ```bash
 bash display_table.sh -t <table_path>
 ```
@@ -52,37 +52,34 @@ The results of our experiments are stored in the directory results
 
 - ```core_and_periphery_size.pickle```
   
-  This file contains ...
+    The cells contain the size of each core/periphery structure - i.e. the number of nodes of that graph beloning to the given structure.
+
 - ```eda.csv```
-  
-  This file contains ...
+    A csv file containing metrics of the graphs in the dataset. These metrics are S - the number of nodes; L - the number of directed interactions or links; C - the connectivity value (C := L/S^2); B/N - the ratio between the basal nodes (the one that have zero in degree) and all the nodes of the graph; det/N - the ratio between the other compartmenrs and all the nodes in the graph; clustering - the average local undirected clustering coefficient.
+
 - ```eda.pickle```
+    Same as above, but in pickle.
   
-  This file contains ...
 - ```generality_vulnerability_living_nodes.pickle```
+    For each node in each graph, the structure it belongs to and the value of generality and vulnerability.
   
-  This file contains ...
 - ```motif_representation.pickle```
-  
-  This file contains ...
-- ```motif_representation.pickle```
-  
-  This file contains ...
+    The z-score value of each motif for each graph in the dataset. Each value is evaluated with an ensamble of 50 randomized graph with the swap algorithm.
+    
 - ```motif_representation_table.xlsx```
-  
-  This file contains ...
+    A schematic representation of the z-score profile: an up-arrow means that the motif is over-represented, a down-arrow means that the motif is under-represented, a minus means that the motif is not present in the dataset nor in the random ensamble.
+
 - ```node_classification_core_periphery_dataframe.pickle```
-  
-  This file contains ...
+    For each node the classification in the node and periphery structure as well as their type (either living compartment - ECO = 1, or other compartment - ECO = 2).
+
 - ```node_sequence.pickle```
-  
-  This file contains ...
+    Sequence of critical nodes evaluated with the algorithm described in the paper. The percentage_reachable_pairs represent the fraction of reachable pairs measured after the removal of the links adjacent and incident to the node.
+
 - ```real_networks_triad_census_living.pickle```
-  
-  This file contains ...
+    Number of 3-nodes motifs for each graph.
+
 - ```robustness.pickle```
-  
-  This file contains ...
+    Robustness of each graph with the equation in the paper.
+
 - ```swapped_triad_census_living.pickle```
-  
-  This file contains ...
+    Number of triads in the randomized network. 
