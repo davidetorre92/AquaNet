@@ -197,81 +197,67 @@
       <data key="v_id">n25</data>
     </node>
     <node id="n26">
-      <data key="v_name">Oyster catcher</data>
-      <data key="v_ECO">1</data>
-      <data key="v_Biomass">1</data>
-      <data key="v_bowtie">Disconnected set</data>
-      <data key="v_id">n26</data>
-    </node>
-    <node id="n27">
       <data key="v_name">Syllis vittata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n27</data>
     </node>
-    <node id="n28">
+    <node id="n27">
       <data key="v_name">Nemenopsis gracilis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n28</data>
     </node>
-    <node id="n29">
+    <node id="n28">
       <data key="v_name">Syllis spencer</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n29</data>
     </node>
-    <node id="n30">
+    <node id="n29">
       <data key="v_name">Thais emarginata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n30</data>
     </node>
-    <node id="n31">
+    <node id="n30">
       <data key="v_name">Acanthina spirata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n31</data>
     </node>
-    <node id="n32">
+    <node id="n31">
       <data key="v_name">Rhombognathus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n32</data>
     </node>
-    <node id="n33">
+    <node id="n32">
       <data key="v_name">Tipulidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n33</data>
     </node>
-    <node id="n34">
+    <node id="n33">
       <data key="v_name">Pachygrapsus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n34</data>
     </node>
-    <node id="n35">
+    <node id="n34">
       <data key="v_name">Emplectonema gracili</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n35</data>
-    </node>
-    <node id="n36">
-      <data key="v_name">Black Turnstone</data>
-      <data key="v_ECO">1</data>
-      <data key="v_Biomass">1</data>
-      <data key="v_bowtie">Disconnected set</data>
-      <data key="v_id">n36</data>
     </node>
     <edge source="n0" target="n4">
     </edge>
@@ -589,6 +575,8 @@
     </edge>
     <edge source="n25" target="n0">
     </edge>
+    <edge source="n26" target="n0">
+    </edge>
     <edge source="n27" target="n0">
     </edge>
     <edge source="n28" target="n0">
@@ -604,8 +592,6 @@
     <edge source="n33" target="n0">
     </edge>
     <edge source="n34" target="n0">
-    </edge>
-    <edge source="n35" target="n0">
     </edge>
   </graph>
 </graphml>

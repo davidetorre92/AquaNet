@@ -384,55 +384,41 @@
       <data key="v_id">n23</data>
     </node>
     <node id="n53">
-      <data key="v_name">SOI</data>
-      <data key="v_ECO">2</data>
-      <data key="v_Biomass">1</data>
-      <data key="v_trophic_level">1</data>
-      <data key="v_id">n60</data>
-    </node>
-    <node id="n54">
       <data key="v_name">Southern Elephant Seals</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006473214</data>
       <data key="v_trophic_level">4.236266</data>
       <data key="v_id">n7</data>
     </node>
-    <node id="n55">
+    <node id="n54">
       <data key="v_name">Sperm whales</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.005</data>
       <data key="v_trophic_level">4.198884</data>
       <data key="v_id">n8</data>
     </node>
-    <node id="n56">
-      <data key="v_name">SST</data>
-      <data key="v_ECO">2</data>
-      <data key="v_Biomass">1</data>
-      <data key="v_trophic_level">1</data>
-      <data key="v_id">n61</data>
-    </node>
-    <node id="n57">
+    <node id="n55">
       <data key="v_name">Toothfish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0462</data>
       <data key="v_trophic_level">4.22789</data>
       <data key="v_id">n21</data>
     </node>
-    <node id="n58">
+    <node id="n56">
       <data key="v_name">Urochordata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.05</data>
       <data key="v_trophic_level">2.13</data>
       <data key="v_id">n34</data>
     </node>
-    <node id="n59">
+    <node id="n57">
       <data key="v_name">Weddell Seal</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.021</data>
       <data key="v_trophic_level">3.959561</data>
       <data key="v_id">n4</data>
     </node>
-    <node id="n60">
+    <node id="n58">
       <data key="v_name">Worms</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">12</data>
@@ -473,9 +459,9 @@
     </edge>
     <edge source="n50" target="n42">
     </edge>
-    <edge source="n58" target="n42">
+    <edge source="n56" target="n42">
     </edge>
-    <edge source="n60" target="n42">
+    <edge source="n58" target="n42">
     </edge>
     <edge source="n2" target="n45">
     </edge>
@@ -515,7 +501,7 @@
     </edge>
     <edge source="n52" target="n45">
     </edge>
-    <edge source="n60" target="n45">
+    <edge source="n58" target="n45">
     </edge>
     <edge source="n2" target="n0">
     </edge>
@@ -635,7 +621,7 @@
     </edge>
     <edge source="n50" target="n41">
     </edge>
-    <edge source="n60" target="n41">
+    <edge source="n58" target="n41">
     </edge>
     <edge source="n15" target="n32">
     </edge>
@@ -711,41 +697,41 @@
     </edge>
     <edge source="n47" target="n39">
     </edge>
-    <edge source="n2" target="n59">
+    <edge source="n2" target="n57">
     </edge>
-    <edge source="n3" target="n59">
+    <edge source="n3" target="n57">
     </edge>
-    <edge source="n8" target="n59">
+    <edge source="n8" target="n57">
     </edge>
-    <edge source="n9" target="n59">
+    <edge source="n9" target="n57">
     </edge>
-    <edge source="n16" target="n59">
+    <edge source="n16" target="n57">
     </edge>
-    <edge source="n17" target="n59">
+    <edge source="n17" target="n57">
     </edge>
-    <edge source="n59" target="n18">
+    <edge source="n57" target="n18">
     </edge>
-    <edge source="n30" target="n59">
+    <edge source="n30" target="n57">
     </edge>
-    <edge source="n33" target="n59">
+    <edge source="n33" target="n57">
     </edge>
-    <edge source="n34" target="n59">
+    <edge source="n34" target="n57">
     </edge>
-    <edge source="n40" target="n59">
+    <edge source="n40" target="n57">
     </edge>
-    <edge source="n41" target="n59">
+    <edge source="n41" target="n57">
     </edge>
-    <edge source="n42" target="n59">
+    <edge source="n42" target="n57">
     </edge>
-    <edge source="n44" target="n59">
+    <edge source="n44" target="n57">
     </edge>
-    <edge source="n45" target="n59">
+    <edge source="n45" target="n57">
     </edge>
-    <edge source="n47" target="n59">
+    <edge source="n47" target="n57">
     </edge>
-    <edge source="n52" target="n59">
+    <edge source="n52" target="n57">
     </edge>
-    <edge source="n60" target="n59">
+    <edge source="n58" target="n57">
     </edge>
     <edge source="n2" target="n3">
     </edge>
@@ -785,9 +771,9 @@
     </edge>
     <edge source="n50" target="n3">
     </edge>
-    <edge source="n58" target="n3">
+    <edge source="n56" target="n3">
     </edge>
-    <edge source="n60" target="n3">
+    <edge source="n58" target="n3">
     </edge>
     <edge source="n2" target="n8">
     </edge>
@@ -823,11 +809,11 @@
     </edge>
     <edge source="n52" target="n8">
     </edge>
-    <edge source="n57" target="n8">
+    <edge source="n55" target="n8">
+    </edge>
+    <edge source="n56" target="n8">
     </edge>
     <edge source="n58" target="n8">
-    </edge>
-    <edge source="n60" target="n8">
     </edge>
     <edge source="n2" target="n2">
     </edge>
@@ -853,7 +839,7 @@
     </edge>
     <edge source="n48" target="n2">
     </edge>
-    <edge source="n60" target="n2">
+    <edge source="n58" target="n2">
     </edge>
     <edge source="n46" target="n18">
     </edge>
@@ -883,9 +869,9 @@
     </edge>
     <edge source="n50" target="n4">
     </edge>
-    <edge source="n58" target="n4">
+    <edge source="n56" target="n4">
     </edge>
-    <edge source="n60" target="n4">
+    <edge source="n58" target="n4">
     </edge>
     <edge source="n12" target="n33">
     </edge>
@@ -905,21 +891,21 @@
     </edge>
     <edge source="n46" target="n33">
     </edge>
-    <edge source="n12" target="n58">
+    <edge source="n12" target="n56">
     </edge>
-    <edge source="n15" target="n58">
+    <edge source="n15" target="n56">
     </edge>
-    <edge source="n18" target="n58">
+    <edge source="n18" target="n56">
     </edge>
-    <edge source="n58" target="n18">
+    <edge source="n56" target="n18">
     </edge>
-    <edge source="n19" target="n58">
+    <edge source="n19" target="n56">
     </edge>
-    <edge source="n28" target="n58">
+    <edge source="n28" target="n56">
     </edge>
-    <edge source="n38" target="n58">
+    <edge source="n38" target="n56">
     </edge>
-    <edge source="n46" target="n58">
+    <edge source="n46" target="n56">
     </edge>
     <edge source="n0" target="n29">
     </edge>
@@ -949,7 +935,7 @@
     </edge>
     <edge source="n49" target="n29">
     </edge>
-    <edge source="n59" target="n29">
+    <edge source="n57" target="n29">
     </edge>
     <edge source="n15" target="n48">
     </edge>
@@ -1003,39 +989,39 @@
     </edge>
     <edge source="n52" target="n49">
     </edge>
-    <edge source="n60" target="n49">
+    <edge source="n58" target="n49">
     </edge>
-    <edge source="n2" target="n55">
+    <edge source="n2" target="n54">
     </edge>
-    <edge source="n6" target="n55">
+    <edge source="n6" target="n54">
     </edge>
-    <edge source="n7" target="n55">
+    <edge source="n7" target="n54">
     </edge>
-    <edge source="n8" target="n55">
+    <edge source="n8" target="n54">
     </edge>
-    <edge source="n11" target="n55">
+    <edge source="n11" target="n54">
     </edge>
-    <edge source="n16" target="n55">
+    <edge source="n16" target="n54">
     </edge>
-    <edge source="n17" target="n55">
+    <edge source="n17" target="n54">
     </edge>
-    <edge source="n55" target="n18">
+    <edge source="n54" target="n18">
     </edge>
-    <edge source="n25" target="n55">
+    <edge source="n25" target="n54">
     </edge>
-    <edge source="n26" target="n55">
+    <edge source="n26" target="n54">
     </edge>
-    <edge source="n30" target="n55">
+    <edge source="n30" target="n54">
     </edge>
-    <edge source="n33" target="n55">
+    <edge source="n33" target="n54">
     </edge>
-    <edge source="n40" target="n55">
+    <edge source="n40" target="n54">
     </edge>
-    <edge source="n50" target="n55">
+    <edge source="n50" target="n54">
     </edge>
-    <edge source="n57" target="n55">
+    <edge source="n55" target="n54">
     </edge>
-    <edge source="n60" target="n55">
+    <edge source="n58" target="n54">
     </edge>
     <edge source="n12" target="n40">
     </edge>
@@ -1055,7 +1041,7 @@
     </edge>
     <edge source="n46" target="n40">
     </edge>
-    <edge source="n60" target="n40">
+    <edge source="n58" target="n40">
     </edge>
     <edge source="n18" target="n26">
     </edge>
@@ -1089,7 +1075,7 @@
     </edge>
     <edge source="n50" target="n51">
     </edge>
-    <edge source="n60" target="n51">
+    <edge source="n58" target="n51">
     </edge>
     <edge source="n2" target="n44">
     </edge>
@@ -1131,9 +1117,9 @@
     </edge>
     <edge source="n52" target="n44">
     </edge>
-    <edge source="n57" target="n44">
+    <edge source="n55" target="n44">
     </edge>
-    <edge source="n60" target="n44">
+    <edge source="n58" target="n44">
     </edge>
     <edge source="n0" target="n35">
     </edge>
@@ -1183,9 +1169,9 @@
     </edge>
     <edge source="n52" target="n35">
     </edge>
-    <edge source="n54" target="n35">
+    <edge source="n53" target="n35">
     </edge>
-    <edge source="n59" target="n35">
+    <edge source="n57" target="n35">
     </edge>
     <edge source="n12" target="n37">
     </edge>
@@ -1207,29 +1193,29 @@
     </edge>
     <edge source="n46" target="n37">
     </edge>
-    <edge source="n2" target="n54">
+    <edge source="n2" target="n53">
     </edge>
-    <edge source="n8" target="n54">
+    <edge source="n8" target="n53">
     </edge>
-    <edge source="n54" target="n18">
+    <edge source="n53" target="n18">
     </edge>
-    <edge source="n30" target="n54">
+    <edge source="n30" target="n53">
     </edge>
-    <edge source="n33" target="n54">
+    <edge source="n33" target="n53">
     </edge>
-    <edge source="n34" target="n54">
+    <edge source="n34" target="n53">
     </edge>
-    <edge source="n40" target="n54">
+    <edge source="n40" target="n53">
     </edge>
-    <edge source="n41" target="n54">
+    <edge source="n41" target="n53">
     </edge>
-    <edge source="n44" target="n54">
+    <edge source="n44" target="n53">
     </edge>
-    <edge source="n45" target="n54">
+    <edge source="n45" target="n53">
     </edge>
-    <edge source="n47" target="n54">
+    <edge source="n47" target="n53">
     </edge>
-    <edge source="n57" target="n54">
+    <edge source="n55" target="n53">
     </edge>
     <edge source="n12" target="n7">
     </edge>
@@ -1293,11 +1279,11 @@
     </edge>
     <edge source="n52" target="n16">
     </edge>
-    <edge source="n57" target="n16">
+    <edge source="n55" target="n16">
+    </edge>
+    <edge source="n56" target="n16">
     </edge>
     <edge source="n58" target="n16">
-    </edge>
-    <edge source="n60" target="n16">
     </edge>
     <edge source="n2" target="n34">
     </edge>
@@ -1345,7 +1331,7 @@
     </edge>
     <edge source="n52" target="n34">
     </edge>
-    <edge source="n60" target="n34">
+    <edge source="n58" target="n34">
     </edge>
     <edge source="n8" target="n13">
     </edge>
@@ -1401,7 +1387,7 @@
     </edge>
     <edge source="n38" target="n14">
     </edge>
-    <edge source="n60" target="n14">
+    <edge source="n58" target="n14">
     </edge>
     <edge source="n2" target="n10">
     </edge>
@@ -1443,47 +1429,47 @@
     </edge>
     <edge source="n52" target="n10">
     </edge>
+    <edge source="n56" target="n10">
+    </edge>
     <edge source="n58" target="n10">
     </edge>
-    <edge source="n60" target="n10">
+    <edge source="n2" target="n55">
     </edge>
-    <edge source="n2" target="n57">
+    <edge source="n3" target="n55">
     </edge>
-    <edge source="n3" target="n57">
+    <edge source="n8" target="n55">
     </edge>
-    <edge source="n8" target="n57">
+    <edge source="n9" target="n55">
     </edge>
-    <edge source="n9" target="n57">
+    <edge source="n11" target="n55">
     </edge>
-    <edge source="n11" target="n57">
+    <edge source="n16" target="n55">
     </edge>
-    <edge source="n16" target="n57">
+    <edge source="n17" target="n55">
     </edge>
-    <edge source="n17" target="n57">
+    <edge source="n55" target="n18">
     </edge>
-    <edge source="n57" target="n18">
+    <edge source="n30" target="n55">
     </edge>
-    <edge source="n30" target="n57">
+    <edge source="n33" target="n55">
     </edge>
-    <edge source="n33" target="n57">
+    <edge source="n34" target="n55">
     </edge>
-    <edge source="n34" target="n57">
+    <edge source="n41" target="n55">
     </edge>
-    <edge source="n41" target="n57">
+    <edge source="n42" target="n55">
     </edge>
-    <edge source="n42" target="n57">
+    <edge source="n44" target="n55">
     </edge>
-    <edge source="n44" target="n57">
+    <edge source="n45" target="n55">
     </edge>
-    <edge source="n45" target="n57">
+    <edge source="n47" target="n55">
     </edge>
-    <edge source="n47" target="n57">
+    <edge source="n50" target="n55">
     </edge>
-    <edge source="n50" target="n57">
+    <edge source="n52" target="n55">
     </edge>
-    <edge source="n52" target="n57">
-    </edge>
-    <edge source="n60" target="n57">
+    <edge source="n58" target="n55">
     </edge>
     <edge source="n12" target="n11">
     </edge>
@@ -1505,7 +1491,7 @@
     </edge>
     <edge source="n50" target="n11">
     </edge>
-    <edge source="n60" target="n11">
+    <edge source="n58" target="n11">
     </edge>
     <edge source="n2" target="n20">
     </edge>
@@ -1549,9 +1535,9 @@
     </edge>
     <edge source="n48" target="n20">
     </edge>
-    <edge source="n58" target="n20">
+    <edge source="n56" target="n20">
     </edge>
-    <edge source="n60" target="n20">
+    <edge source="n58" target="n20">
     </edge>
     <edge source="n2" target="n24">
     </edge>
@@ -1593,9 +1579,9 @@
     </edge>
     <edge source="n52" target="n24">
     </edge>
-    <edge source="n58" target="n24">
+    <edge source="n56" target="n24">
     </edge>
-    <edge source="n60" target="n24">
+    <edge source="n58" target="n24">
     </edge>
     <edge source="n2" target="n47">
     </edge>
@@ -1631,7 +1617,7 @@
     </edge>
     <edge source="n52" target="n47">
     </edge>
-    <edge source="n60" target="n47">
+    <edge source="n58" target="n47">
     </edge>
     <edge source="n19" target="n18">
     </edge>
@@ -1677,49 +1663,49 @@
     </edge>
     <edge source="n52" target="n17">
     </edge>
-    <edge source="n58" target="n17">
+    <edge source="n56" target="n17">
     </edge>
-    <edge source="n60" target="n17">
+    <edge source="n58" target="n17">
     </edge>
     <edge source="n28" target="n18">
     </edge>
-    <edge source="n2" target="n60">
+    <edge source="n2" target="n58">
     </edge>
-    <edge source="n3" target="n60">
+    <edge source="n3" target="n58">
     </edge>
-    <edge source="n4" target="n60">
+    <edge source="n4" target="n58">
     </edge>
-    <edge source="n7" target="n60">
+    <edge source="n7" target="n58">
     </edge>
-    <edge source="n11" target="n60">
+    <edge source="n11" target="n58">
     </edge>
-    <edge source="n14" target="n60">
+    <edge source="n14" target="n58">
     </edge>
-    <edge source="n18" target="n60">
+    <edge source="n18" target="n58">
     </edge>
-    <edge source="n60" target="n18">
+    <edge source="n58" target="n18">
     </edge>
-    <edge source="n19" target="n60">
+    <edge source="n19" target="n58">
     </edge>
-    <edge source="n20" target="n60">
+    <edge source="n20" target="n58">
     </edge>
-    <edge source="n26" target="n60">
+    <edge source="n26" target="n58">
     </edge>
-    <edge source="n37" target="n60">
+    <edge source="n37" target="n58">
     </edge>
-    <edge source="n38" target="n60">
+    <edge source="n38" target="n58">
     </edge>
-    <edge source="n40" target="n60">
+    <edge source="n40" target="n58">
     </edge>
-    <edge source="n43" target="n60">
+    <edge source="n43" target="n58">
     </edge>
-    <edge source="n48" target="n60">
+    <edge source="n48" target="n58">
     </edge>
-    <edge source="n50" target="n60">
+    <edge source="n50" target="n58">
     </edge>
-    <edge source="n58" target="n60">
+    <edge source="n56" target="n58">
     </edge>
-    <edge source="n60" target="n60">
+    <edge source="n58" target="n58">
     </edge>
     <edge source="n2" target="n43">
     </edge>
@@ -1751,7 +1737,7 @@
     </edge>
     <edge source="n48" target="n43">
     </edge>
-    <edge source="n60" target="n43">
+    <edge source="n58" target="n43">
     </edge>
     <edge source="n2" target="n36">
     </edge>
@@ -1815,9 +1801,9 @@
     </edge>
     <edge source="n50" target="n52">
     </edge>
-    <edge source="n58" target="n52">
+    <edge source="n56" target="n52">
     </edge>
-    <edge source="n60" target="n52">
+    <edge source="n58" target="n52">
     </edge>
     <edge source="n12" target="n30">
     </edge>
@@ -1935,7 +1921,7 @@
     </edge>
     <edge source="n50" target="n9">
     </edge>
-    <edge source="n60" target="n9">
+    <edge source="n58" target="n9">
     </edge>
   </graph>
 </graphml>
