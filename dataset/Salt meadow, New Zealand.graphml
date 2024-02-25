@@ -11,6 +11,7 @@
   <key id="v_Biomass" for="node" attr.name="Biomass" attr.type="double"/>
   <key id="v_bowtie" for="node" attr.name="bowtie" attr.type="string"/>
   <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_trophic_level" for="node" attr.name="trophic_level" attr.type="double"/>
   <graph id="G" edgedefault="directed">
     <data key="g_name">Salt meadow, New Zealand</data>
     <data key="g_nickname">NZEL</data>
@@ -20,6 +21,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n0</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n1">
       <data key="v_name">leaves</data>
@@ -27,6 +29,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n1</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n2">
       <data key="v_name">flowers</data>
@@ -34,6 +37,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n2</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n3">
       <data key="v_name">seeds</data>
@@ -41,6 +45,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n3</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n4">
       <data key="v_name">roots</data>
@@ -48,6 +53,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n4</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n5">
       <data key="v_name">algae</data>
@@ -55,6 +61,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n5</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n6">
       <data key="v_name">bacteria</data>
@@ -62,6 +69,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n6</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n7">
       <data key="v_name">rotifers</data>
@@ -69,6 +77,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n7</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n8">
       <data key="v_name">phytophagus nematodes</data>
@@ -76,6 +85,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n8</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n9">
       <data key="v_name">weevil larvae</data>
@@ -83,6 +93,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n9</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n10">
       <data key="v_name">coccids</data>
@@ -90,6 +101,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n10</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n11">
       <data key="v_name">lepidopterus larvae</data>
@@ -97,6 +109,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n11</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n12">
       <data key="v_name">other hemiptera</data>
@@ -104,6 +117,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n12</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n13">
       <data key="v_name">rabbits</data>
@@ -111,6 +125,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n13</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n14">
       <data key="v_name">Uromyces scaevolae</data>
@@ -118,6 +133,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n14</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n15">
       <data key="v_name">fungi</data>
@@ -125,6 +141,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n15</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n16">
       <data key="v_name">collembola</data>
@@ -132,6 +149,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n16</data>
+      <data key="v_trophic_level">2.5</data>
     </node>
     <node id="n17">
       <data key="v_name">harpacticoids</data>
@@ -139,6 +157,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n17</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n18">
       <data key="v_name">staphylinids</data>
@@ -146,6 +165,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n18</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n19">
       <data key="v_name">dipterous larvae</data>
@@ -153,6 +173,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n19</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n20">
       <data key="v_name">haplotaxid worms</data>
@@ -160,6 +181,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n20</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n21">
       <data key="v_name">oribatids</data>
@@ -167,6 +189,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n21</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n22">
       <data key="v_name">mites</data>
@@ -174,6 +197,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n22</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n23">
       <data key="v_name">amphipods</data>
@@ -181,6 +205,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n23</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n24">
       <data key="v_name">bumblebees</data>
@@ -188,6 +213,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n24</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n25">
       <data key="v_name">adult hymenopterans</data>
@@ -195,6 +221,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n25</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n26">
       <data key="v_name">redpolls</data>
@@ -202,6 +229,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">Tendrils IN</data>
       <data key="v_id">n26</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n27">
       <data key="v_name">carnivorous namatodes</data>
@@ -209,6 +237,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n27</data>
+      <data key="v_trophic_level">3.25</data>
     </node>
     <node id="n28">
       <data key="v_name">tartigrades</data>
@@ -216,6 +245,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n28</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n29">
       <data key="v_name">parasitic hymenopterous larvae</data>
@@ -223,6 +253,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n29</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n30">
       <data key="v_name">Trichostrongylus retortaeformis</data>
@@ -230,6 +261,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n30</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n31">
       <data key="v_name">Graphidium strigosum</data>
@@ -237,6 +269,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n31</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n32">
       <data key="v_name">Passalurus ambiguus</data>
@@ -244,6 +277,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n32</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n33">
       <data key="v_name">stoats</data>
@@ -251,6 +285,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n33</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n34">
       <data key="v_name">harrier hawks</data>
@@ -258,6 +293,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">OUT set</data>
       <data key="v_id">n34</data>
+      <data key="v_trophic_level">3.5</data>
     </node>
     <node id="n35">
       <data key="v_name">trombidiform mites</data>
@@ -265,6 +301,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n35</data>
+      <data key="v_trophic_level">3.5</data>
     </node>
     <node id="n36">
       <data key="v_name">spiders</data>
@@ -272,6 +309,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n36</data>
+      <data key="v_trophic_level">3.5</data>
     </node>
     <node id="n37">
       <data key="v_name">ants</data>
@@ -279,6 +317,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n37</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n38">
       <data key="v_name">starlings</data>
@@ -286,6 +325,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">OUT set</data>
       <data key="v_id">n38</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n39">
       <data key="v_name">Dotterel</data>
@@ -293,6 +333,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n39</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n40">
       <data key="v_name">Hymenolepididae</data>
@@ -300,6 +341,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n40</data>
+      <data key="v_trophic_level">3.5</data>
     </node>
     <node id="n41">
       <data key="v_name">nematode</data>
@@ -307,6 +349,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n41</data>
+      <data key="v_trophic_level">4</data>
     </node>
     <node id="n42">
       <data key="v_name">analgesid mites</data>
@@ -314,6 +357,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n42</data>
+      <data key="v_trophic_level">4</data>
     </node>
     <node id="n43">
       <data key="v_name">other mites</data>
@@ -321,6 +365,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n43</data>
+      <data key="v_trophic_level">4</data>
     </node>
     <node id="n44">
       <data key="v_name">lice</data>
@@ -328,6 +373,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n44</data>
+      <data key="v_trophic_level">4</data>
     </node>
     <edge source="n0" target="n15">
     </edge>

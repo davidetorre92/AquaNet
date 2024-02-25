@@ -10,6 +10,7 @@
   <key id="v_Biomass" for="node" attr.name="Biomass" attr.type="double"/>
   <key id="v_bowtie" for="node" attr.name="bowtie" attr.type="string"/>
   <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_trophic_level" for="node" attr.name="trophic_level" attr.type="double"/>
   <graph id="G" edgedefault="directed">
     <data key="g_name">River Rheido, Wales</data>
     <node id="n0">
@@ -18,6 +19,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n0</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n1">
       <data key="v_name"> agmented leaf, stem tissue, moss</data>
@@ -25,6 +27,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n1</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n2">
       <data key="v_name"> diatoms</data>
@@ -32,6 +35,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n2</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n3">
       <data key="v_name"> Batrachospermum, Lemanea</data>
@@ -39,6 +43,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n3</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n4">
       <data key="v_name"> detritus</data>
@@ -46,6 +51,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n4</data>
+      <data key="v_trophic_level">1</data>
     </node>
     <node id="n5">
       <data key="v_name"> Rhithrogena</data>
@@ -53,6 +59,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n5</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n6">
       <data key="v_name"> Baetis</data>
@@ -60,6 +67,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n6</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n7">
       <data key="v_name"> Leuctra, Protonemeura, Amphinemura</data>
@@ -67,6 +75,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n7</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n8">
       <data key="v_name"> Oligochaeta</data>
@@ -74,6 +83,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n8</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n9">
       <data key="v_name"> CoperwcIa, Cladocera</data>
@@ -81,6 +91,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n9</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n10">
       <data key="v_name"> Simulium</data>
@@ -88,6 +99,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">IN set</data>
       <data key="v_id">n10</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n11">
       <data key="v_name"> Chironomidae</data>
@@ -95,6 +107,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n11</data>
+      <data key="v_trophic_level">2</data>
     </node>
     <node id="n12">
       <data key="v_name"> Chloroperla</data>
@@ -102,6 +115,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n12</data>
+      <data key="v_trophic_level">2.54545454545455</data>
     </node>
     <node id="n13">
       <data key="v_name"> Hydropsyche</data>
@@ -109,6 +123,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n13</data>
+      <data key="v_trophic_level">2.44444444444444</data>
     </node>
     <node id="n14">
       <data key="v_name"> Dystiscidae (Deronectes, Oreonectes)</data>
@@ -116,6 +131,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n14</data>
+      <data key="v_trophic_level">3</data>
     </node>
     <node id="n15">
       <data key="v_name"> Polycentropus</data>
@@ -123,6 +139,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n15</data>
+      <data key="v_trophic_level">3.24873737373737</data>
     </node>
     <node id="n16">
       <data key="v_name"> Isoperla</data>
@@ -130,6 +147,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n16</data>
+      <data key="v_trophic_level">2.97427398989899</data>
     </node>
     <node id="n17">
       <data key="v_name"> Perlodes</data>
@@ -137,6 +155,7 @@
       <data key="v_Biomass">1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n17</data>
+      <data key="v_trophic_level">3.35984848484848</data>
     </node>
     <edge source="n0" target="n7">
     </edge>
