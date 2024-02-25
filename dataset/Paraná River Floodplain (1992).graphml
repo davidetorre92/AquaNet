@@ -16,7 +16,7 @@
       <data key="v_name">Acestrorhyncus lacustris</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006</data>
-      <data key="v_trophic_level">3.550152</data>
+      <data key="v_trophic_level">3.58764880952381</data>
       <data key="v_id">n26</data>
     </node>
     <node id="n1">
@@ -30,14 +30,14 @@
       <data key="v_name">Astyanax altiparanae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.4460186</data>
-      <data key="v_trophic_level">2.712626</data>
+      <data key="v_trophic_level">2.73809523809524</data>
       <data key="v_id">n23</data>
     </node>
     <node id="n3">
       <data key="v_name">Auchenipterus nuchalis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.016</data>
-      <data key="v_trophic_level">3.055</data>
+      <data key="v_trophic_level">3.16666666666667</data>
       <data key="v_id">n24</data>
     </node>
     <node id="n4">
@@ -51,14 +51,14 @@
       <data key="v_name">Brycon orbignyanus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01451691</data>
-      <data key="v_trophic_level">2.814826</data>
+      <data key="v_trophic_level">3.16815476190476</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n6">
       <data key="v_name">Cyphocharax modesta</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001423877</data>
-      <data key="v_trophic_level">2.1</data>
+      <data key="v_trophic_level">2.33333333333333</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n7">
@@ -72,14 +72,14 @@
       <data key="v_name">Hemisorubin platyrhynchos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006</data>
-      <data key="v_trophic_level">3.76909</data>
+      <data key="v_trophic_level">3.97636308956524</data>
       <data key="v_id">n32</data>
     </node>
     <node id="n9">
       <data key="v_name">Hoplias malabaricus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001874394</data>
-      <data key="v_trophic_level">3.809242</data>
+      <data key="v_trophic_level">4.01872023809523</data>
       <data key="v_id">n27</data>
     </node>
     <node id="n10">
@@ -93,7 +93,7 @@
       <data key="v_name">Hypophthalmus edentatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.04</data>
-      <data key="v_trophic_level">2.7</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n12">
@@ -107,7 +107,7 @@
       <data key="v_name">Iheringichthys labrosus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.005</data>
-      <data key="v_trophic_level">2.65</data>
+      <data key="v_trophic_level">2.6</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n14">
@@ -121,63 +121,63 @@
       <data key="v_name">Leporinus friderici</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02083803</data>
-      <data key="v_trophic_level">2.576262</data>
+      <data key="v_trophic_level">2.73809523809524</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n16">
       <data key="v_name">Leporinus obtusidens</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.34</data>
-      <data key="v_trophic_level">2.576262</data>
+      <data key="v_trophic_level">2.73809523809524</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n17">
       <data key="v_name">Loricariichthys platymetopon</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.000290651</data>
-      <data key="v_trophic_level">2.3</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n18">
       <data key="v_name">Other benthos feeders</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02494656</data>
-      <data key="v_trophic_level">2.55</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n35</data>
     </node>
     <node id="n19">
       <data key="v_name">Other detritus feeders</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01461608</data>
-      <data key="v_trophic_level">2.2</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n36</data>
     </node>
     <node id="n20">
       <data key="v_name">Other insectivores</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02542599</data>
-      <data key="v_trophic_level">2.871263</data>
+      <data key="v_trophic_level">2.93452380952381</data>
       <data key="v_id">n37</data>
     </node>
     <node id="n21">
       <data key="v_name">Other omnivores</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.4135749</data>
-      <data key="v_trophic_level">2.55</data>
+      <data key="v_trophic_level">2.42857142857143</data>
       <data key="v_id">n39</data>
     </node>
     <node id="n22">
       <data key="v_name">Other piscivores</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.002811985</data>
-      <data key="v_trophic_level">3.701239</data>
+      <data key="v_trophic_level">3.98358104858511</data>
       <data key="v_id">n38</data>
     </node>
     <node id="n23">
       <data key="v_name">Parauchenipterus galeatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03146465</data>
-      <data key="v_trophic_level">2.6</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n24">
@@ -198,49 +198,49 @@
       <data key="v_name">Plagioscion squamisissimus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.09</data>
-      <data key="v_trophic_level">3.74726</data>
+      <data key="v_trophic_level">3.99401038738059</data>
       <data key="v_id">n28</data>
     </node>
     <node id="n27">
       <data key="v_name">P maculatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.004088625</data>
-      <data key="v_trophic_level">3.080385</data>
+      <data key="v_trophic_level">3.18648461971055</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n28">
       <data key="v_name">Prochilodus lineatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.05050152</data>
-      <data key="v_trophic_level">2.15</data>
+      <data key="v_trophic_level">2.33333333333333</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n29">
       <data key="v_name">Pseudoplatystoma corruscans</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006916649</data>
-      <data key="v_trophic_level">4.016176</data>
+      <data key="v_trophic_level">4.31096444931151</data>
       <data key="v_id">n29</data>
     </node>
     <node id="n30">
       <data key="v_name">Pterodoras granulosus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.06</data>
-      <data key="v_trophic_level">2.3</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n22</data>
     </node>
     <node id="n31">
       <data key="v_name">Rhaphiodon vulpinis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01</data>
-      <data key="v_trophic_level">3.760026</data>
+      <data key="v_trophic_level">3.97120535714285</data>
       <data key="v_id">n30</data>
     </node>
     <node id="n32">
       <data key="v_name">Salminus brasiliensis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.002130292</data>
-      <data key="v_trophic_level">3.555611</data>
+      <data key="v_trophic_level">3.57410289115645</data>
       <data key="v_id">n33</data>
     </node>
     <node id="n33">
@@ -261,28 +261,28 @@
       <data key="v_name">Serrasalmus marginatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.04770644</data>
-      <data key="v_trophic_level">3.834915</data>
+      <data key="v_trophic_level">3.97394986457764</data>
       <data key="v_id">n31</data>
     </node>
     <node id="n36">
       <data key="v_name">Serrasalmus spiloptera</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02960227</data>
-      <data key="v_trophic_level">3.771214</data>
+      <data key="v_trophic_level">3.74007522821737</data>
       <data key="v_id">n34</data>
     </node>
     <node id="n37">
       <data key="v_name">Steindacchnerina insculpta</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001364589</data>
-      <data key="v_trophic_level">2.1</data>
+      <data key="v_trophic_level">2.33333333333333</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n38">
       <data key="v_name">Trachydoras paraguayensis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.002532565</data>
-      <data key="v_trophic_level">2.45</data>
+      <data key="v_trophic_level">2.66666666666667</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n39">

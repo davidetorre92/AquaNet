@@ -16,126 +16,126 @@
       <data key="v_name">baleen whales</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.123</data>
-      <data key="v_trophic_level">4.098215</data>
+      <data key="v_trophic_level">4.83531380214679</data>
       <data key="v_id">n41</data>
     </node>
     <node id="n1">
       <data key="v_name">birds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0002</data>
-      <data key="v_trophic_level">4.28226</data>
+      <data key="v_trophic_level">4.659617964656</data>
       <data key="v_id">n40</data>
     </node>
     <node id="n2">
       <data key="v_name">cephalop L</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03427867</data>
-      <data key="v_trophic_level">4.29077</data>
+      <data key="v_trophic_level">4.74463993237123</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n3">
       <data key="v_name">cephalop s</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.08776981</data>
-      <data key="v_trophic_level">3.922361</data>
+      <data key="v_trophic_level">4.68000314201478</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n4">
       <data key="v_name">coastal L pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02</data>
-      <data key="v_trophic_level">4.16767</data>
+      <data key="v_trophic_level">4.66374276687455</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n5">
       <data key="v_name">coastal M herb</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0035597</data>
-      <data key="v_trophic_level">2.119558</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n6">
       <data key="v_name">coastal M inv</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.08280029</data>
-      <data key="v_trophic_level">3.213219</data>
+      <data key="v_trophic_level">3.94147027176954</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n7">
       <data key="v_name">coastal M pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03485069</data>
-      <data key="v_trophic_level">3.984001</data>
+      <data key="v_trophic_level">4.49086869618669</data>
       <data key="v_id">n18</data>
     </node>
     <node id="n8">
       <data key="v_name">coastal S herb</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1331102</data>
-      <data key="v_trophic_level">2.193641</data>
+      <data key="v_trophic_level">2.625</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n9">
       <data key="v_name">coastal S inv</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.3301791</data>
-      <data key="v_trophic_level">3.026856</data>
+      <data key="v_trophic_level">3.5749201382663</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n10">
       <data key="v_name">coastal S pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2592299</data>
-      <data key="v_trophic_level">3.463673</data>
+      <data key="v_trophic_level">3.63382566135826</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n11">
       <data key="v_name">deepwater L</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0003355274</data>
-      <data key="v_trophic_level">4.349334</data>
+      <data key="v_trophic_level">4.98708267860414</data>
       <data key="v_id">n34</data>
     </node>
     <node id="n12">
       <data key="v_name">deepwater M</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006324074</data>
-      <data key="v_trophic_level">3.515996</data>
+      <data key="v_trophic_level">4.24761664907247</data>
       <data key="v_id">n33</data>
     </node>
     <node id="n13">
       <data key="v_name">deepwater S</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1840808</data>
-      <data key="v_trophic_level">3.431922</data>
+      <data key="v_trophic_level">4.17475778327693</data>
       <data key="v_id">n32</data>
     </node>
     <node id="n14">
       <data key="v_name">demersal L pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.024</data>
-      <data key="v_trophic_level">4.220871</data>
+      <data key="v_trophic_level">4.77415093083666</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n15">
       <data key="v_name">demersal M inv</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0042</data>
-      <data key="v_trophic_level">3.985305</data>
+      <data key="v_trophic_level">4.91437761545634</data>
       <data key="v_id">n22</data>
     </node>
     <node id="n16">
       <data key="v_name">demersal M pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.06840941</data>
-      <data key="v_trophic_level">3.821936</data>
+      <data key="v_trophic_level">4.86441607240876</data>
       <data key="v_id">n23</data>
     </node>
     <node id="n17">
       <data key="v_name">demersal S inv</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2208923</data>
-      <data key="v_trophic_level">3.215951</data>
+      <data key="v_trophic_level">4.08212224972849</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n18">
@@ -149,42 +149,42 @@
       <data key="v_name">Dolphins</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0044</data>
-      <data key="v_trophic_level">4.708477</data>
+      <data key="v_trophic_level">4.86451312602845</data>
       <data key="v_id">n42</data>
     </node>
     <node id="n20">
       <data key="v_name">Helicolenus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.003</data>
-      <data key="v_trophic_level">3.64935</data>
+      <data key="v_trophic_level">4.50760065092017</data>
       <data key="v_id">n24</data>
     </node>
     <node id="n21">
       <data key="v_name">killer whales</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">6.25e-05</data>
-      <data key="v_trophic_level">5.30395</data>
+      <data key="v_trophic_level">5.82886448752929</data>
       <data key="v_id">n43</data>
     </node>
     <node id="n22">
       <data key="v_name">large zoopl</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">6.918358</data>
-      <data key="v_trophic_level">2.765306</data>
+      <data key="v_trophic_level">2.66666666666667</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n23">
       <data key="v_name">lobsters</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0045</data>
-      <data key="v_trophic_level">3.109386</data>
+      <data key="v_trophic_level">3.41666666666667</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n24">
       <data key="v_name">Loligo</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0664771</data>
-      <data key="v_trophic_level">3.958886</data>
+      <data key="v_trophic_level">4.53682233226433</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n25">
@@ -198,42 +198,42 @@
       <data key="v_name">mesopelagics</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2</data>
-      <data key="v_trophic_level">3.510289</data>
+      <data key="v_trophic_level">3.33333333333333</data>
       <data key="v_id">n31</data>
     </node>
     <node id="n27">
       <data key="v_name">Octopus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01259014</data>
-      <data key="v_trophic_level">3.607209</data>
+      <data key="v_trophic_level">4.37766729506319</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n28">
       <data key="v_name">other benthos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">7.931996</data>
-      <data key="v_trophic_level">2.173469</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n29">
       <data key="v_name">Pagellus bogaraveo</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006</data>
-      <data key="v_trophic_level">4.167382</data>
+      <data key="v_trophic_level">4.22197029405436</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n30">
       <data key="v_name">pelagic L pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02</data>
-      <data key="v_trophic_level">4.684153</data>
+      <data key="v_trophic_level">5.14049541436794</data>
       <data key="v_id">n30</data>
     </node>
     <node id="n31">
       <data key="v_name">pelagic M pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2071766</data>
-      <data key="v_trophic_level">3.91741</data>
+      <data key="v_trophic_level">4.71467082299241</data>
       <data key="v_id">n29</data>
     </node>
     <node id="n32">
@@ -247,14 +247,14 @@
       <data key="v_name">pelagic S pred</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.5429558</data>
-      <data key="v_trophic_level">3.077954</data>
+      <data key="v_trophic_level">3.86843873660125</data>
       <data key="v_id">n28</data>
     </node>
     <node id="n34">
       <data key="v_name">Phycis phycis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.003</data>
-      <data key="v_trophic_level">4.171281</data>
+      <data key="v_trophic_level">4.51444518175687</data>
       <data key="v_id">n26</data>
     </node>
     <node id="n35">
@@ -268,7 +268,7 @@
       <data key="v_name">rays</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02</data>
-      <data key="v_trophic_level">3.918597</data>
+      <data key="v_trophic_level">4.5819875238942</data>
       <data key="v_id">n35</data>
     </node>
     <node id="n37">
@@ -282,21 +282,21 @@
       <data key="v_name">sharks L</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01</data>
-      <data key="v_trophic_level">4.312149</data>
+      <data key="v_trophic_level">4.71577848973733</data>
       <data key="v_id">n37</data>
     </node>
     <node id="n39">
       <data key="v_name">sharks M</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03</data>
-      <data key="v_trophic_level">4.094825</data>
+      <data key="v_trophic_level">4.56588510155889</data>
       <data key="v_id">n36</data>
     </node>
     <node id="n40">
       <data key="v_name">shrimps crabs</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.306431</data>
-      <data key="v_trophic_level">2.809524</data>
+      <data key="v_trophic_level">3.29166666666667</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n41">
@@ -310,14 +310,14 @@
       <data key="v_name">tunas</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.031</data>
-      <data key="v_trophic_level">3.849955</data>
+      <data key="v_trophic_level">4.65429278400089</data>
       <data key="v_id">n38</data>
     </node>
     <node id="n43">
       <data key="v_name">turtles</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
-      <data key="v_trophic_level">3.765306</data>
+      <data key="v_trophic_level">3.66666666666667</data>
       <data key="v_id">n39</data>
     </node>
     <edge source="n2" target="n0">

@@ -16,140 +16,140 @@
       <data key="v_name">Atlantorchestoidea brasiliensis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2388753</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n1">
       <data key="v_name">Birds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03798914</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.65318181813124</data>
       <data key="v_id">n1</data>
     </node>
     <node id="n2">
       <data key="v_name">Buccinanops duartei</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.8352828</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.12499999996415</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n3">
       <data key="v_name">Carabide</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.00670696</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n4">
       <data key="v_name">Detritus</data>
       <data key="v_ECO">2</data>
       <data key="v_Biomass">597</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">1</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n5">
       <data key="v_name">Donax hanleyanus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">14.44357</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2.49999999998407</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n6">
       <data key="v_name">Emerita brasiliensis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">18.18204</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2.49999999998407</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n7">
       <data key="v_name">Euzonus furciferus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1539286</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n8">
       <data key="v_name">Excirolana armata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.5470098</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n9">
       <data key="v_name">Excirolana braziliensis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02806397</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n10">
       <data key="v_name">Fishes</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.22096</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.28181818179298</data>
       <data key="v_id">n2</data>
     </node>
     <node id="n11">
       <data key="v_name">Hemipodus olivieri</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1783813</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.09999999997132</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n12">
       <data key="v_name">Macrochiridiotea giambiagiae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.004264042</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n13">
       <data key="v_name">Mesodesma mactroides</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.730049</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2.49999999998407</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n14">
       <data key="v_name">Olivancillaria vesica auricularia</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.075613</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.37499999996415</data>
       <data key="v_id">n3</data>
     </node>
     <node id="n15">
       <data key="v_name">Olivella formicacorsii</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2046373</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">3.2499999999761</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n16">
       <data key="v_name">Phoxocephalopsis sp.</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.003363511</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n17">
       <data key="v_name">Phytoplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">43.35648</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">1</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n18">
       <data key="v_name">Scolelepis gaucha</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.005050597</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n19">
       <data key="v_name">Zooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.583103</data>
-      <data key="v_trophic_level">0</data>
+      <data key="v_trophic_level">2.49999999998407</data>
       <data key="v_id">n18</data>
     </node>
     <edge source="n4" target="n0">

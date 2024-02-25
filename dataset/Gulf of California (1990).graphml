@@ -16,28 +16,28 @@
       <data key="v_name">Benthic inv.</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.886</data>
-      <data key="v_trophic_level">2.423933</data>
+      <data key="v_trophic_level">2.874999999999</data>
       <data key="v_id">n29</data>
     </node>
     <node id="n1">
       <data key="v_name">Callinectes sp.</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.6192978</data>
-      <data key="v_trophic_level">2.534139</data>
+      <data key="v_trophic_level">3.42266578510025</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n2">
       <data key="v_name">Cephalopoda</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.32416</data>
-      <data key="v_trophic_level">2.818061</data>
+      <data key="v_trophic_level">3.04999999999984</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n3">
       <data key="v_name">Coastal birds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.000134</data>
-      <data key="v_trophic_level">3.445828</data>
+      <data key="v_trophic_level">3.84662835625624</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n4">
@@ -51,56 +51,56 @@
       <data key="v_name">Elasmobranchi (RAYS)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.4139478</data>
-      <data key="v_trophic_level">3.102304</data>
+      <data key="v_trophic_level">3.91346978282416</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n6">
       <data key="v_name">Elasmobranchi (SHARKS)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.71881</data>
-      <data key="v_trophic_level">4.02772</data>
+      <data key="v_trophic_level">5.08698819367797</data>
       <data key="v_id">n1</data>
     </node>
     <node id="n7">
       <data key="v_name">Farfantepenaeus californiensis (ADULTS)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.08000001</data>
-      <data key="v_trophic_level">2.40731</data>
+      <data key="v_trophic_level">2.874999999999</data>
       <data key="v_id">n30</data>
     </node>
     <node id="n8">
       <data key="v_name">Farfantepenaeus californiensis (JUVENILES)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03801382</data>
-      <data key="v_trophic_level">2.875</data>
+      <data key="v_trophic_level">2.37499999999995</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n9">
       <data key="v_name">Flat fishes</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2283113</data>
-      <data key="v_trophic_level">2.774704</data>
+      <data key="v_trophic_level">3.78994540864574</data>
       <data key="v_id">n22</data>
     </node>
     <node id="n10">
       <data key="v_name">Haemulidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0692136</data>
-      <data key="v_trophic_level">3.00964</data>
+      <data key="v_trophic_level">3.8345618443681</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n11">
       <data key="v_name">Litopenaeus stylirostris (ADULTS)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2</data>
-      <data key="v_trophic_level">2.449073</data>
+      <data key="v_trophic_level">2.874999999999</data>
       <data key="v_id">n28</data>
     </node>
     <node id="n12">
       <data key="v_name">Litopenaeus stylirostris (JUVENILES)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1185851</data>
-      <data key="v_trophic_level">2.875</data>
+      <data key="v_trophic_level">2.37499999999995</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n13">
@@ -114,56 +114,56 @@
       <data key="v_name">Marine birds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0004</data>
-      <data key="v_trophic_level">3.954551</data>
+      <data key="v_trophic_level">4.57264391377482</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n15">
       <data key="v_name">Merluccidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.147</data>
-      <data key="v_trophic_level">3.792676</data>
+      <data key="v_trophic_level">3.97735508949572</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n16">
       <data key="v_name">Mojarras</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.317044</data>
-      <data key="v_trophic_level">2.642753</data>
+      <data key="v_trophic_level">3.45719894212086</data>
       <data key="v_id">n24</data>
     </node>
     <node id="n17">
       <data key="v_name">Myctophidos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.168568</data>
-      <data key="v_trophic_level">2.771415</data>
+      <data key="v_trophic_level">3.44748389883104</data>
       <data key="v_id">n23</data>
     </node>
     <node id="n18">
       <data key="v_name">Mysticeti</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.09</data>
-      <data key="v_trophic_level">3.547983</data>
+      <data key="v_trophic_level">3.83099838988136</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n19">
       <data key="v_name">Odontoceti</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.174</data>
-      <data key="v_trophic_level">3.926522</data>
+      <data key="v_trophic_level">4.9332587242384</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n20">
       <data key="v_name">Other fishes</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.103848</data>
-      <data key="v_trophic_level">3.019868</data>
+      <data key="v_trophic_level">4.01356699616462</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n21">
       <data key="v_name">Phocoena sinus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0015</data>
-      <data key="v_trophic_level">3.915359</data>
+      <data key="v_trophic_level">4.63561862810966</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n22">
@@ -177,77 +177,77 @@
       <data key="v_name">Polychaeta</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.070001</data>
-      <data key="v_trophic_level">2.473309</data>
+      <data key="v_trophic_level">2.874999999999</data>
       <data key="v_id">n26</data>
     </node>
     <node id="n24">
       <data key="v_name">Rhinobatidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1496445</data>
-      <data key="v_trophic_level">3.322903</data>
+      <data key="v_trophic_level">4.16688363360111</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n25">
       <data key="v_name">Sciaenidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2521041</data>
-      <data key="v_trophic_level">3.435369</data>
+      <data key="v_trophic_level">4.25024311220932</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n26">
       <data key="v_name">Serranidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0198435</data>
-      <data key="v_trophic_level">3.261678</data>
+      <data key="v_trophic_level">4.23206596809238</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n27">
       <data key="v_name">Sicyonia penicillata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02151415</data>
-      <data key="v_trophic_level">3.001323</data>
+      <data key="v_trophic_level">2.874999999999</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n28">
       <data key="v_name">Small pelagics</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.55479</data>
-      <data key="v_trophic_level">2.974868</data>
+      <data key="v_trophic_level">3.06249999999988</data>
       <data key="v_id">n18</data>
     </node>
     <node id="n29">
       <data key="v_name">Stomatopoda</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.06585095</data>
-      <data key="v_trophic_level">2.46238</data>
+      <data key="v_trophic_level">3.4469894212326</data>
       <data key="v_id">n27</data>
     </node>
     <node id="n30">
       <data key="v_name">Totoaba macdonaldi (ADULTS)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.008</data>
-      <data key="v_trophic_level">3.960968</data>
+      <data key="v_trophic_level">4.55759218881889</data>
       <data key="v_id">n3</data>
     </node>
     <node id="n31">
       <data key="v_name">Totoaba macdonaldi (JUVENILES)</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01960971</data>
-      <data key="v_trophic_level">3.824617</data>
+      <data key="v_trophic_level">4.2745965314639</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n32">
       <data key="v_name">Zalophus californianus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01417348</data>
-      <data key="v_trophic_level">3.971028</data>
+      <data key="v_trophic_level">4.89315246510133</data>
       <data key="v_id">n2</data>
     </node>
     <node id="n33">
       <data key="v_name">Zooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">28</data>
-      <data key="v_trophic_level">2.25</data>
+      <data key="v_trophic_level">2.49999999999993</data>
       <data key="v_id">n31</data>
     </node>
     <edge source="n0" target="n0">

@@ -16,63 +16,63 @@
       <data key="v_name">A.bimaculatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.8182774</data>
-      <data key="v_trophic_level">2.897395</data>
+      <data key="v_trophic_level">2.99999999994179</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n1">
       <data key="v_name">A.brasiliensis adulto</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.694169</data>
-      <data key="v_trophic_level">2.910277</data>
+      <data key="v_trophic_level">2.99999999997883</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n2">
       <data key="v_name">A.brasiliensis juvenil</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.3113571</data>
-      <data key="v_trophic_level">2.835439</data>
+      <data key="v_trophic_level">2.99999999997883</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n3">
       <data key="v_name">A. gigas 1</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.0151699</data>
-      <data key="v_trophic_level">2.760557</data>
+      <data key="v_trophic_level">2.99999999997732</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n4">
       <data key="v_name">A.gigas 2</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03477328</data>
-      <data key="v_trophic_level">3.611108</data>
+      <data key="v_trophic_level">3.74999999993849</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n5">
       <data key="v_name">A. gigas 3</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.06987671</data>
-      <data key="v_trophic_level">3.499243</data>
+      <data key="v_trophic_level">3.62857142853845</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n6">
       <data key="v_name">A. gigas 4</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.08369</data>
-      <data key="v_trophic_level">3.499243</data>
+      <data key="v_trophic_level">3.62857142853845</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n7">
       <data key="v_name">Ardea alba</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.46</data>
-      <data key="v_trophic_level">3.650722</data>
+      <data key="v_trophic_level">3.82243008309321</data>
       <data key="v_id">n1</data>
     </node>
     <node id="n8">
       <data key="v_name">Butorides Striata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02</data>
-      <data key="v_trophic_level">3.793611</data>
+      <data key="v_trophic_level">3.83659039368418</data>
       <data key="v_id">n2</data>
     </node>
     <node id="n9">
@@ -86,21 +86,21 @@
       <data key="v_name">Caracara plancus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.15</data>
-      <data key="v_trophic_level">2.751196</data>
+      <data key="v_trophic_level">2.9999999999709</data>
       <data key="v_id">n3</data>
     </node>
     <node id="n11">
       <data key="v_name">Cichla sp. adulto</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.093</data>
-      <data key="v_trophic_level">3.391018</data>
+      <data key="v_trophic_level">3.32312925167147</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n12">
       <data key="v_name">Cichla sp. juvenil</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2407057</data>
-      <data key="v_trophic_level">2.873216</data>
+      <data key="v_trophic_level">2.88888888887595</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n13">
@@ -128,21 +128,21 @@
       <data key="v_name">Egretta thula</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2</data>
-      <data key="v_trophic_level">3.667755</data>
+      <data key="v_trophic_level">3.82243008309938</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n17">
       <data key="v_name">Insecta</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">9.193174</data>
-      <data key="v_trophic_level">2.009569</data>
+      <data key="v_trophic_level">2.99999999994179</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n18">
       <data key="v_name">L.piau</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.548556</data>
-      <data key="v_trophic_level">2.557682</data>
+      <data key="v_trophic_level">2.79999999997672</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n19">
@@ -156,14 +156,14 @@
       <data key="v_name">O.niloticus adulto</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.235348</data>
-      <data key="v_trophic_level">2.529412</data>
+      <data key="v_trophic_level">2.66666666666667</data>
       <data key="v_id">n18</data>
     </node>
     <node id="n21">
       <data key="v_name">O.niloticus juvenil</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.95</data>
-      <data key="v_trophic_level">2.454344</data>
+      <data key="v_trophic_level">2.85714285712623</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n22">
@@ -177,7 +177,7 @@
       <data key="v_name">Other Birds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.73</data>
-      <data key="v_trophic_level">2.572796</data>
+      <data key="v_trophic_level">2.9999999999709</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n24">
@@ -191,21 +191,21 @@
       <data key="v_name">P.brevis</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.763806</data>
-      <data key="v_trophic_level">2.066667</data>
+      <data key="v_trophic_level">2.33333333333333</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n26">
       <data key="v_name">Pescada</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.942642</data>
-      <data key="v_trophic_level">2.901914</data>
+      <data key="v_trophic_level">2.9999999999709</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n27">
       <data key="v_name">Phalacrocorax brasilianus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.04</data>
-      <data key="v_trophic_level">3.692569</data>
+      <data key="v_trophic_level">3.85460317455503</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n28">
@@ -219,7 +219,7 @@
       <data key="v_name">Poecilia</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.135903</data>
-      <data key="v_trophic_level">2.757177</data>
+      <data key="v_trophic_level">2.99999999994179</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n30">

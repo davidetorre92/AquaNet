@@ -16,70 +16,70 @@
       <data key="v_name">Ariidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.9595986</data>
-      <data key="v_trophic_level">2.806609</data>
+      <data key="v_trophic_level">4.07460669076267</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n1">
       <data key="v_name">Aves</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02087729</data>
-      <data key="v_trophic_level">3.73989</data>
+      <data key="v_trophic_level">4.8077532474336</data>
       <data key="v_id">n1</data>
     </node>
     <node id="n2">
       <data key="v_name">Bivalvia</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">6.67976</data>
-      <data key="v_trophic_level">2.309897</data>
+      <data key="v_trophic_level">2.61111111111111</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n3">
       <data key="v_name">Carangidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.022322</data>
-      <data key="v_trophic_level">3.403592</data>
+      <data key="v_trophic_level">4.23886844513091</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n4">
       <data key="v_name">Celenterata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.7101763</data>
-      <data key="v_trophic_level">2.994719</data>
+      <data key="v_trophic_level">3.41666666666664</data>
       <data key="v_id">n22</data>
     </node>
     <node id="n5">
       <data key="v_name">Centropomidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.397695</data>
-      <data key="v_trophic_level">3.538201</data>
+      <data key="v_trophic_level">4.1973357122465</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n6">
       <data key="v_name">Cephalopoda</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.959223</data>
-      <data key="v_trophic_level">3.204233</data>
+      <data key="v_trophic_level">4.30208333333329</data>
       <data key="v_id">n23</data>
     </node>
     <node id="n7">
       <data key="v_name">Cheloniidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.8397799</data>
-      <data key="v_trophic_level">3.234123</data>
+      <data key="v_trophic_level">3.94058152089704</data>
       <data key="v_id">n17</data>
     </node>
     <node id="n8">
       <data key="v_name">Clupeidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">10.47657</data>
-      <data key="v_trophic_level">2.777645</data>
+      <data key="v_trophic_level">3.29166666666667</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n9">
       <data key="v_name">Coryphaenidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.3467533</data>
-      <data key="v_trophic_level">4.162848</data>
+      <data key="v_trophic_level">4.92784732537951</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n10">
@@ -93,7 +93,7 @@
       <data key="v_name">Echinodermata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">8.227674</data>
-      <data key="v_trophic_level">2.344494</data>
+      <data key="v_trophic_level">3.32186650861258</data>
       <data key="v_id">n26</data>
     </node>
     <node id="n12">
@@ -114,28 +114,28 @@
       <data key="v_name">Gerreidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.003794</data>
-      <data key="v_trophic_level">2.34281</data>
+      <data key="v_trophic_level">3.44474720246517</data>
       <data key="v_id">n18</data>
     </node>
     <node id="n15">
       <data key="v_name">Haemulidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.303709</data>
-      <data key="v_trophic_level">3.130336</data>
+      <data key="v_trophic_level">4.25181763057367</data>
       <data key="v_id">n3</data>
     </node>
     <node id="n16">
       <data key="v_name">Lutjanidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.6781125</data>
-      <data key="v_trophic_level">3.400946</data>
+      <data key="v_trophic_level">4.39165877861537</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n17">
       <data key="v_name">Macrocrustáceos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">6.759748</data>
-      <data key="v_trophic_level">2.004742</data>
+      <data key="v_trophic_level">2.5</data>
       <data key="v_id">n33</data>
     </node>
     <node id="n18">
@@ -149,126 +149,126 @@
       <data key="v_name">Mugilidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.028559</data>
-      <data key="v_trophic_level">2.261056</data>
+      <data key="v_trophic_level">3.11111111111111</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n20">
       <data key="v_name">Otros peces</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.826627</data>
-      <data key="v_trophic_level">2.74046</data>
+      <data key="v_trophic_level">4.23998618530524</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n21">
       <data key="v_name">Palinura</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.722979</data>
-      <data key="v_trophic_level">2.649066</data>
+      <data key="v_trophic_level">3.63775381697248</data>
       <data key="v_id">n28</data>
     </node>
     <node id="n22">
       <data key="v_name">Penaeidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.00495</data>
-      <data key="v_trophic_level">2.021527</data>
+      <data key="v_trophic_level">2.66666666666667</data>
       <data key="v_id">n31</data>
     </node>
     <node id="n23">
       <data key="v_name">Pleuronectiform</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.60086</data>
-      <data key="v_trophic_level">3.905002</data>
+      <data key="v_trophic_level">4.57495804221612</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n24">
       <data key="v_name">Polychaeta</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">6.30602</data>
-      <data key="v_trophic_level">2.006276</data>
+      <data key="v_trophic_level">2.83333333333333</data>
       <data key="v_id">n32</data>
     </node>
     <node id="n25">
       <data key="v_name">Poly./Mullidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.7183409</data>
-      <data key="v_trophic_level">3.164215</data>
+      <data key="v_trophic_level">4.17342398587674</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n26">
       <data key="v_name">Porifera</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">4.289522</data>
-      <data key="v_trophic_level">2.026118</data>
+      <data key="v_trophic_level">2.45833333333333</data>
       <data key="v_id">n27</data>
     </node>
     <node id="n27">
       <data key="v_name">Portunidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.204951</data>
-      <data key="v_trophic_level">2.395239</data>
+      <data key="v_trophic_level">3.48138716204798</data>
       <data key="v_id">n29</data>
     </node>
     <node id="n28">
       <data key="v_name">Rajiformes</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.020997</data>
-      <data key="v_trophic_level">3.052552</data>
+      <data key="v_trophic_level">4.18195896248438</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n29">
       <data key="v_name">Sciaenidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.379119</data>
-      <data key="v_trophic_level">3.597257</data>
+      <data key="v_trophic_level">4.65389182161707</data>
       <data key="v_id">n2</data>
     </node>
     <node id="n30">
       <data key="v_name">Scombridae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.380559</data>
-      <data key="v_trophic_level">4.035316</data>
+      <data key="v_trophic_level">5.15678607895167</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n31">
       <data key="v_name">Scorp./Triglida</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.5638489</data>
-      <data key="v_trophic_level">3.240165</data>
+      <data key="v_trophic_level">4.36899465018867</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n32">
       <data key="v_name">Serranidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.793539</data>
-      <data key="v_trophic_level">3.595561</data>
+      <data key="v_trophic_level">4.3935452821359</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n33">
       <data key="v_name">Stomatopoda</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.8140599</data>
-      <data key="v_trophic_level">2.052115</data>
+      <data key="v_trophic_level">4.14064838258158</data>
       <data key="v_id">n30</data>
     </node>
     <node id="n34">
       <data key="v_name">Synodontidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.5608707</data>
-      <data key="v_trophic_level">4.096183</data>
+      <data key="v_trophic_level">4.73739043500266</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n35">
       <data key="v_name">Tetraodontidae</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.7257744</data>
-      <data key="v_trophic_level">2.969226</data>
+      <data key="v_trophic_level">3.45659722222221</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n36">
       <data key="v_name">Zooplancton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">25.397</data>
-      <data key="v_trophic_level">2.089942</data>
+      <data key="v_trophic_level">2.83333333333333</data>
       <data key="v_id">n34</data>
     </node>
     <edge source="n0" target="n0">

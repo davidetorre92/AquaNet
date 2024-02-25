@@ -12,6 +12,34 @@ To install the necessary packages for AquaNet, make sure you have Python install
 pip install -r requirements.txt
 ```
 
+## Dataset content
+
+Each graph in the dataset represents a food web, detailing the feeding interactions between different compartments within an ecological system. These interactions are representated as a *directed edge* between two nodes. In particular the interaction A->B corresponds to a flow of biomass from A to B (e.g. A is eaten by B).
+The graphs are structured using .graphml format, making them compatible with graph analysis tools such as the Python library igraph. Below is an explanation of the attributes found at the graph, node, and edge levels.
+
+### Graph Level Attributes:
+- **name**: This attribute represents the name of the food web, which typically includes the geographical location and the year of the study when available (e.g., "Yucatan (1987)"). It provides context and identification for the ecological network being represented.
+- **Author**: When available, indicates the primary researcher(s) or the author(s) of the study from which the food web data was derived.
+- **Citation**: When available, provides the formal citation for the study or publication that presented the food web. This enables users of the dataset to reference the original work accurately in their own publications or research.
+Regardless this attribute, for each graph we've added the whole bibliograph for this dataset in the Supplementary Materials.
+- **URL**: When available, offers a direct link additional to the resource.
+
+### Node (Vertex) Level Attributes:
+- **ECO**: Stands for the ecological type of the node. It differentiates between living beings (1) and nonliving organic deposit (2) like detritus, debris, Particulate Organic Carbon (POC), Dissolved Organic Carbon (DOC), etc.
+- **id**: A unique identifier for each node within the graph.
+- **name**: The name of the node, which could be the species name, a group of species, or nonliving organic deposit components within the ecological system. This attribute provides a descriptive label for easier identification and analysis.
+- **trophic_level**: Represents the trophic level of the node within the food web, indicating the node's position in the ecosystem's food chain. Trophic levels range from primary producers at the base (trophic level 1), through various levels of consumers, to apex predators at the top. Decomposers and detritivores are also included in this spectrum, typically occupying specific trophic levels based on their feeding behavior.
+The trophic level ($TL_i$) of node $i$ is calculated using the formula:
+
+$TL_i = 1 + 1 / k_{i} \sum_j A_{ij} TL_j$
+
+Here, $k_{i}$ represents the in-degree of node $i$, which is the number of different species (or nodes) that node $i$ feeds upon. $A_{ij}$ is the binary interaction matrix, where $A_{ij} = 1$ if biomass flows from node $i$ to node $j$ (indicating a feeding relationship), and 0 otherwise. According to this model, primary producers (organisms that do not consume others for biomass, such as plants and algae) and nonliving organic deposits are assigned a trophic level ($TL$) of 1, reflecting their foundational role in the food web as sources of energy and matter.
+
+**Biomass**: When available, represents the biomass of the node, quantified in milligrams of a specified medium (commonly carbon) per unit of surface area (typically square meters). This measure reflects the content of the biomass within a defined area of the ecosystem, offering insights into the ecosystem's productivity and the role of different nodes within the carbon cycling dynamics.
+  
+### Edge Level Attributes:
+**weight**: When available, it indicates the flow of biomass between compartments. We discarded this attribute because it is not always available in all food webs.
+
 ## Usage
 
 ### Configuration
