@@ -36,6 +36,19 @@ def min_index(nodes, f_G_del, all=False):
   else: selected_node_s = experiment[0][0]
   return selected_node_s
 
+def min_index_attr(nodes, f_G_del, attr = 'trophic_level', all=False):
+  """
+  This function sorts the nodes according to the measure f_G_del made upon the strategy
+  and the indices of the vertex, so that if more than one vertex has the same f_G_del, then one with
+  the least index is selected.
+  """
+  experiment = zip(nodes, f_G_del)
+  experiment = sorted(experiment, key = lambda x: x[0][attr])
+  experiment = sorted(experiment, key = lambda x: x[1])
+  if all: selected_node_s = [el[0] for el in experiment]
+  else: selected_node_s = experiment[0][0]
+  return selected_node_s
+
 def node_removal_strategy(G,
                           measure_v = lambda G, v: greedy_G_v(G, v),
                           vertices_collecting_function = lambda G: [v for v in G.vs() if v['ECO'] == 1],
@@ -96,19 +109,9 @@ def get_reachable_pairs_change(G, list_of_removed_nodes):
     r_p_G = n_reachable_pairs(G_temp)
     rows_G.append((node_fraction, graph_name, vertex, r_p_G, r_p_G / total_pairs))
 
-  return pd.DataFrame(rows_G, columns=['node_fraction', 'graph_name', 'node_removed', 'n_reachable_pairs', 'percentage_reachable_pairs'])
+  return pd.DataFrame(rows_G, columns=['Edge-Removed Nodes Fraction', 'Network', 'Node name', 'N reachable pairs', 'Fraction of reachable pairs'])
 
 def robustness_function_reachable_pairs(df_node_removal_G):
-  values = df_node_removal_G['percentage_reachable_pairs'].to_numpy()
+  values = df_node_removal_G['Fraction of reachable pairs'].to_numpy()
   N = df_node_removal_G.shape[0]
-  return np.sum(values) / N
-
-def robustness_function(df_node_removal_G):
-  values = df_node_removal_G['f_G / f_G_max'].to_numpy()
-  N = df_node_removal_G.index[-1]
-  return np.sum(values) / N
-
-def robustness_function_new(df_node_removal_G):
-  values = df_node_removal_G['f_G / f_G_fully'].to_numpy()
-  N = df_node_removal_G.shape[0] - 1
   return np.sum(values) / N
