@@ -35,5 +35,5 @@ for graph_index, G in enumerate(G_dataset):
     progression_bar(graph_index +1, dataset_len)
 
 print()
-df_swap_tc = pd.DataFrame(rows_tc_G_swap, columns = ['id', 'graph_name'] + [motif for motif in motifs_dict])
+df_swap_tc = pd.DataFrame(rows_tc_G_swap, columns = ['Random network ID', 'Network'] + [motif for motif in motifs_dict])
 save_df_to_pickle(df_swap_tc, df_triad_count_swap_path)

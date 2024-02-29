@@ -29,8 +29,7 @@ for G in G_dataset:
   S = G.vcount()
   L = G.ecount()
 
-  rows.append((G['name'], S, L, S / (L*L), basal / S, det / S, G.transitivity_avglocal_undirected()))
+  rows.append((G['name'], S, L, S / (L*L), basal / S, det / S))
 
-eda_df = pd.DataFrame(rows, columns = ['Graph name', 'S', 'L', 'C', 'B/N', 'det/N', 'clustering'])
-
+eda_df = pd.DataFrame(rows, columns = ['Network', 'S', 'L', 'C', 'B/N', 'det/N'])
 save_df_to_pickle(eda_df, eda_df_path)

@@ -40,5 +40,5 @@ for graph_index, G in enumerate(G_dataset):
     progression_bar(graph_index +1, dataset_len)
 
 print()
-df_triad_count = pd.DataFrame(rows, columns = ['graph_name'] + [key for key in motifs_dict])
+df_triad_count = pd.DataFrame(rows, columns = ['Network'] + [key for key in motifs_dict])
 save_df_to_pickle(df_triad_count, df_triad_count_path)
