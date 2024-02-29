@@ -68,7 +68,7 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.348</data>
       <data key="v_id">n6</data>
-      <data key="v_trophic_level">2.99999999994179</data>
+      <data key="v_trophic_level">2.11111114496807</data>
     </node>
     <node id="n7">
       <data key="v_name">Hydrobia ulvae</data>
@@ -173,21 +173,21 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.052</data>
       <data key="v_id">n21</data>
-      <data key="v_trophic_level">3.29072596014587</data>
+      <data key="v_trophic_level">2.80914188564447</data>
     </node>
     <node id="n22">
       <data key="v_name">Other predatory inve</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.3546</data>
       <data key="v_id">n22</data>
-      <data key="v_trophic_level">3.24929092473307</data>
+      <data key="v_trophic_level">2.94657061353466</data>
     </node>
     <node id="n23">
       <data key="v_name">Idotea chelipes</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.04</data>
       <data key="v_id">n23</data>
-      <data key="v_trophic_level">2.62492909247331</data>
+      <data key="v_trophic_level">2.02309374301339</data>
     </node>
     <node id="n24">
       <data key="v_name">Sphaeroma hookeri</data>
@@ -201,119 +201,119 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.86575</data>
       <data key="v_id">n25</data>
-      <data key="v_trophic_level">2.90909090909091</data>
+      <data key="v_trophic_level">2.49971401775049</data>
     </node>
     <node id="n26">
       <data key="v_name">Carcinus maenas</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.08978</data>
       <data key="v_id">n26</data>
-      <data key="v_trophic_level">3.40474083743722</data>
+      <data key="v_trophic_level">2.72456322005598</data>
     </node>
     <node id="n27">
       <data key="v_name">Crangon crangon</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.1322</data>
       <data key="v_id">n27</data>
-      <data key="v_trophic_level">3.28775807136784</data>
+      <data key="v_trophic_level">2.82371908266866</data>
     </node>
     <node id="n28">
       <data key="v_name">Lumbrineris impatien</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.13</data>
       <data key="v_id">n28</data>
-      <data key="v_trophic_level">3.0546387510754</data>
+      <data key="v_trophic_level">2.09176721790415</data>
     </node>
     <node id="n29">
       <data key="v_name">Diopatra neapolitana</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.01929</data>
       <data key="v_id">n29</data>
-      <data key="v_trophic_level">2.85714285714286</data>
+      <data key="v_trophic_level">2.2000028623405</data>
     </node>
     <node id="n30">
       <data key="v_name">Microalgae and detri</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1.6848</data>
       <data key="v_id">n30</data>
-      <data key="v_trophic_level">2.66666666662786</data>
+      <data key="v_trophic_level">2.11111111449581</data>
     </node>
     <node id="n31">
       <data key="v_name">Zooplankton consumer</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.3351</data>
       <data key="v_id">n31</data>
-      <data key="v_trophic_level">3.99999999988358</data>
+      <data key="v_trophic_level">3.11111114495807</data>
     </node>
     <node id="n32">
       <data key="v_name">Endofauna consumers</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.06</data>
       <data key="v_id">n32</data>
-      <data key="v_trophic_level">3.44101599736059</data>
+      <data key="v_trophic_level">3.31745583303435</data>
     </node>
     <node id="n33">
       <data key="v_name">Macrofauna predators</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.314</data>
       <data key="v_id">n33</data>
-      <data key="v_trophic_level">3.69290946556445</data>
+      <data key="v_trophic_level">3.44702829264444</data>
     </node>
     <node id="n34">
       <data key="v_name">Trigla lucerna</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.02</data>
       <data key="v_id">n34</data>
-      <data key="v_trophic_level">3.76980493590302</data>
+      <data key="v_trophic_level">3.77107103517526</data>
     </node>
     <node id="n35">
       <data key="v_name">Pomatoschistus minut</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.030517</data>
       <data key="v_id">n35</data>
-      <data key="v_trophic_level">3.76693163629009</data>
+      <data key="v_trophic_level">3.1334424031939</data>
     </node>
     <node id="n36">
       <data key="v_name">Larus ridibundus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.006</data>
       <data key="v_id">n36</data>
-      <data key="v_trophic_level">3.69647294269035</data>
+      <data key="v_trophic_level">3.04410608498706</data>
     </node>
     <node id="n37">
       <data key="v_name">Larus fuscus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.005</data>
       <data key="v_id">n37</data>
-      <data key="v_trophic_level">3.1011852093539</data>
+      <data key="v_trophic_level">3.52982597256489</data>
     </node>
     <node id="n38">
       <data key="v_name">Kentish Plover</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
       <data key="v_id">n38</data>
-      <data key="v_trophic_level">3.48325930282884</data>
+      <data key="v_trophic_level">3.10285081618259</data>
     </node>
     <node id="n39">
       <data key="v_name">Ringed Plover</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
       <data key="v_id">n39</data>
-      <data key="v_trophic_level">3.3753122120871</data>
+      <data key="v_trophic_level">3.17504037962215</data>
     </node>
     <node id="n40">
       <data key="v_name">Grey Plover</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
       <data key="v_id">n40</data>
-      <data key="v_trophic_level">3.56850456400592</data>
+      <data key="v_trophic_level">3.13451401043407</data>
     </node>
     <node id="n41">
       <data key="v_name">Dunlin</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
       <data key="v_id">n41</data>
-      <data key="v_trophic_level">3.52043309535413</data>
+      <data key="v_trophic_level">3.14746514521675</data>
     </node>
     <node id="n42">
       <data key="v_name">Detritus</data>

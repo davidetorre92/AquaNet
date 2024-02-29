@@ -61,42 +61,42 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">66</data>
       <data key="v_id">n5</data>
-      <data key="v_trophic_level">2.75</data>
+      <data key="v_trophic_level">2.6</data>
     </node>
     <node id="n6">
       <data key="v_name">Rotifers</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">14</data>
       <data key="v_id">n6</data>
-      <data key="v_trophic_level">2.9375</data>
+      <data key="v_trophic_level">2.26</data>
     </node>
     <node id="n7">
       <data key="v_name">Meroplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.2</data>
       <data key="v_id">n7</data>
-      <data key="v_trophic_level">2.7375</data>
+      <data key="v_trophic_level">2.57248362343253</data>
     </node>
     <node id="n8">
       <data key="v_name">Mesozooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">282</data>
       <data key="v_id">n8</data>
-      <data key="v_trophic_level">2.93749999999681</data>
+      <data key="v_trophic_level">2.61474424926779</data>
     </node>
     <node id="n9">
       <data key="v_name">Ctenophores</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">17</data>
       <data key="v_id">n9</data>
-      <data key="v_trophic_level">4.04916666665263</data>
+      <data key="v_trophic_level">3.63289533157544</data>
     </node>
     <node id="n10">
       <data key="v_name">Chrysaora</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.001</data>
       <data key="v_id">n10</data>
-      <data key="v_trophic_level">5.04916666658244</data>
+      <data key="v_trophic_level">4.63289533157276</data>
     </node>
     <node id="n11">
       <data key="v_name">Microphytobenthos</data>
@@ -124,112 +124,112 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">700</data>
       <data key="v_id">n14</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.1</data>
     </node>
     <node id="n15">
       <data key="v_name">Deposit Feeding Benthos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2368</data>
       <data key="v_id">n15</data>
-      <data key="v_trophic_level">2.58333333333333</data>
+      <data key="v_trophic_level">2.325</data>
     </node>
     <node id="n16">
       <data key="v_name">Suspension Feeding Benthos</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">27232</data>
       <data key="v_id">n16</data>
-      <data key="v_trophic_level">2.25</data>
+      <data key="v_trophic_level">2.01999978543426</data>
     </node>
     <node id="n17">
       <data key="v_name">Blue Crab</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">610</data>
       <data key="v_id">n18</data>
-      <data key="v_trophic_level">3.32783333332874</data>
+      <data key="v_trophic_level">3.1106584680991</data>
     </node>
     <node id="n18">
       <data key="v_name">Menhaden</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2136</data>
       <data key="v_id">n19</data>
-      <data key="v_trophic_level">2.64583333332695</data>
+      <data key="v_trophic_level">2.08073721246339</data>
     </node>
     <node id="n19">
       <data key="v_name">Bay anchovy</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">287</data>
       <data key="v_id">n20</data>
-      <data key="v_trophic_level">3.47249999999617</data>
+      <data key="v_trophic_level">3.56158596838699</data>
     </node>
     <node id="n20">
       <data key="v_name">Herrings and Shads</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">212</data>
       <data key="v_id">n21</data>
-      <data key="v_trophic_level">3.47249999999617</data>
+      <data key="v_trophic_level">3.56160207070244</data>
     </node>
     <node id="n21">
       <data key="v_name">White Perch</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">282</data>
       <data key="v_id">n22</data>
-      <data key="v_trophic_level">3.42944444443743</data>
+      <data key="v_trophic_level">3.40247142033214</data>
     </node>
     <node id="n22">
       <data key="v_name">Spot</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">195</data>
       <data key="v_id">n23</data>
-      <data key="v_trophic_level">3.04166666666667</data>
+      <data key="v_trophic_level">3.0479999141737</data>
     </node>
     <node id="n23">
       <data key="v_name">Croaker</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">50</data>
       <data key="v_id">n24</data>
-      <data key="v_trophic_level">3.04166666666667</data>
+      <data key="v_trophic_level">3.0479999141737</data>
     </node>
     <node id="n24">
       <data key="v_name">Hogchoker</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">100</data>
       <data key="v_id">n25</data>
-      <data key="v_trophic_level">2.94444444444444</data>
+      <data key="v_trophic_level">3.03999989271713</data>
     </node>
     <node id="n25">
       <data key="v_name">American Eel</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">35</data>
       <data key="v_id">n26</data>
-      <data key="v_trophic_level">3.41666666666667</data>
+      <data key="v_trophic_level">3.17249989271713</data>
     </node>
     <node id="n26">
       <data key="v_name">Catfish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">450</data>
       <data key="v_id">n27</data>
-      <data key="v_trophic_level">3.24083333332568</data>
+      <data key="v_trophic_level">3.22683742385829</data>
     </node>
     <node id="n27">
       <data key="v_name">Striped Bass</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">172</data>
       <data key="v_id">n28</data>
-      <data key="v_trophic_level">4.01861728393352</data>
+      <data key="v_trophic_level">3.61882375740857</data>
     </node>
     <node id="n28">
       <data key="v_name">Bluefish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">68</data>
       <data key="v_id">n29</data>
-      <data key="v_trophic_level">4.13483333331649</data>
+      <data key="v_trophic_level">4.13690104084617</data>
     </node>
     <node id="n29">
       <data key="v_name">Weakfish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">67</data>
       <data key="v_id">n30</data>
-      <data key="v_trophic_level">3.97996527776199</data>
+      <data key="v_trophic_level">3.99149403598941</data>
     </node>
     <node id="n30">
       <data key="v_name">DOC</data>

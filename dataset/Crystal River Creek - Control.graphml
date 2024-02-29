@@ -61,7 +61,7 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">40</data>
       <data key="v_id">n5</data>
-      <data key="v_trophic_level">3.59583333333333</data>
+      <data key="v_trophic_level">3.84508340220287</data>
     </node>
     <node id="n6">
       <data key="v_name">striped anchovy</data>
@@ -75,35 +75,35 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">15</data>
       <data key="v_id">n7</data>
-      <data key="v_trophic_level">2.66666666666667</data>
+      <data key="v_trophic_level">2.81592039800995</data>
     </node>
     <node id="n8">
       <data key="v_name">needlefish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">46</data>
       <data key="v_id">n8</data>
-      <data key="v_trophic_level">3.66319444439653</data>
+      <data key="v_trophic_level">3.82310635420461</data>
     </node>
     <node id="n9">
       <data key="v_name">sheepshead killifish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">16</data>
       <data key="v_id">n9</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.10869565217391</data>
     </node>
     <node id="n10">
       <data key="v_name">goldspotted killifish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">27</data>
       <data key="v_id">n10</data>
-      <data key="v_trophic_level">2.5</data>
+      <data key="v_trophic_level">2.44623655913978</data>
     </node>
     <node id="n11">
       <data key="v_name">gulf killifish</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">156</data>
       <data key="v_id">n11</data>
-      <data key="v_trophic_level">3.47916666666667</data>
+      <data key="v_trophic_level">3.5130979778236</data>
     </node>
     <node id="n12">
       <data key="v_name">longnosed killifish</data>
@@ -117,21 +117,21 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">246</data>
       <data key="v_id">n13</data>
-      <data key="v_trophic_level">2.66666666666667</data>
+      <data key="v_trophic_level">2.93709468223087</data>
     </node>
     <node id="n14">
       <data key="v_name">moharra</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">82</data>
       <data key="v_id">n14</data>
-      <data key="v_trophic_level">2.66666666666667</data>
+      <data key="v_trophic_level">2.859375</data>
     </node>
     <node id="n15">
       <data key="v_name">silver jenny</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2</data>
       <data key="v_id">n15</data>
-      <data key="v_trophic_level">2.66666666666667</data>
+      <data key="v_trophic_level">2.84615384615385</data>
     </node>
     <node id="n16">
       <data key="v_name">sheepshead</data>
@@ -145,7 +145,7 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">54</data>
       <data key="v_id">n17</data>
-      <data key="v_trophic_level">3.6423611110647</data>
+      <data key="v_trophic_level">3.61894447009921</data>
     </node>
     <node id="n18">
       <data key="v_name">mullet</data>
@@ -159,7 +159,7 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2</data>
       <data key="v_id">n19</data>
-      <data key="v_trophic_level">3.91059027769393</data>
+      <data key="v_trophic_level">4.07276032460579</data>
     </node>
     <node id="n20">
       <data key="v_name">detritus</data>

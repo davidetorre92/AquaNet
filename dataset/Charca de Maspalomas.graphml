@@ -75,21 +75,21 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n7</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.03446067541236</data>
     </node>
     <node id="n8">
       <data key="v_name">Mesozooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n8</data>
-      <data key="v_trophic_level">2.44444444444444</data>
+      <data key="v_trophic_level">2.46732629010385</data>
     </node>
     <node id="n9">
       <data key="v_name">Macrozooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n9</data>
-      <data key="v_trophic_level">2.72222222222222</data>
+      <data key="v_trophic_level">3.28220118200947</data>
     </node>
     <node id="n10">
       <data key="v_name">Benthic Microfauna</data>
@@ -103,28 +103,28 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n11</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.02527669476853</data>
     </node>
     <node id="n12">
       <data key="v_name">Benthic Deposit Feeders</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n12</data>
-      <data key="v_trophic_level">2.5</data>
+      <data key="v_trophic_level">2.11504415254557</data>
     </node>
     <node id="n13">
       <data key="v_name">Benthic Invertebrate Car.</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n13</data>
-      <data key="v_trophic_level">3.5</data>
+      <data key="v_trophic_level">3.11504415254557</data>
     </node>
     <node id="n14">
       <data key="v_name">Liza Aurata</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n14</data>
-      <data key="v_trophic_level">2.3</data>
+      <data key="v_trophic_level">2.18584069209093</data>
     </node>
     <node id="n15">
       <data key="v_name">Gallinula chloropus</data>
@@ -138,14 +138,14 @@
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n16</data>
-      <data key="v_trophic_level">3.73827160493827</data>
+      <data key="v_trophic_level">3.67560142932728</data>
     </node>
     <node id="n17">
       <data key="v_name">Dicentratus punctatus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">1</data>
       <data key="v_id">n17</data>
-      <data key="v_trophic_level">3.07407407407407</data>
+      <data key="v_trophic_level">3.26831850157521</data>
     </node>
     <node id="n18">
       <data key="v_name">DOC</data>

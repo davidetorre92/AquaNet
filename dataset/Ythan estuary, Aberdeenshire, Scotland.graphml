@@ -325,7 +325,7 @@
       <data key="v_Biomass">-1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n38</data>
-      <data key="v_trophic_level">2.76948729853669</data>
+      <data key="v_trophic_level">3.65423094780504</data>
     </node>
     <node id="n39">
       <data key="v_name">Echinorynchus gadi</data>
@@ -517,7 +517,7 @@
       <data key="v_Biomass">-1</data>
       <data key="v_bowtie">LSCC</data>
       <data key="v_id">n62</data>
-      <data key="v_trophic_level">3.26313379125002</data>
+      <data key="v_trophic_level">3.26313379125003</data>
     </node>
     <node id="n63">
       <data key="v_name">Great black-backed gull Larus marinus</data>

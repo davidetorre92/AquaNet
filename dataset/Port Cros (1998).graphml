@@ -10,62 +10,63 @@
   <key id="v_Biomass" for="node" attr.name="Biomass" attr.type="double"/>
   <key id="v_trophic_level" for="node" attr.name="trophic_level" attr.type="double"/>
   <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="e_proportion" for="edge" attr.name="proportion" attr.type="double"/>
   <graph id="G" edgedefault="directed">
     <data key="g_name">Port Cros (1998)</data>
     <node id="n0">
       <data key="v_name">Amberjack and dentex +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.55</data>
-      <data key="v_trophic_level">4.32882181483779</data>
+      <data key="v_trophic_level">4.08403</data>
       <data key="v_id">n4</data>
     </node>
     <node id="n1">
       <data key="v_name">Amphipods</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">21.78901</data>
-      <data key="v_trophic_level">2.59365079365033</data>
+      <data key="v_trophic_level">2.235598</data>
       <data key="v_id">n32</data>
     </node>
     <node id="n2">
       <data key="v_name">Bivalves</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.79</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.104</data>
       <data key="v_id">n22</data>
     </node>
     <node id="n3">
       <data key="v_name">Blennies +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.149</data>
-      <data key="v_trophic_level">3.51426640434847</data>
+      <data key="v_trophic_level">3.321807</data>
       <data key="v_id">n12</data>
     </node>
     <node id="n4">
       <data key="v_name">Brittle stars +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.693229</data>
-      <data key="v_trophic_level">3.0245238095224</data>
+      <data key="v_trophic_level">2.04739</data>
       <data key="v_id">n25</data>
     </node>
     <node id="n5">
       <data key="v_name">Cephalopods</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3</data>
-      <data key="v_trophic_level">3.99047501827557</data>
+      <data key="v_trophic_level">3.599493</data>
       <data key="v_id">n9</data>
     </node>
     <node id="n6">
       <data key="v_name">Crabs</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.608</data>
-      <data key="v_trophic_level">3.30988479758472</data>
+      <data key="v_trophic_level">2.629382</data>
       <data key="v_id">n18</data>
     </node>
     <node id="n7">
       <data key="v_name">Decapods</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">13.36496</data>
-      <data key="v_trophic_level">3.29542389565338</data>
+      <data key="v_trophic_level">2.672495</data>
       <data key="v_id">n19</data>
     </node>
     <node id="n8">
@@ -86,28 +87,28 @@
       <data key="v_name">Diplodus +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">3.628</data>
-      <data key="v_trophic_level">3.57887088110624</data>
+      <data key="v_trophic_level">3.07972</data>
       <data key="v_id">n16</data>
     </node>
     <node id="n11">
       <data key="v_name">Dusky grouper - large</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">4.320999</data>
-      <data key="v_trophic_level">4.4548831836061</data>
+      <data key="v_trophic_level">4.370918</data>
       <data key="v_id">n3</data>
     </node>
     <node id="n12">
       <data key="v_name">Dusky grouper - medium</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.4266972</data>
-      <data key="v_trophic_level">4.4548831836061</data>
+      <data key="v_trophic_level">4.248505</data>
       <data key="v_id">n1</data>
     </node>
     <node id="n13">
       <data key="v_name">Dusky grouper - small</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.2460881</data>
-      <data key="v_trophic_level">4.3470678246039</data>
+      <data key="v_trophic_level">3.979423</data>
       <data key="v_id">n7</data>
     </node>
     <node id="n14">
@@ -121,56 +122,56 @@
       <data key="v_name">Gastropods</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">17.88587</data>
-      <data key="v_trophic_level">3.15917731019734</data>
+      <data key="v_trophic_level">2.241902</data>
       <data key="v_id">n23</data>
     </node>
     <node id="n16">
       <data key="v_name">Gobies</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.426</data>
-      <data key="v_trophic_level">3.55661181203275</data>
+      <data key="v_trophic_level">3.333026</data>
       <data key="v_id">n14</data>
     </node>
     <node id="n17">
       <data key="v_name">Gorgonians</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">40.556</data>
-      <data key="v_trophic_level">3.02777777777677</data>
+      <data key="v_trophic_level">2.231886</data>
       <data key="v_id">n28</data>
     </node>
     <node id="n18">
       <data key="v_name">Horse mackerels and sand smelts +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">20</data>
-      <data key="v_trophic_level">3.67139212613823</data>
+      <data key="v_trophic_level">3.537812</data>
       <data key="v_id">n15</data>
     </node>
     <node id="n19">
       <data key="v_name">Large-scaled scorpionfish +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.491</data>
-      <data key="v_trophic_level">3.78358147034575</data>
+      <data key="v_trophic_level">4.20878</data>
       <data key="v_id">n5</data>
     </node>
     <node id="n20">
       <data key="v_name">Large zooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">2.181845</data>
-      <data key="v_trophic_level">2.77777777777677</data>
+      <data key="v_trophic_level">3.037715</data>
       <data key="v_id">n21</data>
     </node>
     <node id="n21">
       <data key="v_name">Mullets</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">4.502</data>
-      <data key="v_trophic_level">2.44444444444444</data>
+      <data key="v_trophic_level">2.2684</data>
       <data key="v_id">n27</data>
     </node>
     <node id="n22">
       <data key="v_name">Pagellus</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.6540596</data>
-      <data key="v_trophic_level">3.93518408081222</data>
+      <data key="v_trophic_level">3.655258</data>
       <data key="v_id">n11</data>
     </node>
     <node id="n23">
@@ -184,7 +185,7 @@
       <data key="v_name">Pipefishes +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.021</data>
-      <data key="v_trophic_level">3.55064822504866</data>
+      <data key="v_trophic_level">3.410283</data>
       <data key="v_id">n13</data>
     </node>
     <node id="n25">
@@ -198,7 +199,7 @@
       <data key="v_name">Rays</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.03266332</data>
-      <data key="v_trophic_level">4.39852850998994</data>
+      <data key="v_trophic_level">4.375191</data>
       <data key="v_id">n2</data>
     </node>
     <node id="n27">
@@ -219,42 +220,42 @@
       <data key="v_name">Scorpionfishes and combers +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">4.293</data>
-      <data key="v_trophic_level">3.75357569765261</data>
+      <data key="v_trophic_level">3.793088</data>
       <data key="v_id">n6</data>
     </node>
     <node id="n30">
       <data key="v_name">Seabirds</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.29</data>
-      <data key="v_trophic_level">4.2071334527516</data>
+      <data key="v_trophic_level">4.086868</data>
       <data key="v_id">n8</data>
     </node>
     <node id="n31">
       <data key="v_name">Sea cucumbers</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">76.255</data>
-      <data key="v_trophic_level">2.5</data>
+      <data key="v_trophic_level">2.05</data>
       <data key="v_id">n33</data>
     </node>
     <node id="n32">
       <data key="v_name">Sea stars</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.7</data>
-      <data key="v_trophic_level">3.45484509795317</data>
+      <data key="v_trophic_level">2.713307</data>
       <data key="v_id">n20</data>
     </node>
     <node id="n33">
       <data key="v_name">Sea urchins</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">38.195</data>
-      <data key="v_trophic_level">2.76276190476022</data>
+      <data key="v_trophic_level">2.156345</data>
       <data key="v_id">n31</data>
     </node>
     <node id="n34">
       <data key="v_name">Sea worms</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">27.59083</data>
-      <data key="v_trophic_level">2.991587301586</data>
+      <data key="v_trophic_level">2.328818</data>
       <data key="v_id">n26</data>
     </node>
     <node id="n35">
@@ -268,748 +269,1104 @@
       <data key="v_name">Small crustaceans</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">31.05</data>
-      <data key="v_trophic_level">2.38888888888889</data>
+      <data key="v_trophic_level">2.1428</data>
       <data key="v_id">n29</data>
     </node>
     <node id="n37">
       <data key="v_name">Small zooplankton</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">9.628679</data>
-      <data key="v_trophic_level">2.33333333333333</data>
+      <data key="v_trophic_level">2.1</data>
       <data key="v_id">n30</data>
     </node>
     <node id="n38">
       <data key="v_name">Stripped red mulet +</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">0.235</data>
-      <data key="v_trophic_level">3.87825558726279</data>
+      <data key="v_trophic_level">3.645248</data>
       <data key="v_id">n10</data>
     </node>
     <node id="n39">
       <data key="v_name">Suspensivores</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">24.82554</data>
-      <data key="v_trophic_level">2.82222222222141</data>
+      <data key="v_trophic_level">2.279915</data>
       <data key="v_id">n24</data>
     </node>
     <node id="n40">
       <data key="v_name">Wrasses</data>
       <data key="v_ECO">1</data>
       <data key="v_Biomass">5.039</data>
-      <data key="v_trophic_level">3.61144002416833</data>
+      <data key="v_trophic_level">2.956355</data>
       <data key="v_id">n17</data>
     </node>
     <edge source="n0" target="n0">
+      <data key="e_proportion">0.00200000033</data>
     </edge>
     <edge source="n1" target="n0">
+      <data key="e_proportion">0.0150000015</data>
     </edge>
     <edge source="n2" target="n0">
+      <data key="e_proportion">0.0100000007</data>
     </edge>
     <edge source="n5" target="n0">
+      <data key="e_proportion">0.120000012</data>
     </edge>
     <edge source="n6" target="n0">
+      <data key="e_proportion">0.0170000028</data>
     </edge>
     <edge source="n7" target="n0">
+      <data key="e_proportion">0.0650000051</data>
     </edge>
     <edge source="n0" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n10" target="n0">
+      <data key="e_proportion">0.0350000039</data>
     </edge>
     <edge source="n12" target="n0">
+      <data key="e_proportion">0.0100000007</data>
     </edge>
     <edge source="n13" target="n0">
+      <data key="e_proportion">0.0110000009</data>
     </edge>
     <edge source="n15" target="n0">
+      <data key="e_proportion">0.0150000015</data>
     </edge>
     <edge source="n16" target="n0">
+      <data key="e_proportion">0.0170000028</data>
     </edge>
     <edge source="n18" target="n0">
+      <data key="e_proportion">0.246000037</data>
     </edge>
     <edge source="n20" target="n0">
+      <data key="e_proportion">0.0200000014</data>
     </edge>
     <edge source="n21" target="n0">
+      <data key="e_proportion">0.00200000033</data>
     </edge>
     <edge source="n22" target="n0">
+      <data key="e_proportion">0.0180000011</data>
     </edge>
     <edge source="n29" target="n0">
+      <data key="e_proportion">0.0350000039</data>
     </edge>
     <edge source="n31" target="n0">
+      <data key="e_proportion">0.0200000014</data>
     </edge>
     <edge source="n34" target="n0">
+      <data key="e_proportion">0.0300000031</data>
     </edge>
     <edge source="n36" target="n0">
+      <data key="e_proportion">0.0650000051</data>
     </edge>
     <edge source="n37" target="n0">
+      <data key="e_proportion">0.0400000028</data>
     </edge>
     <edge source="n38" target="n0">
+      <data key="e_proportion">0.00400000066</data>
     </edge>
     <edge source="n40" target="n0">
+      <data key="e_proportion">0.173000008</data>
     </edge>
     <edge source="n8" target="n1">
+      <data key="e_proportion">0.025</data>
     </edge>
     <edge source="n9" target="n1">
+      <data key="e_proportion">0.43</data>
     </edge>
     <edge source="n1" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n1">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n25" target="n1">
+      <data key="e_proportion">0.275</data>
     </edge>
     <edge source="n35" target="n1">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n37" target="n1">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n39" target="n1">
+      <data key="e_proportion">0.02</data>
     </edge>
     <edge source="n9" target="n2">
+      <data key="e_proportion">0.467</data>
     </edge>
     <edge source="n2" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n2">
+      <data key="e_proportion">0.104</data>
     </edge>
     <edge source="n23" target="n2">
+      <data key="e_proportion">0.429</data>
     </edge>
     <edge source="n1" target="n3">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n6" target="n3">
+      <data key="e_proportion">0.469</data>
     </edge>
     <edge source="n7" target="n3">
+      <data key="e_proportion">0.098</data>
     </edge>
     <edge source="n9" target="n3">
+      <data key="e_proportion">0.076</data>
     </edge>
     <edge source="n3" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n15" target="n3">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n33" target="n3">
+      <data key="e_proportion">0.04</data>
     </edge>
     <edge source="n34" target="n3">
+      <data key="e_proportion">0.062</data>
     </edge>
     <edge source="n35" target="n3">
+      <data key="e_proportion">0.043</data>
     </edge>
     <edge source="n36" target="n3">
+      <data key="e_proportion">0.032</data>
     </edge>
     <edge source="n37" target="n3">
+      <data key="e_proportion">0.009</data>
     </edge>
     <edge source="n39" target="n3">
+      <data key="e_proportion">0.165</data>
     </edge>
     <edge source="n2" target="n4">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n9" target="n4">
+      <data key="e_proportion">0.893</data>
     </edge>
     <edge source="n4" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n4">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n34" target="n4">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n35" target="n4">
+      <data key="e_proportion">0.069</data>
     </edge>
     <edge source="n39" target="n4">
+      <data key="e_proportion">0.032</data>
     </edge>
     <edge source="n2" target="n5">
+      <data key="e_proportion">0.032</data>
     </edge>
     <edge source="n5" target="n5">
+      <data key="e_proportion">0.01</data>
     </edge>
     <edge source="n6" target="n5">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n7" target="n5">
+      <data key="e_proportion">0.152</data>
     </edge>
     <edge source="n5" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n10" target="n5">
+      <data key="e_proportion">0.02</data>
     </edge>
     <edge source="n15" target="n5">
+      <data key="e_proportion">0.246</data>
     </edge>
     <edge source="n18" target="n5">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n20" target="n5">
+      <data key="e_proportion">0.24</data>
     </edge>
     <edge source="n21" target="n5">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n28" target="n5">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n34" target="n5">
+      <data key="e_proportion">0.07</data>
     </edge>
     <edge source="n37" target="n5">
+      <data key="e_proportion">0.03</data>
     </edge>
     <edge source="n1" target="n6">
+      <data key="e_proportion">0.131</data>
     </edge>
     <edge source="n2" target="n6">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n6" target="n6">
+      <data key="e_proportion">0.01</data>
     </edge>
     <edge source="n7" target="n6">
+      <data key="e_proportion">0.071</data>
     </edge>
     <edge source="n8" target="n6">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n9" target="n6">
+      <data key="e_proportion">0.117</data>
     </edge>
     <edge source="n6" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n6">
+      <data key="e_proportion">0.003</data>
     </edge>
     <edge source="n15" target="n6">
+      <data key="e_proportion">0.066</data>
     </edge>
     <edge source="n20" target="n6">
+      <data key="e_proportion">0.015</data>
     </edge>
     <edge source="n25" target="n6">
+      <data key="e_proportion">0.25</data>
     </edge>
     <edge source="n31" target="n6">
+      <data key="e_proportion">0.003</data>
     </edge>
     <edge source="n33" target="n6">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n34" target="n6">
+      <data key="e_proportion">0.012</data>
     </edge>
     <edge source="n35" target="n6">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n36" target="n6">
+      <data key="e_proportion">0.073</data>
     </edge>
     <edge source="n37" target="n6">
+      <data key="e_proportion">0.063</data>
     </edge>
     <edge source="n39" target="n6">
+      <data key="e_proportion">0.03</data>
     </edge>
     <edge source="n1" target="n7">
+      <data key="e_proportion">0.111000016</data>
     </edge>
     <edge source="n2" target="n7">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n7" target="n7">
+      <data key="e_proportion">0.006000001</data>
     </edge>
     <edge source="n9" target="n7">
+      <data key="e_proportion">0.289</data>
     </edge>
     <edge source="n7" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n7">
+      <data key="e_proportion">0.00300000049</data>
     </edge>
     <edge source="n15" target="n7">
+      <data key="e_proportion">0.046</data>
     </edge>
     <edge source="n20" target="n7">
+      <data key="e_proportion">0.0150000015</data>
     </edge>
     <edge source="n25" target="n7">
+      <data key="e_proportion">0.08</data>
     </edge>
     <edge source="n31" target="n7">
+      <data key="e_proportion">0.00500000035</data>
     </edge>
     <edge source="n33" target="n7">
+      <data key="e_proportion">0.00200000033</data>
     </edge>
     <edge source="n34" target="n7">
+      <data key="e_proportion">0.0220000017</data>
     </edge>
     <edge source="n35" target="n7">
+      <data key="e_proportion">0.069</data>
     </edge>
     <edge source="n36" target="n7">
+      <data key="e_proportion">0.248000026</data>
     </edge>
     <edge source="n37" target="n7">
+      <data key="e_proportion">0.103000015</data>
     </edge>
     <edge source="n8" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n1" target="n10">
+      <data key="e_proportion">0.024</data>
     </edge>
     <edge source="n2" target="n10">
+      <data key="e_proportion">0.168</data>
     </edge>
     <edge source="n4" target="n10">
+      <data key="e_proportion">0.003</data>
     </edge>
     <edge source="n7" target="n10">
+      <data key="e_proportion">0.009</data>
     </edge>
     <edge source="n10" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n15" target="n10">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n20" target="n10">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n25" target="n10">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n31" target="n10">
+      <data key="e_proportion">0.04</data>
     </edge>
     <edge source="n32" target="n10">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n33" target="n10">
+      <data key="e_proportion">0.12</data>
     </edge>
     <edge source="n34" target="n10">
+      <data key="e_proportion">0.262</data>
     </edge>
     <edge source="n35" target="n10">
+      <data key="e_proportion">0.119</data>
     </edge>
     <edge source="n36" target="n10">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n39" target="n10">
+      <data key="e_proportion">0.211</data>
     </edge>
     <edge source="n0" target="n11">
+      <data key="e_proportion">0.021999998</data>
     </edge>
     <edge source="n3" target="n11">
+      <data key="e_proportion">0.008999999</data>
     </edge>
     <edge source="n5" target="n11">
+      <data key="e_proportion">0.636999965</data>
     </edge>
     <edge source="n6" target="n11">
+      <data key="e_proportion">0.0529999919</data>
     </edge>
     <edge source="n7" target="n11">
+      <data key="e_proportion">0.0499999933</data>
     </edge>
     <edge source="n11" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n10" target="n11">
+      <data key="e_proportion">0.0319999978</data>
     </edge>
     <edge source="n16" target="n11">
+      <data key="e_proportion">0.0169999991</data>
     </edge>
     <edge source="n18" target="n11">
+      <data key="e_proportion">0.021999998</data>
     </edge>
     <edge source="n19" target="n11">
+      <data key="e_proportion">0.021999998</data>
     </edge>
     <edge source="n24" target="n11">
+      <data key="e_proportion">0.00199999986</data>
     </edge>
     <edge source="n27" target="n11">
+      <data key="e_proportion">0.0499999933</data>
     </edge>
     <edge source="n28" target="n11">
+      <data key="e_proportion">0.0279999971</data>
     </edge>
     <edge source="n29" target="n11">
+      <data key="e_proportion">0.0299999956</data>
     </edge>
     <edge source="n38" target="n11">
+      <data key="e_proportion">0.008999999</data>
     </edge>
     <edge source="n40" target="n11">
+      <data key="e_proportion">0.0169999991</data>
     </edge>
     <edge source="n0" target="n12">
+      <data key="e_proportion">0.041</data>
     </edge>
     <edge source="n3" target="n12">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n5" target="n12">
+      <data key="e_proportion">0.323</data>
     </edge>
     <edge source="n6" target="n12">
+      <data key="e_proportion">0.314</data>
     </edge>
     <edge source="n7" target="n12">
+      <data key="e_proportion">0.02</data>
     </edge>
     <edge source="n12" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n10" target="n12">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n16" target="n12">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n18" target="n12">
+      <data key="e_proportion">0.034</data>
     </edge>
     <edge source="n19" target="n12">
+      <data key="e_proportion">0.041</data>
     </edge>
     <edge source="n24" target="n12">
+      <data key="e_proportion">0.016</data>
     </edge>
     <edge source="n27" target="n12">
+      <data key="e_proportion">0.01</data>
     </edge>
     <edge source="n28" target="n12">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n29" target="n12">
+      <data key="e_proportion">0.041</data>
     </edge>
     <edge source="n38" target="n12">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n40" target="n12">
+      <data key="e_proportion">0.031</data>
     </edge>
     <edge source="n3" target="n13">
+      <data key="e_proportion">0.037</data>
     </edge>
     <edge source="n6" target="n13">
+      <data key="e_proportion">0.242</data>
     </edge>
     <edge source="n7" target="n13">
+      <data key="e_proportion">0.021</data>
     </edge>
     <edge source="n13" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n10" target="n13">
+      <data key="e_proportion">0.112</data>
     </edge>
     <edge source="n16" target="n13">
+      <data key="e_proportion">0.067</data>
     </edge>
     <edge source="n18" target="n13">
+      <data key="e_proportion">0.121</data>
     </edge>
     <edge source="n21" target="n13">
+      <data key="e_proportion">0.015</data>
     </edge>
     <edge source="n24" target="n13">
+      <data key="e_proportion">0.007</data>
     </edge>
     <edge source="n28" target="n13">
+      <data key="e_proportion">0.137</data>
     </edge>
     <edge source="n29" target="n13">
+      <data key="e_proportion">0.117</data>
     </edge>
     <edge source="n38" target="n13">
+      <data key="e_proportion">0.037</data>
     </edge>
     <edge source="n40" target="n13">
+      <data key="e_proportion">0.087</data>
     </edge>
     <edge source="n9" target="n14">
+      <data key="e_proportion">0.8</data>
     </edge>
     <edge source="n14" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n23" target="n14">
+      <data key="e_proportion">0.2</data>
     </edge>
     <edge source="n1" target="n15">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n7" target="n15">
+      <data key="e_proportion">0.008</data>
     </edge>
     <edge source="n8" target="n15">
+      <data key="e_proportion">0.055</data>
     </edge>
     <edge source="n9" target="n15">
+      <data key="e_proportion">0.315</data>
     </edge>
     <edge source="n15" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n15" target="n15">
+      <data key="e_proportion">0.007</data>
     </edge>
     <edge source="n25" target="n15">
+      <data key="e_proportion">0.245</data>
     </edge>
     <edge source="n31" target="n15">
+      <data key="e_proportion">0.009</data>
     </edge>
     <edge source="n34" target="n15">
+      <data key="e_proportion">0.104</data>
     </edge>
     <edge source="n35" target="n15">
+      <data key="e_proportion">0.2</data>
     </edge>
     <edge source="n36" target="n15">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n39" target="n15">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n1" target="n16">
+      <data key="e_proportion">0.08900001</data>
     </edge>
     <edge source="n2" target="n16">
+      <data key="e_proportion">0.029000001</data>
     </edge>
     <edge source="n4" target="n16">
+      <data key="e_proportion">0.00300000026</data>
     </edge>
     <edge source="n6" target="n16">
+      <data key="e_proportion">0.0370000042</data>
     </edge>
     <edge source="n7" target="n16">
+      <data key="e_proportion">0.216000021</data>
     </edge>
     <edge source="n9" target="n16">
+      <data key="e_proportion">0.008000001</data>
     </edge>
     <edge source="n16" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n15" target="n16">
+      <data key="e_proportion">0.06800001</data>
     </edge>
     <edge source="n20" target="n16">
+      <data key="e_proportion">0.0600000024</data>
     </edge>
     <edge source="n33" target="n16">
+      <data key="e_proportion">0.0130000012</data>
     </edge>
     <edge source="n34" target="n16">
+      <data key="e_proportion">0.190000013</data>
     </edge>
     <edge source="n35" target="n16">
+      <data key="e_proportion">0.0240000021</data>
     </edge>
     <edge source="n36" target="n16">
+      <data key="e_proportion">0.0620000027</data>
     </edge>
     <edge source="n37" target="n16">
+      <data key="e_proportion">0.200000018</data>
     </edge>
     <edge source="n39" target="n16">
+      <data key="e_proportion">0.00100000016</data>
     </edge>
     <edge source="n9" target="n17">
+      <data key="e_proportion">0.825</data>
     </edge>
     <edge source="n17" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n17">
+      <data key="e_proportion">0.075</data>
     </edge>
     <edge source="n20" target="n17">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n37" target="n17">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n1" target="n18">
+      <data key="e_proportion">0.211510465</data>
     </edge>
     <edge source="n5" target="n18">
+      <data key="e_proportion">0.008283105</data>
     </edge>
     <edge source="n7" target="n18">
+      <data key="e_proportion">0.0311566312</data>
     </edge>
     <edge source="n9" target="n18">
+      <data key="e_proportion">0.00103728788</data>
     </edge>
     <edge source="n18" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n20" target="n18">
+      <data key="e_proportion">0.215</data>
     </edge>
     <edge source="n34" target="n18">
+      <data key="e_proportion">0.0311566312</data>
     </edge>
     <edge source="n36" target="n18">
+      <data key="e_proportion">0.11</data>
     </edge>
     <edge source="n37" target="n18">
+      <data key="e_proportion">0.0113987671</data>
     </edge>
     <edge source="n1" target="n19">
+      <data key="e_proportion">0.007</data>
     </edge>
     <edge source="n2" target="n19">
+      <data key="e_proportion">0.008</data>
     </edge>
     <edge source="n4" target="n19">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n5" target="n19">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n6" target="n19">
+      <data key="e_proportion">0.061</data>
     </edge>
     <edge source="n7" target="n19">
+      <data key="e_proportion">0.17</data>
     </edge>
     <edge source="n9" target="n19">
+      <data key="e_proportion">0.024</data>
     </edge>
     <edge source="n19" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n15" target="n19">
+      <data key="e_proportion">0.005</data>
     </edge>
     <edge source="n18" target="n19">
+      <data key="e_proportion">0.678</data>
     </edge>
     <edge source="n20" target="n19">
+      <data key="e_proportion">0.022</data>
     </edge>
     <edge source="n32" target="n19">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n33" target="n19">
+      <data key="e_proportion">0.012</data>
     </edge>
     <edge source="n34" target="n19">
+      <data key="e_proportion">0.003</data>
     </edge>
     <edge source="n35" target="n19">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n36" target="n19">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n9" target="n20">
+      <data key="e_proportion">0.0200000014</data>
     </edge>
     <edge source="n20" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n20" target="n20">
+      <data key="e_proportion">0.0110000009</data>
     </edge>
     <edge source="n23" target="n20">
+      <data key="e_proportion">0.0460000038</data>
     </edge>
     <edge source="n37" target="n20">
+      <data key="e_proportion">0.923000038</data>
     </edge>
     <edge source="n9" target="n21">
+      <data key="e_proportion">0.634</data>
     </edge>
     <edge source="n21" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n35" target="n21">
+      <data key="e_proportion">0.122</data>
     </edge>
     <edge source="n37" target="n21">
+      <data key="e_proportion">0.244</data>
     </edge>
     <edge source="n1" target="n22">
+      <data key="e_proportion">0.006</data>
     </edge>
     <edge source="n4" target="n22">
+      <data key="e_proportion">0.054</data>
     </edge>
     <edge source="n5" target="n22">
+      <data key="e_proportion">0.22</data>
     </edge>
     <edge source="n6" target="n22">
+      <data key="e_proportion">0.071</data>
     </edge>
     <edge source="n7" target="n22">
+      <data key="e_proportion">0.142</data>
     </edge>
     <edge source="n22" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n22">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n34" target="n22">
+      <data key="e_proportion">0.452</data>
     </edge>
     <edge source="n36" target="n22">
+      <data key="e_proportion">0.033</data>
     </edge>
     <edge source="n39" target="n22">
+      <data key="e_proportion">0.021</data>
     </edge>
     <edge source="n23" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n1" target="n24">
+      <data key="e_proportion">0.096</data>
     </edge>
     <edge source="n4" target="n24">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n7" target="n24">
+      <data key="e_proportion">0.523</data>
     </edge>
     <edge source="n9" target="n24">
+      <data key="e_proportion">0.115</data>
     </edge>
     <edge source="n24" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n20" target="n24">
+      <data key="e_proportion">0.128</data>
     </edge>
     <edge source="n34" target="n24">
+      <data key="e_proportion">0.018</data>
     </edge>
     <edge source="n36" target="n24">
+      <data key="e_proportion">0.006</data>
     </edge>
     <edge source="n37" target="n24">
+      <data key="e_proportion">0.113</data>
     </edge>
     <edge source="n25" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n5" target="n26">
+      <data key="e_proportion">0.0110000009</data>
     </edge>
     <edge source="n6" target="n26">
+      <data key="e_proportion">0.0240000021</data>
     </edge>
     <edge source="n7" target="n26">
+      <data key="e_proportion">0.156000018</data>
     </edge>
     <edge source="n26" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n22" target="n26">
+      <data key="e_proportion">0.290000021</data>
     </edge>
     <edge source="n34" target="n26">
+      <data key="e_proportion">0.0200000014</data>
     </edge>
     <edge source="n36" target="n26">
+      <data key="e_proportion">0.0110000009</data>
     </edge>
     <edge source="n38" target="n26">
+      <data key="e_proportion">0.290000021</data>
     </edge>
     <edge source="n8" target="n27">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n27" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n25" target="n27">
+      <data key="e_proportion">0.95</data>
     </edge>
     <edge source="n28" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n25" target="n28">
+      <data key="e_proportion">0.038</data>
     </edge>
     <edge source="n35" target="n28">
+      <data key="e_proportion">0.962</data>
     </edge>
     <edge source="n1" target="n29">
+      <data key="e_proportion">0.06</data>
     </edge>
     <edge source="n6" target="n29">
+      <data key="e_proportion">0.038</data>
     </edge>
     <edge source="n7" target="n29">
+      <data key="e_proportion">0.508</data>
     </edge>
     <edge source="n9" target="n29">
+      <data key="e_proportion">0.026</data>
     </edge>
     <edge source="n29" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n18" target="n29">
+      <data key="e_proportion">0.227</data>
     </edge>
     <edge source="n20" target="n29">
+      <data key="e_proportion">0.067</data>
     </edge>
     <edge source="n34" target="n29">
+      <data key="e_proportion">0.055</data>
     </edge>
     <edge source="n36" target="n29">
+      <data key="e_proportion">0.019</data>
     </edge>
     <edge source="n5" target="n30">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n30" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n18" target="n30">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n20" target="n30">
+      <data key="e_proportion">0.04</data>
     </edge>
     <edge source="n36" target="n30">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n9" target="n31">
+      <data key="e_proportion">0.95</data>
     </edge>
     <edge source="n31" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n31">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n2" target="n32">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n4" target="n32">
+      <data key="e_proportion">0.013</data>
     </edge>
     <edge source="n9" target="n32">
+      <data key="e_proportion">0.343</data>
     </edge>
     <edge source="n32" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n32">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n15" target="n32">
+      <data key="e_proportion">0.22</data>
     </edge>
     <edge source="n32" target="n32">
+      <data key="e_proportion">0.01</data>
     </edge>
     <edge source="n33" target="n32">
+      <data key="e_proportion">0.025</data>
     </edge>
     <edge source="n34" target="n32">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n35" target="n32">
+      <data key="e_proportion">0.069</data>
     </edge>
     <edge source="n39" target="n32">
+      <data key="e_proportion">0.12</data>
     </edge>
     <edge source="n8" target="n33">
+      <data key="e_proportion">0.02</data>
     </edge>
     <edge source="n33" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n25" target="n33">
+      <data key="e_proportion">0.419</data>
     </edge>
     <edge source="n34" target="n33">
+      <data key="e_proportion">0.004</data>
     </edge>
     <edge source="n35" target="n33">
+      <data key="e_proportion">0.439</data>
     </edge>
     <edge source="n39" target="n33">
+      <data key="e_proportion">0.118</data>
     </edge>
     <edge source="n1" target="n34">
+      <data key="e_proportion">0.048</data>
     </edge>
     <edge source="n9" target="n34">
+      <data key="e_proportion">0.493</data>
     </edge>
     <edge source="n34" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n34">
+      <data key="e_proportion">0.05</data>
     </edge>
     <edge source="n20" target="n34">
+      <data key="e_proportion">0.02</data>
     </edge>
     <edge source="n23" target="n34">
+      <data key="e_proportion">0.075</data>
     </edge>
     <edge source="n25" target="n34">
+      <data key="e_proportion">0.061</data>
     </edge>
     <edge source="n34" target="n34">
+      <data key="e_proportion">0.015</data>
     </edge>
     <edge source="n35" target="n34">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n36" target="n34">
+      <data key="e_proportion">0.059</data>
     </edge>
     <edge source="n37" target="n34">
+      <data key="e_proportion">0.054</data>
     </edge>
     <edge source="n39" target="n34">
+      <data key="e_proportion">0.025</data>
     </edge>
     <edge source="n35" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n8" target="n36">
+      <data key="e_proportion">0.01</data>
     </edge>
     <edge source="n9" target="n36">
+      <data key="e_proportion">0.19</data>
     </edge>
     <edge source="n36" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n36">
+      <data key="e_proportion">0.068</data>
     </edge>
     <edge source="n25" target="n36">
+      <data key="e_proportion">0.502</data>
     </edge>
     <edge source="n35" target="n36">
+      <data key="e_proportion">0.162</data>
     </edge>
     <edge source="n37" target="n36">
+      <data key="e_proportion">0.068</data>
     </edge>
     <edge source="n9" target="n37">
+      <data key="e_proportion">0.25</data>
     </edge>
     <edge source="n37" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n37">
+      <data key="e_proportion">0.1</data>
     </edge>
     <edge source="n23" target="n37">
+      <data key="e_proportion">0.65</data>
     </edge>
     <edge source="n1" target="n38">
+      <data key="e_proportion">0.376</data>
     </edge>
     <edge source="n5" target="n38">
+      <data key="e_proportion">0.238</data>
     </edge>
     <edge source="n6" target="n38">
+      <data key="e_proportion">0.006</data>
     </edge>
     <edge source="n7" target="n38">
+      <data key="e_proportion">0.216</data>
     </edge>
     <edge source="n9" target="n38">
+      <data key="e_proportion">0.048</data>
     </edge>
     <edge source="n38" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n16" target="n38">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n20" target="n38">
+      <data key="e_proportion">0.061</data>
     </edge>
     <edge source="n34" target="n38">
+      <data key="e_proportion">0.014</data>
     </edge>
     <edge source="n36" target="n38">
+      <data key="e_proportion">0.04</data>
     </edge>
     <edge source="n9" target="n39">
+      <data key="e_proportion">0.311</data>
     </edge>
     <edge source="n39" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n39">
+      <data key="e_proportion">0.164</data>
     </edge>
     <edge source="n20" target="n39">
+      <data key="e_proportion">0.011</data>
     </edge>
     <edge source="n23" target="n39">
+      <data key="e_proportion">0.429</data>
     </edge>
     <edge source="n37" target="n39">
+      <data key="e_proportion">0.085</data>
     </edge>
     <edge source="n1" target="n40">
+      <data key="e_proportion">0.017</data>
     </edge>
     <edge source="n2" target="n40">
+      <data key="e_proportion">0.067</data>
     </edge>
     <edge source="n4" target="n40">
+      <data key="e_proportion">0.003</data>
     </edge>
     <edge source="n5" target="n40">
+      <data key="e_proportion">0.03</data>
     </edge>
     <edge source="n6" target="n40">
+      <data key="e_proportion">0.013</data>
     </edge>
     <edge source="n7" target="n40">
+      <data key="e_proportion">0.132</data>
     </edge>
     <edge source="n9" target="n40">
+      <data key="e_proportion">0.3</data>
     </edge>
     <edge source="n40" target="n9">
+      <data key="e_proportion">0</data>
     </edge>
     <edge source="n14" target="n40">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n15" target="n40">
+      <data key="e_proportion">0.207</data>
     </edge>
     <edge source="n20" target="n40">
+      <data key="e_proportion">0.002</data>
     </edge>
     <edge source="n33" target="n40">
+      <data key="e_proportion">0.064</data>
     </edge>
     <edge source="n34" target="n40">
+      <data key="e_proportion">0.09</data>
     </edge>
     <edge source="n35" target="n40">
+      <data key="e_proportion">0.001</data>
     </edge>
     <edge source="n36" target="n40">
+      <data key="e_proportion">0.034</data>
     </edge>
     <edge source="n37" target="n40">
+      <data key="e_proportion">0.033</data>
     </edge>
     <edge source="n39" target="n40">
+      <data key="e_proportion">0.005</data>
     </edge>
   </graph>
 </graphml>
