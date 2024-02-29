@@ -8,3 +8,7 @@ env/
 test_data/
 graph_test.py
 dataset_backup/
+dataset_not_pp/
+
+# Ignore EwE script
+EwE models to GraphML/
