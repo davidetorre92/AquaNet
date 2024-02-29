@@ -111,6 +111,10 @@ The results of our experiments are stored in the directory ```results/```. We pr
 - ```robustness.xlsx```
     Robustness of each graph with the equation in the paper.
 
+- ```robustness_and_top_5_most_critical_nodes.xlsx```
+    Robustness of each graph and its top 5 most critical nodes.
+    
+
 ---
 # References
 [1] Dunne, Jennifer A. "Food Webs." Encyclopedia of complexity and systems science 1 (2009): 3661-3682.
