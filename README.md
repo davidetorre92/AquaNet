@@ -17,6 +17,39 @@ pip install -r requirements.txt
 Each graph in the dataset represents a food web, detailing the feeding interactions between different compartments within an ecological system. These interactions are representated as a *directed edge* between two nodes. In particular the interaction A->B corresponds to a flow of biomass from A to B (e.g. A is eaten by B) [1].
 The graphs are structured using .graphml format. For the entire analysis, we used Python's igraph library.
 
+### Downloading and reading the dataset
+The dataset is hosted within the ```dataset``` directory.
+To download the datasets, you can either clone the AquaNet repository or directly download the files from the GitHub web interface.
+1) Cloning the Repository:
+```bash
+git clone https://github.com/davidetorre92/AquaNet.git
+```
+2) Navigate to ```dataset```
+
+Alternatively, you can download individual GraphML files directly from the GitHub web interface at AquaNet's dataset directory. Click on the desired file and use the Download button.
+
+### Reading the Datasets in Python
+The food web networks are saved in GraphML format, which can be easily read using the igraph Python library. If you haven't already, install ```igraph``` using pip:
+```bash
+pip install igraph
+```
+
+Here's how to read a GraphML file and print a summary of the food web network:
+
+```python
+from igraph import Graph
+
+# Replace 'path/to/your/file.graphml' with the actual file path
+file_path = 'path/to/your/file.graphml'
+
+# Load the GraphML file
+g = Graph.Read_GraphML(file_path)
+
+# Print a summary of the graph
+print(g.summary())
+```
+
+
 ### Graph Level Attributes:
 - **name**: This attribute represents the name of the food web, which typically includes the geographical location and the year of the study when available (e.g., "Yucatan (1987)"). It provides context and identification for the ecological network being represented.
 - **Author**: When available, indicates the primary researcher(s) or the author(s) of the study from which the food web data was derived.
@@ -112,8 +145,7 @@ The results of our experiments are stored in the directory ```results/```. We pr
     Robustness of each graph with the equation in the paper.
 
 - ```robustness_and_top_5_most_critical_nodes.xlsx```
-    Robustness of each graph and its top 5 most critical nodes.
-    
+    Robustness of each graph and its top 5 most critical nodes. 
 
 ---
 # References
