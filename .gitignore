@@ -2,7 +2,8 @@
 env/
 
 # Ignore all __pycache__ directories
-**/__pycache__/
+bin/__pycache__/
+bin/utils/__pycache__/
 
 # Ignore test data
 test_data/
