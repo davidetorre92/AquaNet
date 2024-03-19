@@ -2,7 +2,7 @@
 ## Introduction
 
 AquaNet is a comprehensive toolkit designed for analyzing and visualizing aquatic food web networks.
-This project provides a dataset of 173 graphs in GraphML format, alongside Python scripts for conducting experiments of these networks.
+This project provides a dataset of 173 food webs in GraphML format, alongside Python scripts for conducting experiments of these networks.
 The measurements include analysis of Core/Periphery structures within the Food Web, robustness, identification of critical nodes that hold the network together, and a detailed 3-nodes motif representation.
 
 ## Installation
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Dataset content
 
-Each graph in the dataset represents a food web, detailing the feeding interactions between different compartments within an ecological system. These interactions are representated as a *directed edge* between two nodes. In particular the interaction A->B corresponds to a flow of biomass from A to B (e.g. A is eaten by B) [1].
+Each file in the dataset represents a food web, detailing the feeding interactions between different compartments within an ecological system. These interactions are representated as a *directed edge* between two nodes. In particular the interaction A->B corresponds to a flow of biomass from A to B (e.g. A is eaten by B) [1].
 The graphs are structured using .graphml format. For the entire analysis, we used Python's igraph library.
 
 ### Downloading and reading the dataset
@@ -45,7 +45,7 @@ file_path = 'path/to/your/file.graphml'
 # Load the GraphML file
 g = Graph.Read_GraphML(file_path)
 
-# Print a summary of the graph
+# Print a summary of the food web
 print(g.summary())
 ```
 
@@ -54,12 +54,12 @@ print(g.summary())
 - **name**: This attribute represents the name of the food web, which typically includes the geographical location and the year of the study when available (e.g., "Yucatan (1987)"). It provides context and identification for the ecological network being represented.
 - **Author**: When available, indicates the primary researcher(s) or the author(s) of the study from which the food web data was derived.
 - **Citation**: When available, provides the formal citation for the study or publication that presented the food web. This enables users of the dataset to reference the original work accurately in their own publications or research.
-Regardless this attribute, for each graph we've added the whole bibliograph for this dataset in the Supplementary Materials.
+Regardless this attribute, for each food web we've added the whole bibliograph for this dataset in the Supplementary Materials.
 - **URL**: When available, offers a direct link additional to the resource.
 
 ### Node (Vertex) Level Attributes:
 - **ECO**: Stands for the ecological type of the node. It differentiates between living beings (1) and nonliving organic deposit (2) like detritus, debris, Particulate Organic Carbon (POC), Dissolved Organic Carbon (DOC), etc.
-- **id**: A unique identifier for each node within the graph.
+- **id**: A unique identifier for each node within the food web.
 - **name**: The name of the node, which could be the species name, a group of species, or nonliving organic deposit components within the ecological system.
 - **trophic_level**: Represents the trophic level of the node within the food web, indicating the node's position in the ecosystem's food chain. Trophic levels range from primary producers at the base (trophic level 1), through various levels of consumers, to apex predators at the top. Decomposers and detritivores are also included in this spectrum, typically occupying specific trophic levels based on their feeding behavior.
 The trophic level ($TL_i$) of node $i$ is calculated using the formula:
@@ -111,22 +111,22 @@ bash display_table.sh -t <table_path>
 ## Results of the experiments
 The results of our experiments are stored in the directory ```results/```. We provided the outputs both in ```.pickle``` and ```.xlsx``` format.
 
-- ```eda.xsls```
-    A file containing global metrics of the graphs in the dataset. These metrics are S - the number of nodes; L - the number of directed interactions or links; C - the connectivity value (C := L/S^2); B/N - the ratio between the basal nodes (the one that have zero in degree) and all the nodes of the graph; det/N - the ratio between the other compartmenrs and all the nodes in the graph; clustering - the average local undirected clustering coefficient.
+- ```eda.xlsx```
+    A file containing global metrics of the food webs in the dataset. These metrics are S - the number of nodes; L - the number of directed interactions or links; C - the connectivity value (C := L/S^2); B/N - the ratio between the basal nodes (the one that have zero in degree) and all the nodes of the food web; det/N - the ratio between the other compartmenrs and all the nodes in the food web; clustering - the average local undirected clustering coefficient.
 
 
 - ```core_and_periphery_size.xlsx```
-    The cells contain the size of each core/periphery structure - i.e. the number of nodes of that graph beloning to the given structure and the number of vertices of the whole graph.
+    The cells contain the size of each core/periphery structure - i.e. the number of nodes of that food webs beloning to the given structure and the number of vertices of the whole food webs.
   
 - ```node_classification_core_periphery_dataframe.xlsx```
     For each node the classification in the node and periphery structure as well as their type (either living compartment - ECO = 1, or other compartment - ECO = 2).
 
 - ```generality_vulnerability_living_nodes.xlsx```
-    For each node in each graph, the structure it belongs to and the value of generality and vulnerability.
+    For each node in each food webs, the structure it belongs to and the value of generality and vulnerability.
   
 
 - ```motif_representation.xlsx```
-    The z-score value of each motif for each graph in the dataset. Each value is evaluated with an ensamble of 50 randomized graph with the swap algorithm.
+    The z-score value of each motif for each food webs in the dataset. Each value is evaluated with an ensamble of 50 randomized graph with the swap algorithm.
     
 - ```motif_representation_table.xlsx```
     A schematic representation of the z-score profile: an up-arrow means that the motif is over-represented, a down-arrow means that the motif is under-represented, a minus means that the motif is not present in the dataset nor in the random ensamble.
