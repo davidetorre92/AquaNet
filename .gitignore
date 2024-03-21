@@ -16,5 +16,5 @@ dataset_not_pp/
 EwE models to GraphML/
 
 # Ignore other files
-motifs_sq.* # images
+motifs_sq.eps # images
 results/results_in_pickle/top5.py
