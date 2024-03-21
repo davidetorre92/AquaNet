@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_name" for="graph" attr.name="name" attr.type="string"/>
+  <key id="g_nickname" for="graph" attr.name="nickname" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_ECO" for="node" attr.name="ECO" attr.type="double"/>
+  <key id="v_Biomass" for="node" attr.name="Biomass" attr.type="double"/>
+  <key id="v_bowtie" for="node" attr.name="bowtie" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_trophic_level" for="node" attr.name="trophic_level" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_name">Shallow sublittoral, Cape Ann, Massachusetts</data>
+    <data key="g_nickname">CAPA</data>
+    <node id="n0">
+      <data key="v_name">plankton and detritus</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n0</data>
+      <data key="v_trophic_level">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">organic debris</data>
+      <data key="v_ECO">2</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n1</data>
+      <data key="v_trophic_level">1</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">macroalgae</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n2</data>
+      <data key="v_trophic_level">1</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">organic matter in mud</data>
+      <data key="v_ECO">2</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n3</data>
+      <data key="v_trophic_level">1</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Fundulus, fish fry</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n4</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Chalina</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n5</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Mytilus, Gemma</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n6</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Abietinaria, Sertularia, Metridium</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n7</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">Lichenophora</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n8</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">isopods, Gammarus, Caprella</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n9</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">Littorina littorea</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n10</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Strongylocentrotus</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n11</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">Crago</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n12</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">annelids</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n13</data>
+      <data key="v_trophic_level">2</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">Scomber, Qupea</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n14</data>
+      <data key="v_trophic_level">2.5</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">Loligo</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n15</data>
+      <data key="v_trophic_level">3</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">Pagurus, Cancer</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n16</data>
+      <data key="v_trophic_level">2.8</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Polinices</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n17</data>
+      <data key="v_trophic_level">3</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">Limulus</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n18</data>
+      <data key="v_trophic_level">3</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">Raja</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n19</data>
+      <data key="v_trophic_level">3.5</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">Asterias</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">IN set</data>
+      <data key="v_id">n20</data>
+      <data key="v_trophic_level">3.5</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">Pomatomus, Poronatus</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n21</data>
+      <data key="v_trophic_level">3.5</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">Myoxocephalus</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n22</data>
+      <data key="v_trophic_level">3.18</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">Phoca</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">LSCC</data>
+      <data key="v_id">n23</data>
+      <data key="v_trophic_level">4</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">Sterna</data>
+      <data key="v_ECO">1</data>
+      <data key="v_Biomass">1</data>
+      <data key="v_bowtie">OUT set</data>
+      <data key="v_id">n24</data>
+      <data key="v_trophic_level">3.59</data>
+    </node>
+    <edge source="n0" target="n4">
+    </edge>
+    <edge source="n0" target="n5">
+    </edge>
+    <edge source="n0" target="n6">
+    </edge>
+    <edge source="n0" target="n7">
+    </edge>
+    <edge source="n0" target="n8">
+    </edge>
+    <edge source="n0" target="n14">
+    </edge>
+    <edge source="n0" target="n1">
+    </edge>
+    <edge source="n0" target="n3">
+    </edge>
+    <edge source="n1" target="n9">
+    </edge>
+    <edge source="n1" target="n16">
+    </edge>
+    <edge source="n1" target="n3">
+    </edge>
+    <edge source="n2" target="n9">
+    </edge>
+    <edge source="n2" target="n10">
+    </edge>
+    <edge source="n2" target="n11">
+    </edge>
+    <edge source="n2" target="n1">
+    </edge>
+    <edge source="n2" target="n3">
+    </edge>
+    <edge source="n3" target="n12">
+    </edge>
+    <edge source="n3" target="n13">
+    </edge>
+    <edge source="n3" target="n1">
+    </edge>
+    <edge source="n4" target="n14">
+    </edge>
+    <edge source="n4" target="n15">
+    </edge>
+    <edge source="n4" target="n19">
+    </edge>
+    <edge source="n4" target="n21">
+    </edge>
+    <edge source="n4" target="n24">
+    </edge>
+    <edge source="n4" target="n1">
+    </edge>
+    <edge source="n4" target="n3">
+    </edge>
+    <edge source="n5" target="n16">
+    </edge>
+    <edge source="n5" target="n22">
+    </edge>
+    <edge source="n5" target="n1">
+    </edge>
+    <edge source="n5" target="n3">
+    </edge>
+    <edge source="n6" target="n16">
+    </edge>
+    <edge source="n6" target="n17">
+    </edge>
+    <edge source="n6" target="n20">
+    </edge>
+    <edge source="n6" target="n22">
+    </edge>
+    <edge source="n6" target="n1">
+    </edge>
+    <edge source="n6" target="n3">
+    </edge>
+    <edge source="n7" target="n16">
+    </edge>
+    <edge source="n7" target="n22">
+    </edge>
+    <edge source="n7" target="n1">
+    </edge>
+    <edge source="n7" target="n3">
+    </edge>
+    <edge source="n8" target="n16">
+    </edge>
+    <edge source="n8" target="n1">
+    </edge>
+    <edge source="n8" target="n3">
+    </edge>
+    <edge source="n9" target="n21">
+    </edge>
+    <edge source="n9" target="n22">
+    </edge>
+    <edge source="n9" target="n1">
+    </edge>
+    <edge source="n9" target="n3">
+    </edge>
+    <edge source="n10" target="n17">
+    </edge>
+    <edge source="n10" target="n22">
+    </edge>
+    <edge source="n10" target="n1">
+    </edge>
+    <edge source="n10" target="n3">
+    </edge>
+    <edge source="n11" target="n22">
+    </edge>
+    <edge source="n11" target="n1">
+    </edge>
+    <edge source="n11" target="n3">
+    </edge>
+    <edge source="n12" target="n21">
+    </edge>
+    <edge source="n12" target="n22">
+    </edge>
+    <edge source="n12" target="n1">
+    </edge>
+    <edge source="n12" target="n3">
+    </edge>
+    <edge source="n13" target="n18">
+    </edge>
+    <edge source="n13" target="n22">
+    </edge>
+    <edge source="n13" target="n1">
+    </edge>
+    <edge source="n13" target="n3">
+    </edge>
+    <edge source="n14" target="n21">
+    </edge>
+    <edge source="n14" target="n23">
+    </edge>
+    <edge source="n14" target="n1">
+    </edge>
+    <edge source="n14" target="n3">
+    </edge>
+    <edge source="n15" target="n19">
+    </edge>
+    <edge source="n15" target="n21">
+    </edge>
+    <edge source="n15" target="n1">
+    </edge>
+    <edge source="n15" target="n3">
+    </edge>
+    <edge source="n16" target="n22">
+    </edge>
+    <edge source="n16" target="n1">
+    </edge>
+    <edge source="n16" target="n3">
+    </edge>
+    <edge source="n17" target="n20">
+    </edge>
+    <edge source="n17" target="n22">
+    </edge>
+    <edge source="n17" target="n1">
+    </edge>
+    <edge source="n17" target="n3">
+    </edge>
+    <edge source="n20" target="n21">
+    </edge>
+    <edge source="n20" target="n1">
+    </edge>
+    <edge source="n20" target="n3">
+    </edge>
+    <edge source="n21" target="n23">
+    </edge>
+    <edge source="n21" target="n1">
+    </edge>
+    <edge source="n21" target="n3">
+    </edge>
+    <edge source="n22" target="n24">
+    </edge>
+    <edge source="n22" target="n1">
+    </edge>
+    <edge source="n22" target="n3">
+    </edge>
+    <edge source="n18" target="n1">
+    </edge>
+    <edge source="n18" target="n3">
+    </edge>
+    <edge source="n19" target="n1">
+    </edge>
+    <edge source="n19" target="n3">
+    </edge>
+    <edge source="n23" target="n1">
+    </edge>
+    <edge source="n23" target="n3">
+    </edge>
+  </graph>
+</graphml>
