@@ -36,7 +36,7 @@ def min_index(nodes, f_G_del, all=False):
   else: selected_node_s = experiment[0][0]
   return selected_node_s
 
-def min_index_attr(nodes, f_G_del, attr = 'trophic_level', all=False):
+def min_index_attr(nodes, f_G_del, attr = 'trophic_level', all=False, reverse = False):
   """
   This function sorts the nodes according to the measure f_G_del made upon the strategy
   and the indices of the vertex, so that if more than one vertex has the same f_G_del, then one with
@@ -44,7 +44,7 @@ def min_index_attr(nodes, f_G_del, attr = 'trophic_level', all=False):
   """
   experiment = zip(nodes, f_G_del)
   experiment = sorted(experiment, key = lambda x: x[0][attr])
-  experiment = sorted(experiment, key = lambda x: x[1])
+  experiment = sorted(experiment, key = lambda x: x[1], reverse=reverse)
   if all: selected_node_s = [el[0] for el in experiment]
   else: selected_node_s = experiment[0][0]
   return selected_node_s
