@@ -89,7 +89,7 @@ def get_core_periphery_measurements(G_dataset, frac=True):
       tendrils_out[-1] = tendrils_out[-1] / V
       disconnected[-1] = disconnected[-1] / V
 
-  bow_tie = pd.DataFrame({
+  core_periphery_data = pd.DataFrame({
                             'Core': core,
                             'In': in_set,
                             'Out': out_set,
@@ -98,4 +98,11 @@ def get_core_periphery_measurements(G_dataset, frac=True):
                             'Tubes': tubes,
                             'Disconnected': disconnected
                                     }, index=names_column)
-  return bow_tie
+  return core_periphery_data
+
+def get_n_gen(df):
+  return df[df['Generality'] > 1].shape[0]
+def get_n_vul(df):
+  return df[df['Vulnerability'] > 1].shape[0]
+def get_n_gen_and_vul(df):
+  return df[(df['Generality'] > 1) & (df['Vulnerability'] > 1)].shape[0]
