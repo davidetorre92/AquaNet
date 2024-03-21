@@ -4,6 +4,7 @@ env/
 # Ignore all __pycache__ directories
 bin/__pycache__/
 bin/utils/__pycache__/
+bin/measurements/__pycache__/
 
 # Ignore test data
 test_data/
@@ -14,3 +15,6 @@ dataset_not_pp/
 # Ignore EwE script
 EwE models to GraphML/
 
+# Ignore other files
+motifs_sq.* # images
+results/results_in_pickle/top5.py

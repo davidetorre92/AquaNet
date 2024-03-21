@@ -23,7 +23,7 @@ done
 # Check if the file exists
 if [ -f "$FILE_PATH" ]; then
     # File exists, run the python command
-    python -c "import pandas as pd; df = pd.read_pickle('$FILE_PATH'); print(df)"
+    python3 -c "import pandas as pd; df = pd.read_pickle('$FILE_PATH'); print(df)"
 else
     # File does not exist, print an error message
     echo "Error: File $FILE_PATH does not exist."
