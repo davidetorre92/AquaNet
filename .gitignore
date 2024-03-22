@@ -5,6 +5,7 @@ env/
 bin/__pycache__/
 bin/utils/__pycache__/
 bin/measurements/__pycache__/
+bin/plot_scripts/__pycache__/
 
 # Ignore test data
 test_data/
