@@ -6,9 +6,6 @@ PICKLE_DIR="./"
 # Directory to save the xlsx files
 XLSX_DIR="../"
 
-# Make sure the output directory exists
-mkdir -p "$XLSX_DIR"
-
 # Iterate over all pickle files in the directory
 for pickle_file in "$PICKLE_DIR"/*.pickle; do
     # Get the base name of the file without the extension
