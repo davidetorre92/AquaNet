@@ -4,6 +4,8 @@ import matplotlib.patches as mpatches
 import numpy as np
 import igraph as ig
 
+tableu_colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
+
 def visual_style(g, color_attribute = 'ECO', vertex_label_attribute = 'name', layout=None, size_mode=None):
   # set layout
   if layout is None:
@@ -124,3 +126,56 @@ def plot_graph(G, color_attribute = 'ECO', vertex_label_attribute = 'name', targ
     handles = handles + [mpatches.Circle((0.0, 0.0), 0.0, color = 'white')]
     ax.legend(handles = handles, bbox_to_anchor=(1.0, 0.05))
     return fig, ax
+
+def boxplot_percentages_and_print_data(df, ax = None):
+  df = df * 100
+  df_melted = df.melt(var_name='Category', value_name = 'Percentage')
+  df_melted.fillna(0, inplace = True)
+  fig, ax = boxplot_melt_data(df_melted, ax, var_name='Category', value_name = 'Percentage')
+  return fig, ax
+
+def boxplot_melt_data(df_melted, ax = None, var_name='Category', value_name = 'Percentage', 
+                      palette = tableu_colors, median_color = '#000000', average_marker = '+'
+):
+  if ax == None:
+    # Create a boxplot
+    fig, ax = plt.subplots()
+  else:
+     fig = ax.get_figure()
+  # Extract unique categories
+  categories = df_melted[var_name].unique()
+  # Prepare data for each category
+  data_to_plot = [df_melted[df_melted[var_name] == category][value_name] for category in categories]
+
+  # Custom colors
+  
+  colors = palette[:len(categories)]
+  median_color = '#000000'
+  average_marker = '+'
+  # Creating the boxplot with custom fill colors
+  bp = ax.boxplot(data_to_plot, patch_artist=True, showmeans = False, medianprops={'color': median_color})
+
+  for patch, color in zip(bp['boxes'], colors):
+      patch.set_facecolor(color)
+
+  # Add '+' marker at the average position for each box
+  for i, line in enumerate(data_to_plot):
+      # Calculate average
+      average = np.mean(line)
+      # Plot average marker
+      ax.plot(i + 1, average, average_marker, color='black')
+
+  # Customize ticks on the x-axis
+  ax.set_xticks(range(1, len(categories) + 1))
+  ax.set_xticklabels(categories)
+
+  # Setting y-axis to display percentage
+  if value_name == 'Percentage': ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x}%'))
+
+  # Print data:
+  perc_str = '%' if value_name == 'Percentage' else ''
+  for category in categories:
+      data = df_melted[df_melted[var_name] == category][value_name]
+      mean = np.mean(data)
+      print(f'Average {category}: {mean:.3f}' + perc_str)
+  return fig, ax

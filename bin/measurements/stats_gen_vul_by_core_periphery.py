@@ -27,8 +27,9 @@ rows = []
 for graph_index, G in enumerate(G_dataset):
 
     graph_name = G['name']
+    df_temp = gen_vul_df[gen_vul_df['Network'] == G['name']]
     V = G.vcount()
-    df_temp_liv = gen_vul_df[(gen_vul_df['Network'] == G['name']) & (gen_vul_df['ECO'] == 1)]
+    df_temp_liv = df_temp[df_temp['ECO'] == 1]
 
     n_gen = get_n_gen(df_temp_liv)
     n_vul = get_n_vul(df_temp_liv)
@@ -80,7 +81,7 @@ for graph_index, G in enumerate(G_dataset):
 
 print()
 
-gen_vul_composition_df = pd.DataFrame(rows, columns = ['Network', 'Nr nodes',
+gen_vul_composition_df = pd.DataFrame(rows, columns = ['Network', 'Nr species',
                               '% gen network', '% vul network', '% gen and vul network',
                               '% gen core', '% vul core', '% gen and vul core', '% all gen in core', '% all vul in core',
                               '% gen periphery', '% vul periphery', '% gen and vul periphery',

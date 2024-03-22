@@ -23,5 +23,6 @@ max_tl_structure_df_path = config.get('core and periphery', 'max_tl_structure_df
 # Measure
 node_periphery_gen_vul_df = pd.read_pickle(node_periphery_gen_vul_df_path)
 max_tl_structure_df = node_periphery_gen_vul_df[['Network', 'Trophic Level', 'Structure']].groupby(['Network', 'Structure']).max()
+max_tl_structure_df.columns = ['Max Trophic Level']
 # Save
 save_df_to_pickle(max_tl_structure_df, max_tl_structure_df_path)
