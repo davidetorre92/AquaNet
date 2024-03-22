@@ -62,5 +62,8 @@ echo "Using config file: $CONFIG_PATH"
 framed_title "Core and periphery"
 python -m bin.plot_scripts.core_periphery -c ${CONFIG_PATH}
 
-framed_title "Core and periphery same habitat"
-python -m bin.plot_scripts.core_periphery -c ${CONFIG_PATH}
+framed_title "Proportion of Generality and Vulnerability"
+python -m bin.plot_scripts.proportion_gen_vul -c ${CONFIG_PATH}
+
+framed_title "Max Trophic Level per structure"
+python -m bin.plot_scripts.max_tl -c ${CONFIG_PATH}
