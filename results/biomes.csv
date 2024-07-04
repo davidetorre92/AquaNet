@@ -27,7 +27,7 @@
 25,Calvi Bay (1998),Coast
 26,Central Chile (1998),Marine
 27,Cape Verde (1981),Marine
-28,Mangrove Estuary - Dry Season,Marine
+28,Mangrove Estuary - Dry Season,River
 29,Strait of Georgia (1950),Marine
 30,Deep Western Mediterranean sea (2009),Marine
 31,Eastern Corsican Coast (2012),Coast
@@ -44,7 +44,7 @@
 42,Sierra Leone 1978 (1978),Marine
 43,Tampa Bay (1950),Coast
 44,West Florida Shelf (1985),Coast
-45,"Sand beach, South Africa",Coast
+45,"Sand beach, South Africa",Marine
 46,Terminos Lagoon (1980),Lake
 47,Contemporary Alosine (2000),Marine
 48,Sierra Leone (1964),Marine
@@ -59,11 +59,11 @@
 57,Mondego Estuary - Zostrea site,River
 58,"Lake Pyhajarvi, littoral zone, Finland",Lake
 59,Central Atlantic (1950),Marine
-60,Florida Bay - dry season,Marine
+60,Florida Bay - dry season,Coast
 61,"Lake Paajarvi, littoral zone, Finland",Lake
 62,Lower Chesapeake Bay,Coast
 63,Cerbère-Banyuls MPA (2013),Marine
-64,Cypress Dry Season,Marine
+64,Cypress Dry Season,Swap
 65,Celtic Sea (1985),Marine
 66,Bay of Biscay (2013),Coast
 67,Kaloko Honokohau (2005),Marine
@@ -84,10 +84,10 @@
 82,Humboldt Current (1995),Marine
 83,Medes Island MPA (2000),Marine
 84,North Sea (1974),Marine
-85,Alto Golfo de California (0),Gulf
+85,Alto Golfo de California (0),Marine
 86,Bay of Biscay (1994),Coast
 87,Thermaikos Gulf (1998),Gulf
-88,Northern Benguela (1956),
+88,Northern Benguela (1956),Marine
 89,Australia North West Shelf (1986),Coast
 90,Aleutian Islands (1963),Marine
 91,Chesapeake (1950),Coast
@@ -130,7 +130,7 @@
 128,Apalachicola Bay (2000),Coast
 129,South of Benguela (1960),Marine
 130,Morocco (1985),Marine
-131,"Tasek Bera swamp, Malaysia",Swamp
+131,"Tasek Bera swamp, Malaysia",Swap
 132,Northern Californian Current (1960),Marine
 133,Port Phillip Bay (1994),Coast
 134,"River Rheido, Wales",River
@@ -138,7 +138,7 @@
 136,"Galapagos, Floreana rocky reef (2000)",Marine
 137,Everglades Graminoids,Swap
 138,South East Alaska (1963),Marine
-139,"Swamp, south Florida",Swamp
+139,"Swamp, south Florida",Swap
 140,Sonda_Campeche_Act (1988),Marine
 141,"Salt meadow, New Zealand",Swap
 142,Celtic Sea (1980),Marine
@@ -154,7 +154,7 @@
 152,Ningaloo (2007),Marine
 153,Bay of Biscay (1980),Coast
 154,Peru (1953),Marine
-155,Guinea (2004),Marine
+155,Guinea  (2004),Marine
 156,Arctic seas,Marine
 157,South western Gulf of Mexico (1970),Gulf
 158,North Benguela (1600),Marine
