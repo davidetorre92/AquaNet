@@ -64,9 +64,9 @@ Regardless this attribute, for each food web we've added the whole bibliograph f
 - **trophic_level**: Represents the trophic level of the node within the food web, indicating the node's position in the ecosystem's food chain. Trophic levels range from primary producers at the base (trophic level 1), through various levels of consumers, to apex predators at the top. Decomposers and detritivores are also included in this spectrum, typically occupying specific trophic levels based on their feeding behavior.
 The trophic level ($TL_i$) of node $i$ is calculated using the formula:
 
-$TL_i = 1 + 1 / k_{i} \sum_j A_{ij} TL_j$
+$TL_i = 1 + 1 / k_{i} \sum_j A_{ji} TL_j$
 
-Here, $k_{i}$ represents the weighted in-degree of node $i$, which is the number of different species (or nodes) that node $i$ feeds upon. $A_{ij}$ is the weighted interaction matrix. If the ```weight``` or ```proportion``` is not an attribute of the edge, we'll set the $A_{ij}$ elements to 1 when there is a feeding interaction from $j$ to $i$. 
+Here, $k_{i}$ represents the weighted in-degree of node $i$, which is the number of different species (or nodes) that node $i$ feeds upon. $A_{ij}$ is the weighted interaction matrix. If the ```weight``` or ```proportion``` is not an attribute of the edge, we'll set the $A_{ij}$ elements to 1 when there is a feeding interaction from $i$ to $j$. 
 Primary producers (organisms that do not consume others for biomass, such as plants and algae) and nonliving organic deposits are assigned a trophic level ($TL$) of 1, reflecting their foundational role in the food web as sources of energy and matter, according to [2].
 
 **Biomass**: When available, represents the biomass of the node, quantified in milligrams of a specified medium (commonly carbon) per unit of surface area (typically square meters). This measure reflects the content of the biomass within a defined area of the ecosystem, offering insights into the ecosystem's productivity and the role of different nodes within the carbon cycling dynamics.
