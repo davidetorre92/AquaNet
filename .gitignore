@@ -1,5 +1,5 @@
 # Ignore enviroment folder
-env/
+venv/
 
 # Ignore all __pycache__ directories
 bin/__pycache__/

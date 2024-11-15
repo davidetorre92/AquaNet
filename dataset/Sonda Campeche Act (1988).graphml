@@ -12,7 +12,7 @@
   <key id="v_id" for="node" attr.name="id" attr.type="string"/>
   <key id="e_proportion" for="edge" attr.name="proportion" attr.type="double"/>
   <graph id="G" edgedefault="directed">
-    <data key="g_name">Sonda_Campeche_Act (1988)</data>
+    <data key="g_name">Sonda Campeche Act (1988)</data>
     <node id="n0">
       <data key="v_name">Aves marinas</data>
       <data key="v_ECO">1</data>

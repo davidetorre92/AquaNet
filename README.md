@@ -77,92 +77,42 @@ Primary producers (organisms that do not consume others for biomass, such as pla
 
 ## Usage
 
-### Configuration
-The config.ini file in `bin/` directory allows users to specify paths relative to the main folder for various inputs and outputs. Here's an overview of the configuration sections and their purposes:
+This section is for those who want to perform the experiments reported in the article.
+The codes given here have been tested on a computer with the Ubuntu 22.04 operating system with Python v.3.10
 
-* `dataset`: Define the path to the Food Web dataset.
-* `eda`: Specify where to store the exploratory data analysis table.
-* `core and periphery`: Paths for storing measurements of core and periphery sizes, node classifications, and node vulnerabilities and generalities.
-* `critical nodes`: Define where to store the sequence of critical nodes and the robustness index for each food web.
-* `motifs representation`: Specify paths for real and swapped triad census data, motif representations, and motif roles.
-* `plots`: Paths for output images visualizing core and periphery results.
+### Prerequisites
+1) Clone the repository
+```bash
+git clone https://github.com/davidetorre92/AquaNet.git
+```
+
+Navigate in the directory.
+2) Set the environmet
+```bash
+pip -m venv your_virtual_environment_name # or pip3
+source your_virtual_environment_name/bin/activate
+pip install -r requirements.txt # or pip3
+bash set_environment.sh
+```
+
+Now you are ready to use the package
+### Settings
+The ```settings.py``` file in the main directory allows users to specify paths relative to the main folder for various inputs and outputs.
 
 You can edit or create your own configuration file accoding to the format specified.
 
 ### Running experiments
-To run experiments with AquaNet, a bash script run_experiments.sh is provided, which executes the analysis based on configurations defined in config.ini. To start the experiments, use:
-
-```bash
-bash run_experiments.sh -c bin/config.ini
-```
-
+The experiments are organized in the folder ```measurements```.
+Each script is an independent code in which the settings are managed in the settings file.
 ### Visualizations
 
-```bash
-bash plot_images.sh -c bin/config.ini
-```
+The visualization scripts are organized in the folder ```visualization_scripts```
 
 ### Print pickle function
 A bash script to print the table within the terminal an well as a description of the table.
 ```bash
 bash display_table.sh -t <table_path>
 ```
-
-## Results of the experiments
-The results of our experiments are stored in the directory ```results/```. We provided the outputs both in ```.pickle``` and ```.xlsx``` format.
-
-- ```eda.xlsx```
-  A file containing global metrics of the food webs in the dataset. These metrics are S - the number of nodes; L - the number of directed interactions or links; C - the connectivity value (C := L/S^2); B/N - the ratio between the basal nodes (the one that have zero in degree) and all the nodes of the food web; det/N - the ratio between the other compartmenrs and all the nodes in the food web; clustering - the average local undirected clustering coefficient.
-
-
-- ```core_and_periphery_size.xlsx```
-  The cells contain the size of each core/periphery structure - i.e. the number of nodes of that food webs beloning to the given structure and the number of vertices of the whole food webs.
- 
-- ```node_classification_core_periphery_dataframe.xlsx```
-  For each node the classification in the node and periphery structure as well as their type (either living compartment - ECO = 1, or other compartment - ECO = 2).
-
-- ```generality_vulnerability_living_nodes.xlsx```
-  For each node in each food webs, the structure it belongs to and the value of generality and vulnerability.
- 
-
-- ```motif_representation.xlsx```
-  The z-score value of each motif for each food webs in the dataset. Each value is evaluated with an ensamble of 50 randomized food web with the swap algorithm.
-  
-- ```motif_representation_table.xlsx```
-  A schematic representation of the z-score profile: an up-arrow means that the motif is over-represented, a down-arrow means that the motif is under-represented, a minus means that the motif is not present in the dataset nor in the random ensamble.
-
-- ```real_networks_triad_census_living.xlsx```
-  Number of 3-nodes motifs for each food web.
-
-- ```swapped_triad_census_living.xlsx```
-  Number of triads in the randomized network. 
-
-
-- ```node_sequence.xlsx```
-  Sequence of critical nodes evaluated with the algorithm described in the paper. ```Fraction of reachable``` pairs represent the fraction of reachable pairs measured after the removal of the links adjacent and incident to the node, while ```N reachable pairs``` is its absolute value. ```Edge-Removed Nodes Fraction``` represents the fraction of nodes from which adjacent and incident arcs have been removed.
-
-- ```robustness.xlsx```
-  Robustness of each food web with the equation in the paper.
-
-- ```robustness_and_top_5_most_critical_nodes.xlsx```
-  Robustness of each food web and its top 5 most critical nodes. 
-- ```gen_vul_composition.xlsx```
-  Proportion of generalist and vulnerable species in the food web's structure.
-  * `Network`: name of the food web.
-  * `Nr species`: number of species in the food web.
-  * `% gen network`: fraction of generalist in the whole food web.
-  * `% vul network`: fraction of vulnerable in the whole food web.
-  * `% gen and vul network`: fraction of generalist and vulnerable in the whole food web.
-  * `% gen core`: fraction of generalist in the core.
-  * `% vul core`: fraction of vulnerable in the core.
-  * `% gen and vul core`: fraction of generalist and vulnerable in the core.
-  * `% all gen in core`: fraction of generalists in the food web which belong to the core.
-  * `% all vul in core`: fraction of vulnerable species in the food web which belong to the core.
-  * `% gen periphery`: fraction of generalist in the peripheries.
-  * `% vul periphery`: fraction of vulnerable in the peripheries.
-  * `% gen and vul periphery`: fraction of generalist and vulnerable in the peripheries.
-  * `% all gen in periphery`: fraction of generalists in the food web which belong to the periphery. 
-  * `% all vul in periphery`: fraction of vulnerable in the food web which belong to the periphery.
 
 ---
 # References
