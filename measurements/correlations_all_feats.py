@@ -18,6 +18,7 @@ merged_df = pd.merge(df_robustness, df_eda, on='Network', how='right')
 merged_df = pd.merge(merged_df, df_motif_Z_scores, on='Network', how='right')
 # Change column name: Giant Strongly Connected Component -> Core fraction
 merged_df.rename(columns={'Giant Strongly Connected Component': 'Core fraction'}, inplace=True)
+print(merged_df[merged_df['Core fraction'] < 0.5]) 
 # Correlation
 corr_df = merged_df.corr(numeric_only=True)
 print(corr_df)
