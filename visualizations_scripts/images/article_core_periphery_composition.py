@@ -60,6 +60,7 @@ df_core_periphery_proportion = pd.DataFrame(core_per_proportions)
 print(df_core_periphery_proportion.describe())
 print("Percentage of networks with less than 50\% of nodes in the core:")
 print(df_core_periphery_proportion[df_core_periphery_proportion['Core'] < 50].shape[0] / (df_core_periphery_proportion.shape[0] + 0.) * 100)
+print("For a total of", df_core_periphery_proportion[df_core_periphery_proportion['Core'] < 50].shape[0], "networks")
 fig.savefig(core_periphery_image_out_path)
 if verbose:
     print_time(f"Image saved in {core_periphery_image_out_path}")
