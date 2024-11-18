@@ -12,7 +12,7 @@ from utils.data_handling import print_time
 from settings import verbose, article_images_folder, df_nodes_core_periphery_classification_path
 
 df_nodes_core_periphery_classification = pd.read_pickle(df_nodes_core_periphery_classification_path)
-plot_periphery_df = {'Core': [], 'In': [], 'Out': [], 'T-In': []}
+plot_periphery_df = {'Core': [], 'In': [], 'Out': [], 'Tendrils-In': []}
 for network in df_nodes_core_periphery_classification.Network.unique():
     df_network = df_nodes_core_periphery_classification[df_nodes_core_periphery_classification.Network == network]
     vertices = df_network.shape[0]
@@ -23,22 +23,25 @@ for network in df_nodes_core_periphery_classification.Network.unique():
     plot_periphery_df['Core'].append(core / vertices)
     plot_periphery_df['In'].append(in_periphery / vertices)
     plot_periphery_df['Out'].append(out_periphery / vertices)
-    plot_periphery_df['T-In'].append(t_in_periphery / vertices)
+    plot_periphery_df['Tendrils-In'].append(t_in_periphery / vertices)
 
 N_graph = len(plot_periphery_df['Core'])
 network_index = np.arange(N_graph)
 plot_periphery_df = pd.DataFrame(plot_periphery_df).sort_values(by = 'Core', ascending = False)
-core_per_proportions = {col: plot_periphery_df[col].values * 100 for col in ['Core', 'In', 'Out', 'T-In']}
+core_per_proportions = {col: plot_periphery_df[col].values * 100 for col in ['Core', 'In', 'Out', 'Tendrils-In']}
 
 font = {'family' : 'serif',
         'weight' : 'normal',
         'size'   : 10}
 matplotlib.rc('font', **font)
+cmap = plt.cm.viridis
+colors = cmap(np.linspace(0, 1, 5))
+colors[2] = colors[-1] # (0.926579, 0.854645, 0.123353, 1)
+
 fig, ax = plt.subplots(figsize = (10,6))
 
 width_bar_x = 1
 bottom = np.zeros(N_graph)
-colors = ['#00025B', '#6B9AC4', '#FF8200', '#FFC100']
 icolor = 0
 for boolean, weight_count in core_per_proportions.items():
     p = ax.bar(network_index, weight_count, width_bar_x, label=boolean, bottom=bottom, color=colors[icolor], edgecolor='none', rasterized=True)
@@ -46,7 +49,7 @@ for boolean, weight_count in core_per_proportions.items():
     icolor += 1
 
 ax.set_title("Network core and periphery proportion among network")
-ax.legend(loc="center left", bbox_to_anchor=(1, 0.5))
+ax.legend(loc="lower left", bbox_to_anchor=(0.05, 0.05))
 ax.set_xlabel('Graph index')
 ax.set_ylabel('Structure component percentage')
 ax.yaxis.set_major_formatter(mtick.PercentFormatter())
